@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,14 +30,32 @@ jobs:
           DOUHUO_MOBILE: ${{ secrets.DOUHUO_MOBILE }}
         run: node scripts/collect.js
 
-      - name: Commit and push
+      - name: Commit to GitHub
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/products.json data/history.json site/data/products.json site/data/history.json
           if git diff --staged --quiet; then
             echo "No data change"
+            echo "CHANGED=0" >> "$GITHUB_ENV"
           else
             git commit -m "data: daily price snapshot"
             git push
+            echo "CHANGED=1" >> "$GITHUB_ENV"
           fi
+
+      - name: Push snapshot to Gitee (for Gitee Pages)
+        if: env.CHANGED == '1'
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          GITEE_REPO: shenghua520/douhuo-price-tracker
+        run: |
+          if [ -z "$GITEE_TOKEN" ]; then
+            echo "GITEE_TOKEN not set, skip gitee push"
+            exit 0
+          fi
+          git remote remove gitee 2>/dev/null || true
+          git remote add gitee "https://shenghua520:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git"
+          git push gitee HEAD:main
+          git remote remove gitee
+          echo "pushed to gitee"
