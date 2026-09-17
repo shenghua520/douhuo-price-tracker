@@ -1,0 +1,359 @@
+{
+  "updated_at": "2026-09-17T04:19:28.339Z",
+  "date": "2026-09-17",
+  "goods_count": 14,
+  "error_count": 0,
+  "errors": [],
+  "goods": [
+    {
+      "goods_id": 1102781533,
+      "goods_name": "【京东/顺丰】鲁花香味经典小榨浓香菜籽油5L【5L/国内发货/1件】",
+      "spu_sn": "G01E8DCAC46",
+      "main_img": "https://d5ma.img.apiunion.com/i/d558b3f9f3b85e7f8503f4a23e10447f_300X300_vW.jpg?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 128.52,
+      "max_price": 128.52,
+      "prev_price": 124.66,
+      "price_change": 3.86,
+      "price_change_pct": 3.1,
+      "skus": [
+        {
+          "sku_id": 1250661467,
+          "sku_name": "【京东/顺丰】鲁花香味经典小榨浓香菜籽油5L【5L/国内发货/1件】",
+          "attr_text": "5L / 国内发货 / 1件",
+          "price": 128.52,
+          "retail_price": 180,
+          "status": 1,
+          "prev_price": 124.66
+        }
+      ]
+    },
+    {
+      "goods_id": 1102677415,
+      "goods_name": "【京东/顺丰配送】鲁花厨中香浓香菜籽油5L【默认/国内发货/1件】",
+      "spu_sn": "G5D171F8D53",
+      "main_img": "https://d5ma.img.apiunion.com/i/bc5e38c6e23562d4323ee3c8e0fa063b_300X300_15W.png?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 111.24,
+      "max_price": 111.24,
+      "prev_price": 107.9,
+      "price_change": 3.34,
+      "price_change_pct": 3.1,
+      "skus": [
+        {
+          "sku_id": 1250325129,
+          "sku_name": "【京东/顺丰配送】鲁花厨中香浓香菜籽油5L【默认/国内发货/1件】",
+          "attr_text": "默认 / 国内发货 / 1件",
+          "price": 111.24,
+          "retail_price": 135,
+          "status": 1,
+          "prev_price": 107.9
+        }
+      ]
+    },
+    {
+      "goods_id": 1000191653,
+      "goods_name": "金龙鱼外婆乡小榨匠心臻选菜籽油(非转)5L-5L",
+      "spu_sn": "G8C45D391EB",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0317/sku/carousel/9a93652b1d071b86ded84ff8c27baf87427286a5.jpg?eUAHQYKmAsh8sjYU1rzOhg&LlfVqDxfwbK_TMFQ5UCfc0Q2s9uWH9IDZ_N_pLKgu-k",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 104.75,
+      "max_price": 104.75,
+      "prev_price": 101.61,
+      "price_change": 3.14,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 1001030651,
+          "sku_name": "金龙鱼外婆乡小榨匠心臻选菜籽油(非转)5L-5L",
+          "attr_text": "5L",
+          "price": 104.75,
+          "retail_price": 110,
+          "status": 1,
+          "prev_price": 101.61
+        }
+      ]
+    },
+    {
+      "goods_id": 1000535458,
+      "goods_name": "福临门福至心礼低芥酸菜籽油5L-5L",
+      "spu_sn": "G6A420B16C3",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0317/sku/carousel/11d390f5a689acb7655053f63b7a7342309944f4.jpg?eUAHQYKmAsh8sjYU1rzOhg&lslTuT3YqV6ixovZgNw3svEnJOItxs6GzeBkxlKHx1U",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 87.34,
+      "max_price": 87.34,
+      "prev_price": 84.72,
+      "price_change": 2.62,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 1001557456,
+          "sku_name": "福临门福至心礼低芥酸菜籽油5L-5L",
+          "attr_text": "5L",
+          "price": 87.34,
+          "retail_price": 108.9,
+          "status": 1,
+          "prev_price": 84.72
+        }
+      ]
+    },
+    {
+      "goods_id": 1000158490,
+      "goods_name": "【京东/顺丰配送】金龙鱼低芥酸原香菜籽油5L【默认/国内发货/1件】",
+      "spu_sn": "G0D1894D4AC",
+      "main_img": "https://d5ma.img.apiunion.com/i/897f493ef1df47039be84b8e760c9f85_300X300_iW.jpg?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 83.16,
+      "max_price": 83.16,
+      "prev_price": 80.67,
+      "price_change": 2.49,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 1000353547,
+          "sku_name": "【京东/顺丰配送】金龙鱼低芥酸原香菜籽油5L【默认/国内发货/1件】",
+          "attr_text": "默认 / 国内发货 / 1件",
+          "price": 83.16,
+          "retail_price": 149,
+          "status": 1,
+          "prev_price": 80.67
+        }
+      ]
+    },
+    {
+      "goods_id": 1102732441,
+      "goods_name": "中粮福临门非转基因原香菜籽油5L【默认/国内发货/1件】",
+      "spu_sn": "GEA975FBB29",
+      "main_img": "https://d5ma.img.apiunion.com/i/5bcdfc1f74ca708a81550ce8f807e8e5_300X300_11W.jpg?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 82.08,
+      "max_price": 82.08,
+      "prev_price": 79.62,
+      "price_change": 2.46,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 1250508391,
+          "sku_name": "中粮福临门非转基因原香菜籽油5L【默认/国内发货/1件】",
+          "attr_text": "默认 / 国内发货 / 1件",
+          "price": 82.08,
+          "retail_price": 120,
+          "status": 1,
+          "prev_price": 79.62
+        }
+      ]
+    },
+    {
+      "goods_id": 1000414431,
+      "goods_name": "金龙鱼低芥酸原香菜籽油5L-5L",
+      "spu_sn": "G2E641704D8",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0317/sku/carousel/1f03d055b50810072019da4c9dfbb97913252325.png?eUAHQYKmAsh8sjYU1rzOhg&2F1OA6cDDwdBjjodLa0QH7nDISkBdKo7LJg18skUd7w",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 80.13,
+      "max_price": 80.13,
+      "prev_price": 77.73,
+      "price_change": 2.4,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 1000154829,
+          "sku_name": "金龙鱼低芥酸原香菜籽油5L-5L",
+          "attr_text": "5L",
+          "price": 80.13,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 77.73
+        }
+      ]
+    },
+    {
+      "goods_id": 1102711610,
+      "goods_name": "【京东/顺丰配送】中粮福临门福泰安康低芥酸浓香压榨菜籽油1.5L*2桶【1.5L*2桶/国内发货/1件】",
+      "spu_sn": "G78B059F454",
+      "main_img": "https://d5ma.img.apiunion.com/i/8894a3202c7ea0ffc051f492b72c34ca_300X300_fW.jpg?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 78.84,
+      "max_price": 78.84,
+      "prev_price": 76.47,
+      "price_change": 2.37,
+      "price_change_pct": 3.1,
+      "skus": [
+        {
+          "sku_id": 1250401576,
+          "sku_name": "【京东/顺丰配送】中粮福临门福泰安康低芥酸浓香压榨菜籽油1.5L*2桶【1.5L*2桶/国内发货/1件】",
+          "attr_text": "1.5L*2桶 / 国内发货 / 1件",
+          "price": 78.84,
+          "retail_price": 84,
+          "status": 1,
+          "prev_price": 76.47
+        }
+      ]
+    },
+    {
+      "goods_id": 1102777170,
+      "goods_name": "金龙鱼压榨本香菜籽油5L-5L",
+      "spu_sn": "GA55EEE401E",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0341/sku/carousel/e4a812c52d46048cd48c3cbc83416b3ec4305d07.png?eUAHQYKmAsh8sjYU1rzOhg&RRPWCpJB_Cm5Uzwhga0A4D82AxxDByIKeCdnE3aNQkw",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 72.1,
+      "max_price": 72.1,
+      "prev_price": 69.94,
+      "price_change": 2.16,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 1250645925,
+          "sku_name": "金龙鱼压榨本香菜籽油5L-5L",
+          "attr_text": "5L",
+          "price": 72.1,
+          "retail_price": 108,
+          "status": 1,
+          "prev_price": 69.94
+        }
+      ]
+    },
+    {
+      "goods_id": 2413038,
+      "goods_name": "伊利250g畅轻qing-8*250g-8瓶装-伊利畅轻黄桃8*250g",
+      "spu_sn": "GB27E8CCDA6",
+      "main_img": "https://img-erp1.douhuomall.com//firm_261/sku/carousel/fa2c11c6a071fd25a3020dfbc6fc705ba413bdb4.jpg?eUAHQYKmAsh8sjYU1rzOhg&2KYF2Fy7PF1_-B2zin5Hi006szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 46.35,
+      "max_price": 46.35,
+      "prev_price": 44.96,
+      "price_change": 1.39,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 6810471,
+          "sku_name": "伊利250g畅轻qing-8*250g-8瓶装-伊利畅轻黄桃8*250g",
+          "attr_text": "8*250g / 8瓶装 / 伊利畅轻黄桃8*250g",
+          "price": 46.35,
+          "retail_price": 60,
+          "status": 1,
+          "prev_price": 44.96
+        }
+      ]
+    },
+    {
+      "goods_id": 1102750345,
+      "goods_name": "鲁花厨中香浓香菜籽油1.8L-1.8L",
+      "spu_sn": "GF95963984A",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0003/goods/cover/144b7d62dfa08d3c71738b8cf0af37e74f18071b.jpg?eUAHQYKmAsh8sjYU1rzOhg&6ECusOypqTAufxLYSUWsnFZJNvFO7iBLM7E8Ufu50xE",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 38.11,
+      "max_price": 38.11,
+      "prev_price": 36.97,
+      "price_change": 1.14,
+      "price_change_pct": 3.08,
+      "skus": [
+        {
+          "sku_id": 1250578230,
+          "sku_name": "鲁花厨中香浓香菜籽油1.8L-1.8L",
+          "attr_text": "1.8L",
+          "price": 38.11,
+          "retail_price": 68.8,
+          "status": 1,
+          "prev_price": 36.97
+        }
+      ]
+    },
+    {
+      "goods_id": 2422615,
+      "goods_name": "金龙鱼压榨本香菜籽油(非转)1.5L",
+      "spu_sn": "GCC543B784A",
+      "main_img": "https://img.zzycmall.com//2024/10/241121185024225493997.jpg",
+      "status": 1,
+      "supply_type": 19,
+      "sku_count": 1,
+      "min_price": 31.86,
+      "max_price": 31.86,
+      "prev_price": 30.9,
+      "price_change": 0.96,
+      "price_change_pct": 3.11,
+      "skus": [
+        {
+          "sku_id": 6825014,
+          "sku_name": "金龙鱼压榨本香菜籽油1.5L（非转压榨）",
+          "attr_text": "",
+          "price": 31.86,
+          "retail_price": 69.9,
+          "status": 1,
+          "prev_price": 30.9
+        }
+      ]
+    },
+    {
+      "goods_id": 2413039,
+      "goods_name": "伊利0蔗糖八连杯-伊利0蔗糖八连杯1*16*90g-16-16",
+      "spu_sn": "G6E130C5600",
+      "main_img": "https://img-erp1.douhuomall.com//firm_261/goods/cover/1f499d0b338c1be11cf77d99350b47c6144aba6a.jpg?eUAHQYKmAsh8sjYU1rzOhg&iujpAq0fbE3T15KjgfRe0k06szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 25.65,
+      "max_price": 25.65,
+      "prev_price": 24.88,
+      "price_change": 0.77,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 6810472,
+          "sku_name": "伊利0蔗糖八连杯-伊利0蔗糖八连杯1*16*90g-16-16",
+          "attr_text": "伊利0蔗糖八连杯1*16*90g / 16 / 16",
+          "price": 25.65,
+          "retail_price": 29.8,
+          "status": 1,
+          "prev_price": 24.88
+        }
+      ]
+    },
+    {
+      "goods_id": 1102746933,
+      "goods_name": "中粮福临门凰榨非转基因一级菜籽油900ml【福临门凰榨非转基因一级菜籽油900ml/国内发货/1件】",
+      "spu_sn": "GDE2594D6C1",
+      "main_img": "https://d5ma.img.apiunion.com/i/5ab92b8a5dbd4dbaca7b545a770d1411_300X300_dW.jpg?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 18.36,
+      "max_price": 18.36,
+      "prev_price": 17.81,
+      "price_change": 0.55,
+      "price_change_pct": 3.09,
+      "skus": [
+        {
+          "sku_id": 1250569154,
+          "sku_name": "中粮福临门凰榨非转基因一级菜籽油900ml【福临门凰榨非转基因一级菜籽油900ml/国内发货/1件】",
+          "attr_text": "福临门凰榨非转基因一级菜籽油900ml / 国内发货 / 1件",
+          "price": 18.36,
+          "retail_price": 30,
+          "status": 1,
+          "prev_price": 17.81
+        }
+      ]
+    }
+  ]
+}

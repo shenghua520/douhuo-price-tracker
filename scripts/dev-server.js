@@ -1,7 +1,7 @@
-const http = require("http");
+﻿const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const root = path.resolve(__dirname, "..", "site");
+const root = path.resolve(__dirname, "..", "docs");
 const mime = { ".html":"text/html; charset=utf-8", ".js":"application/javascript; charset=utf-8", ".css":"text/css; charset=utf-8", ".json":"application/json; charset=utf-8", ".png":"image/png", ".jpg":"image/jpeg", ".svg":"image/svg+xml" };
 http.createServer((req, res) => {
   let url = decodeURIComponent(req.url.split("?")[0]);
@@ -14,3 +14,4 @@ http.createServer((req, res) => {
     res.end(buf);
   });
 }).listen(5173, "127.0.0.1", () => console.log("serving site on http://127.0.0.1:5173"));
+

@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "douhuo-price-tracker",
   "version": "1.0.0",
   "private": true,
-  "description": "每日采集斗货商城已选品代发价，供静态页展示趋势",
+  "description": "姣忔棩閲囬泦鏂楄揣鍟嗗煄宸查€夊搧浠ｅ彂浠凤紝渚涢潤鎬侀〉灞曠ず瓒嬪娍",
   "type": "commonjs",
   "engines": {
     "node": ">=18"
@@ -12,3 +12,4 @@
     "serve": "node scripts/dev-server.js"
   }
 }
+

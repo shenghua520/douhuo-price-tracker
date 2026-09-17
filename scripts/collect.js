@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
- * 斗货商城已选品代发价每日采集
- * 依赖：Node.js >= 18（内置 fetch / crypto）
- * 环境变量：
+ * 鏂楄揣鍟嗗煄宸查€夊搧浠ｅ彂浠锋瘡鏃ラ噰闆?
+ * 渚濊禆锛歂ode.js >= 18锛堝唴缃?fetch / crypto锛?
+ * 鐜鍙橀噺锛?
  *   DOUHUO_APP_ID, DOUHUO_APP_SECRET, DOUHUO_MOBILE
- * 可选：DOUHUO_BASE_URL（默认 https://www.douhuomall.com）
- * 可选：HISTORY_DAYS（默认 180）
+ * 鍙€夛細DOUHUO_BASE_URL锛堥粯璁?https://www.douhuomall.com锛?
+ * 鍙€夛細HISTORY_DAYS锛堥粯璁?180锛?
  */
 'use strict';
 
@@ -21,7 +21,7 @@ const HISTORY_DAYS = Number(process.env.HISTORY_DAYS || 180);
 
 const ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
-const SITE_DATA_DIR = path.join(ROOT, 'site', 'data');
+const SITE_DATA_DIR = path.join(ROOT, 'docs', 'data');
 const PRODUCTS_PATH = path.join(DATA_DIR, 'products.json');
 const HISTORY_PATH = path.join(DATA_DIR, 'history.json');
 
@@ -65,7 +65,7 @@ const cfgMobile = process.env.DOUHUO_MOBILE;
 
 if (!cfgAppId || !cfgAppSecret || !cfgMobile) {
   fail(
-    '缺少凭证。请设置 DOUHUO_APP_ID / DOUHUO_APP_SECRET / DOUHUO_MOBILE，或在项目根目录创建 .env'
+    '缂哄皯鍑瘉銆傝璁剧疆 DOUHUO_APP_ID / DOUHUO_APP_SECRET / DOUHUO_MOBILE锛屾垨鍦ㄩ」鐩牴鐩綍鍒涘缓 .env'
   );
 }
 
@@ -101,14 +101,14 @@ async function httpJson(url, options = {}, retries = 3) {
       try {
         json = JSON.parse(text);
       } catch {
-        throw new Error(`非 JSON 响应 HTTP ${res.status}: ${text.slice(0, 200)}`);
+        throw new Error(`闈?JSON 鍝嶅簲 HTTP ${res.status}: ${text.slice(0, 200)}`);
       }
       return json;
     } catch (err) {
       lastErr = err;
       if (attempt < retries) {
         const wait = 500 * Math.pow(2, attempt - 1);
-        console.warn(`[collect] 请求失败(第${attempt}次) ${err.message}，${wait}ms 后重试`);
+        console.warn(`[collect] 璇锋眰澶辫触(绗?{attempt}娆? ${err.message}锛?{wait}ms 鍚庨噸璇昤);
         await sleep(wait);
       }
     }
@@ -130,7 +130,7 @@ async function fetchToken() {
   const url = `${BASE_URL}/api_v2/noAuth/getAccessToken`;
   const json = await httpJson(url, { method: 'POST', body });
   if (json.error_code !== 0 || !json.result?.access_token) {
-    throw new Error(`获取 token 失败: ${json.error_code} ${json.error_msg}`);
+    throw new Error(`鑾峰彇 token 澶辫触: ${json.error_code} ${json.error_msg}`);
   }
   cachedToken = json.result.access_token;
   console.log('[collect] token ok, expire=', json.result.expire_date_time);
@@ -147,7 +147,7 @@ function isTokenError(json) {
   if (json.error_code === 0) return false;
   const msg = String(json.error_msg || '');
   return (
-    /token|密钥|凭证|过期|失效|未授权|登录/i.test(msg) ||
+    /token|瀵嗛挜|鍑瘉|杩囨湡|澶辨晥|鏈巿鏉億鐧诲綍/i.test(msg) ||
     json.error_code === 40001 ||
     json.error_code === 40003 ||
     json.error_code === 10001 ||
@@ -161,12 +161,12 @@ async function apiGet(pathname, params, retried = false) {
   const url = `${BASE_URL}${pathname}?${qs.toString()}`;
   const json = await httpJson(url, { method: 'GET' });
   if (isTokenError(json) && !retried) {
-    console.warn('[collect] token 疑似失效，重新获取后重试');
+    console.warn('[collect] token 鐤戜技澶辨晥锛岄噸鏂拌幏鍙栧悗閲嶈瘯');
     await fetchToken();
     return apiGet(pathname, params, true);
   }
   if (json.error_code !== 0) {
-    const err = new Error(`${pathname} 失败: ${json.error_code} ${json.error_msg}`);
+    const err = new Error(`${pathname} 澶辫触: ${json.error_code} ${json.error_msg}`);
     err.json = json;
     throw err;
   }
@@ -195,7 +195,7 @@ function readJsonSafe(p, fallback) {
   try {
     if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, 'utf8'));
   } catch (e) {
-    console.warn(`[collect] 读取 ${p} 失败，使用空数据: ${e.message}`);
+    console.warn(`[collect] 璇诲彇 ${p} 澶辫触锛屼娇鐢ㄧ┖鏁版嵁: ${e.message}`);
   }
   return fallback;
 }
@@ -237,7 +237,7 @@ async function collectAllGoodsList() {
     pages = result.pages || 1;
     const list = result.list || [];
     all.push(...list);
-    console.log(`[collect] 商品列表 page=${page}/${pages} 累计=${all.length}/${total}`);
+    console.log(`[collect] 鍟嗗搧鍒楄〃 page=${page}/${pages} 绱=${all.length}/${total}`);
     if (list.length === 0) break;
     page += 1;
     if (page > pages) break;
@@ -247,7 +247,7 @@ async function collectAllGoodsList() {
 }
 
 async function fetchGoodsDetail(goodsId) {
-  // status=0 取全部下属 SKU；limit=100 覆盖多规格
+  // status=0 鍙栧叏閮ㄤ笅灞?SKU锛沴imit=100 瑕嗙洊澶氳鏍?
   let page = 1;
   const limit = 100;
   let head = null;
@@ -278,7 +278,7 @@ function prevPriceOf(history, goodsId, skuId, today) {
   for (const pt of pts) {
     if (pt.date < today) prev = pt;
   }
-  // 同日已有点不算「昨日」
+  // 鍚屾棩宸叉湁鐐逛笉绠椼€屾槰鏃ャ€?
   return prev ? prev.price : null;
 }
 
@@ -323,7 +323,7 @@ async function main() {
   const errors = [];
 
   const list = await collectAllGoodsList();
-  console.log(`[collect] 已选品总数=${list.length}`);
+  console.log(`[collect] 宸查€夊搧鎬绘暟=${list.length}`);
 
   const goodsOut = [];
   for (let i = 0; i < list.length; i++) {
@@ -352,7 +352,7 @@ async function main() {
       const prices = priceSkus.map((s) => s.price).filter((p) => Number.isFinite(p));
       const minPrice = prices.length ? Math.min(...prices) : null;
       const maxPrice = prices.length ? Math.max(...prices) : null;
-      // 商品级涨跌：用当前最低价的那条 SKU 与它自己的昨日价比较
+      // 鍟嗗搧绾ф定璺岋細鐢ㄥ綋鍓嶆渶浣庝环鐨勯偅鏉?SKU 涓庡畠鑷繁鐨勬槰鏃ヤ环姣旇緝
       const minSku = priceSkus
         .filter((s) => Number.isFinite(s.price))
         .sort((a, b) => a.price - b.price)[0];
@@ -400,7 +400,7 @@ async function main() {
     if (i < list.length - 1) await sleep(80);
   }
 
-  // 有涨价的排前面，其次按名称
+  // 鏈夋定浠风殑鎺掑墠闈紝鍏舵鎸夊悕绉?
   goodsOut.sort((a, b) => {
     const ac = a.price_change === null ? -Infinity : a.price_change;
     const bc = b.price_change === null ? -Infinity : b.price_change;
@@ -425,13 +425,14 @@ async function main() {
   writeJson(path.join(SITE_DATA_DIR, 'history.json'), pruned);
 
   console.log(
-    `[collect] done goods=${goodsOut.length} errors=${errors.length} → data/ 与 site/data/`
+    `[collect] done goods=${goodsOut.length} errors=${errors.length} 鈫?data/ 涓?docs/data/`
   );
   if (errors.length && goodsOut.length === 0) {
-    fail('全部商品采集失败');
+    fail('鍏ㄩ儴鍟嗗搧閲囬泦澶辫触');
   }
 }
 
 main().catch((err) => {
   fail(err.stack || err.message);
 });
+
