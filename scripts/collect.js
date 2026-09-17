@@ -352,16 +352,20 @@ async function main() {
       const prices = priceSkus.map((s) => s.price).filter((p) => Number.isFinite(p));
       const minPrice = prices.length ? Math.min(...prices) : null;
       const maxPrice = prices.length ? Math.max(...prices) : null;
-      const prevPrices = priceSkus.map((s) => s.prev_price).filter((p) => Number.isFinite(p));
-      const prevPrice = prevPrices.length ? Math.min(...prevPrices) : null;
-      const priceChange =
-        minPrice !== null && prevPrice !== null
-          ? Math.round((minPrice - prevPrice) * 100) / 100
-          : null;
-      const priceChangePct =
-        priceChange !== null && prevPrice
-          ? Math.round((priceChange / prevPrice) * 10000) / 100
-          : null;
+      // 商品级涨跌：用当前最低价的那条 SKU 与它自己的昨日价比较
+      const minSku = priceSkus
+        .filter((s) => Number.isFinite(s.price))
+        .sort((a, b) => a.price - b.price)[0];
+      let priceChange = null;
+      let priceChangePct = null;
+      let prevPrice = null;
+      if (minSku && Number.isFinite(minSku.prev_price)) {
+        prevPrice = minSku.prev_price;
+        priceChange = Math.round((minSku.price - minSku.prev_price) * 100) / 100;
+        if (minSku.prev_price !== 0) {
+          priceChangePct = Math.round((priceChange / minSku.prev_price) * 10000) / 100;
+        }
+      }
 
       upsertHistory(
         history,

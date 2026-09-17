@@ -1,14 +1,25 @@
 ---
 feature: price-tracker
-status: in-progress
+status: delivered
 updated: 2026-09-17
 branch: feat/price-tracker
-commits:
+commits: 5678781..HEAD
 ---
 
 # 每日代发价采集与趋势网页
 
 ## Report
+
+**What was built** — 一套「斗货商城已选品代发价」监控：Node 零依赖采集脚本每日拉全量选品与 SKU `plat_price`，写入 `products.json` / `history.json`（含 `site/data` 副本）；静态网页列表展示最低价与涨跌（红涨绿跌），点击商品打开侧栏 Chart.js 历史折线；提供 Windows `collect-and-push.bat` 与 README 部署教程（Gitee Pages + 本机定时；说明 Gitee 企业版流水线为 UI 编排）。
+
+**Verification** — `node scripts/collect.js` 成功采集 14 个商品（真实 API）；`npm run serve` + Playwright：列表渲染、搜索「金龙鱼」5 行、有涨价筛选、侧栏图表 canvas 正常；`node --check` 通过。
+
+**Journey log**
+- Token 签名 `md5(app_id+mobile+timestamp+app_secret)` 实测可用；`plat_price` 即代发价。
+- Gitee Go 不能按 GitHub Actions YAML 用：官方为纯 UI 流水线；已改为本机定时为默认路径。
+- 首日仅 1 个历史点时趋势显示占位，属预期。
+- 涨跌按「当前最低价 SKU 与自身昨日价」配对，避免多 SKU 交叉比较。
+- 商品名进 HTML 前统一 escape；缩略图 URL 仅允许 http(s)。
 
 ## [S1] Problem
 
@@ -23,19 +34,21 @@ commits:
 ### 架构
 
 ```
-Gitee Go (每日定时)
+本机/服务器定时（collect-and-push.bat / crontab）
   └─ scripts/collect.js
        ├─ getAccessToken
        ├─ getGoodsList (分页拉全量已选品)
        └─ getGoodsDetail (每个商品 SKU 的 plat_price)
-            └─ 写入 data/products.json + data/history.json
+            └─ 写入 data/products.json + data/history.json + site/data/
                  └─ git commit & push
 
 Gitee Pages (静态托管 site/)
-  └─ 读取 ../data/products.json 与 history.json
+  └─ 读取 site/data/products.json 与 history.json
        ├─ 商品列表（最新价、涨跌）
        └─ 点击商品 → Chart.js 趋势图
 ```
+
+Gitee 企业版流水线可作为可选采集执行器（UI 配置，非仓库 YAML）。
 
 ### 认证
 
@@ -117,9 +130,9 @@ Gitee Pages (静态托管 site/)
 
 ### 部署
 
-- **采集**：Gitee Go 工作流 `.gitee/workflows/collect.yml`，每日定时 + 手动触发；secrets 走仓库变量。
-- **展示**：Gitee Pages 指向 `site/` 目录；页面通过相对路径 `../data/*.json` 或同源复制到 `site/data/` 读取。为兼容 Pages 根路径限制，采集脚本同步拷贝 JSON 到 `site/data/`。
-- **教程**：根目录 `README.md`（中文），覆盖：Gitee 建仓、变量配置、Pages 开启、本地运行、常见错误。
+- **采集**：本机/服务器计划任务运行 `collect-and-push.bat`（或 crontab）；可选 Gitee 企业版流水线 UI 配置。
+- **展示**：Gitee Pages 指向 `site/`；采集同步写入 `site/data/`。
+- **教程**：根目录 `README.md`（中文）。
 
 ### 错误行为
 
@@ -142,6 +155,6 @@ Gitee Pages (静态托管 site/)
 
 - [x] T1: 采集脚本 `scripts/collect.js` — acceptance: 本地配置凭证后可跑通，生成 `data/products.json` 与 `data/history.json`，含真实代发价 (covers: S2)
 - [x] T2: 静态页 `site/` — acceptance: 打开列表可见已选品与涨跌，点击出现 SKU 趋势折线 (covers: S2)
-- [x] T3: Gitee Go 工作流 — acceptance: YAML 符合 Gitee Go cron 语法，读取 secrets，提交 data+site/data (covers: S2)
+- [x] T3: 定时采集与推送方案 — acceptance: 提供 Windows/Linux 定时方案（collect-and-push.bat / crontab）；说明 Gitee 企业版流水线 UI 配置；不依赖无效的 GH-Actions YAML (covers: S2)
 - [x] T4: 运行教程 `README.md` — acceptance: 按文档可在 Gitee 完成 Pages + 定时采集配置 (covers: S2)
 - [x] T5: 本地端到端验证 — acceptance: 采集脚本成功写文件，静态页可渲染列表与图表（含 mock 兜底） (covers: S2; depends: T1, T2)

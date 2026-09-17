@@ -71,7 +71,15 @@
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function safeCssUrl(url) {
+    // 只允许 http(s) 图片，避免在 CSS url() 里注入
+    const s = String(url || '');
+    if (!/^https?:\/\//i.test(s)) return '';
+    return s.replace(/\\/g, '%5C').replace(/'/g, '%27').replace(/"/g, '%22');
   }
 
   function showBanner(msg) {
@@ -160,9 +168,8 @@
       btn.setAttribute('role', 'listitem');
       btn.dataset.goodsId = String(g.goods_id);
       const delta = fmtDelta(g.price_change, g.price_change_pct);
-      const img = g.main_img
-        ? `style="background-image:url('${escapeHtml(g.main_img)}')"`
-        : '';
+      const imgSrc = safeCssUrl(g.main_img);
+      const img = imgSrc ? `style="background-image:url('${imgSrc}')"` : '';
       btn.innerHTML = `
         <div class="thumb" ${img} aria-hidden="true"></div>
         <div class="goods-main">

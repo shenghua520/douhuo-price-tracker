@@ -3,11 +3,13 @@
 盯住斗货商城后台**已选品**商品的代发价（`plat_price`），每日自动采集；打开网页看列表，点商品看价格趋势。
 
 ```
-Gitee Go 定时 → scripts/collect.js → data/*.json + site/data/*.json
-                                      ↓
-                              Gitee Pages (site/)
-                                      ↓
-                         列表 + 涨跌 + Chart.js 趋势图
+本机/服务器定时任务 → scripts/collect.js → data/*.json + site/data/*.json
+                                              ↓
+                                      git push 到 Gitee
+                                              ↓
+                                      Gitee Pages (site/)
+                                              ↓
+                                 列表 + 涨跌 + Chart.js 趋势图
 ```
 
 ---
@@ -68,71 +70,87 @@ npm run serve
 
 ## 部署到 Gitee
 
+> **架构说明**：Gitee 侧主要负责 **Pages 静态展示** 与 **代码托管**。  
+> 「每日定时采集」推荐在 **本机/内网服务器** 用计划任务跑 `collect-and-push.bat`，再 push 到 Gitee。  
+> Gitee 企业版流水线（Gitee Go）是 **纯 UI 编排**，不是 GitHub Actions 那种仓库内 YAML；若已开通企业版，也可在流水线界面加一个「执行脚本」任务运行采集（见下文 C）。
+
 ### A. 建仓并推送
 
-1. 在 [gitee.com](https://gitee.com) 新建仓库（建议公开，便于 Pages）。
-2. 本地推送：
+1. 在 [gitee.com](https://gitee.com) 新建仓库（建议**公开**，便于 Pages）。
+2. 将本项目推上去。注意：本地当前在 feature 分支时先合并到 `main`：
 
 ```bat
+git checkout main
+git merge feat/price-tracker
 git remote add origin https://gitee.com/<你的用户名>/<仓库名>.git
 git push -u origin main
 ```
 
-若你正在 feature 分支开发，可先合并到 `main` 再推。
+> 不要把 `.env` 推到 Gitee。密钥只放本机 `.env` 或流水线变量。
 
-### B. 配置密钥（Gitee Go）
-
-仓库 **设置 → 管理 → 变量/密钥**（或流水线密钥）添加：
-
-| 名称 | 值 |
-|------|-----|
-| `DOUHUO_APP_ID` | 你的 App ID |
-| `DOUHUO_APP_SECRET` | 你的 App Secret |
-| `DOUHUO_MOBILE` | 主账号手机号 |
-
-### C. 开启每日采集
-
-工作流文件：`.gitee/workflows/collect.yml`
-
-- 默认每天定时执行一次，并支持手动触发（`workflow_dispatch`）
-- 执行内容：Node 采集 → 若 JSON 有变化则 commit & push
-
-**若 Gitee Go 不可用**（未开通流水线/套餐不含），备选：
-
-1. **本机计划任务**（Windows）— 每天跑一次并推送：
-
-```bat
-schtasks /Create /TN "DouhuoPriceCollect" /TR "cmd /c cd /d C:\path\to\repo && npm run collect && git add data site/data && git commit -m data && git push" /SC DAILY /ST 09:10
-```
-
-或使用仓库根目录已提供的 `collect-and-push.bat`（采集 + 有变更则 commit/push），再挂计划任务。
-
-2. 自有一台 Linux 服务器：`crontab` 示例：
-
-```cron
-10 9 * * * cd /path/to/repo && /usr/bin/node scripts/collect.js && git add data site/data && git commit -m "data: daily price snapshot" || true && git push
-```
-
-### D. 开启 Gitee Pages
+### B. 开启 Gitee Pages（展示）
 
 1. 仓库 **服务 → Gitee Pages**
-2. 部署目录选择 **`site`**（若界面只允许选分支根目录，可把 Pages 指到 `site` 子目录；个别套餐只支持根目录——此时可把 `site/` 内容挪到仓库根或用 `docs/` 目录，见下文「Pages 目录说明」）
+2. 部署目录尽量选择 **`site`**
 3. 启动服务，访问分配的域名
 
 **Pages 目录说明**
 
-- 本项目静态资源在 `site/`，数据副本在 `site/data/`，页面用相对路径 `data/*.json` 读取。
-- 若你的 Gitee Pages **只能选仓库根目录**：把 `index.html` / `styles.css` / `app.js` 放到仓库根，并让采集脚本写入根目录 `data/`（或把 `site/data` 同步到根 `data/`）。也可把前端改放到 `docs/` 并把 Pages 指到 `docs`。
+- 前端在 `site/`，数据副本在 `site/data/`，页面用相对路径 `data/*.json` 读取。
+- 若你的 Gitee Pages **只能选仓库根目录**：把 `index.html` / `styles.css` / `app.js` 复制到仓库根，并让采集写入根目录 `data/`（或把 `site/data` 同步过去）；也可用 `docs/` 作为 Pages 根目录。
 
-### E. 首次出图
+### C. 每日自动采集（推荐：本机计划任务）
 
-历史趋势至少需要 **2 个不同日期** 的采集点。部署当天只有 1 个点时，列表有价、图区域显示「历史点不足」。再等一天或本地多跑几次（改系统日期不必要，脚本按自然日覆盖同日点）。
+这是**不依赖 Gitee 企业版**、最稳的方式。仓库根目录已有 `collect-and-push.bat`：
+
+1. 确认本机 `.env` 已配置、`npm run collect` 能成功。
+2. 注册 Windows 计划任务（每天 09:10）：
+
+```bat
+schtasks /Create /TN "DouhuoPriceCollect" /TR "C:\path\to\repo\collect-and-push.bat" /SC DAILY /ST 09:10
+```
+
+3. 需要时手动跑一次：
+
+```bat
+collect-and-push.bat
+```
+
+Linux 服务器 `crontab` 示例：
+
+```cron
+10 9 * * * cd /path/to/repo && node scripts/collect.js && git add data site/data && (git diff --staged --quiet || git commit -m "data: daily price snapshot" && git push)
+```
+
+### C2. 可选：Gitee 企业版流水线（UI 配置）
+
+若公司已开通 **Gitee 企业版流水线**：
+
+1. 项目 → 流水线 → 新建流水线
+2. 触发：定时（cron 填 `10 9 * * *`，注意流水线时区是否为 UTC+8）
+3. 变量：添加 `DOUHUO_APP_ID` / `DOUHUO_APP_SECRET` / `DOUHUO_MOBILE`
+4. 任务：选择「执行脚本 / Shell」，内容大致为：
+
+```bash
+node scripts/collect.js
+git add data site/data
+git diff --staged --quiet || (git commit -m "data: daily price snapshot" && git push)
+```
+
+流水线运行身份需要有仓库写权限（可用机器人账号 / Deploy Key）。  
+**本仓库不提供 `.gitee/workflows/*.yml`**：Gitee Go 当前以 UI 编排为主，与 GitHub Actions 语法不通用。
+
+### D. 首次出图
+
+历史趋势至少需要 **2 个不同日期** 的采集点。部署当天只有 1 个点时，列表有价、图区域显示「历史点不足」。再等一天后计划任务跑过第二次即可。
 
 ## 目录结构
 
 ```
 .
 ├── scripts/collect.js       # 采集脚本（Node ≥ 18，无第三方依赖）
+├── scripts/dev-server.js    # 本地静态服务
+├── collect-and-push.bat     # Windows：采集 + 有变更则 commit/push
 ├── data/
 │   ├── products.json        # 最新商品与价格快照
 │   └── history.json         # 按日历史
@@ -141,7 +159,6 @@ schtasks /Create /TN "DouhuoPriceCollect" /TR "cmd /c cd /d C:\path\to\repo && n
 │   ├── app.js
 │   ├── styles.css
 │   └── data/                # 前端读取的 JSON 副本
-├── .gitee/workflows/collect.yml
 ├── .env.example
 └── README.md
 ```
@@ -174,8 +191,8 @@ schtasks /Create /TN "DouhuoPriceCollect" /TR "cmd /c cd /d C:\path\to\repo && n
 **App Secret 泄露风险**  
 Secret 只放在本地 `.env` 或 Gitee 仓库密钥，不要写进前端 JS。
 
-**Gitee Go 没跑**  
-检查流水线是否开通、cron 语法、secrets 名称是否完全一致。可先用「手动运行」验证。
+**Gitee 流水线没跑 / 找不到 YAML**  
+Gitee Go 是 UI 编排，请在企业版流水线里配置定时与脚本；社区版请用本机 `collect-and-push.bat` 计划任务。
 
 ## 许可
 
