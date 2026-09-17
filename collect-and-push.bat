@@ -7,7 +7,7 @@ if errorlevel 1 (
   echo collect failed
   exit /b 1
 )
-git add data site/data
+git add data docs/data
 git diff --staged --quiet
 if errorlevel 1 (
   git commit -m "data: daily price snapshot"
@@ -16,3 +16,4 @@ if errorlevel 1 (
   echo no data change
 )
 echo [%date% %time%] done
+

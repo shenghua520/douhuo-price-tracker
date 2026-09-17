@@ -266,7 +266,9 @@
   }
 
   function csvEscape(val) {
-    const s = val === null || val === undefined ? '' : String(val);
+    let s = val === null || val === undefined ? '' : String(val);
+    // 降低 Excel 公式注入风险
+    if (/^[=+\-@\t\r]/.test(s)) s = "'" + s;
     if (/[",\n\r]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
     return s;
   }

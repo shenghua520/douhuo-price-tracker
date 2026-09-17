@@ -2,14 +2,11 @@
   "name": "douhuo-price-tracker",
   "version": "1.0.0",
   "private": true,
-  "description": "姣忔棩閲囬泦鏂楄揣鍟嗗煄宸查€夊搧浠ｅ彂浠凤紝渚涢潤鎬侀〉灞曠ず瓒嬪娍",
+  "description": "Daily dropship price tracker for selected Douhuo goods",
   "type": "commonjs",
-  "engines": {
-    "node": ">=18"
-  },
+  "engines": { "node": ">=18" },
   "scripts": {
     "collect": "node scripts/collect.js",
     "serve": "node scripts/dev-server.js"
   }
 }
-

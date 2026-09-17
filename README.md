@@ -61,11 +61,11 @@ npm run collect
 
 - `data/products.json` — 最新快照
 - `data/history.json` — 按日历史
-- `site/data/*.json` — 前端同源读取用副本
+- `docs/data/*.json` — 前端同源读取用副本
 
 ### 4. 打开网页
 
-不要直接双击 `site/index.html`（浏览器会因 file:// 限制读不到 JSON）。请用静态服务：
+不要直接双击 `docs/index.html`（浏览器会因 file:// 限制读不到 JSON）。请用静态服务：
 
 ```bat
 npm run serve
@@ -124,7 +124,7 @@ collect-and-push.bat
 Linux 服务器 `crontab` 示例：
 
 ```cron
-10 9 * * * cd /path/to/repo && node scripts/collect.js && git add data site/data && (git diff --staged --quiet || git commit -m "data: daily price snapshot" && git push)
+10 9 * * * cd /path/to/repo && node scripts/collect.js && git add data docs/data && (git diff --staged --quiet || git commit -m "data: daily price snapshot" && git push)
 ```
 
 ### C2. 可选：Gitee 企业版流水线（UI 配置）
@@ -138,7 +138,7 @@ Linux 服务器 `crontab` 示例：
 
 ```bash
 node scripts/collect.js
-git add data site/data
+git add data docs/data
 git diff --staged --quiet || (git commit -m "data: daily price snapshot" && git push)
 ```
 
@@ -159,7 +159,7 @@ git diff --staged --quiet || (git commit -m "data: daily price snapshot" && git 
 ├── data/
 │   ├── products.json        # 最新商品与价格快照
 │   └── history.json         # 按日历史
-├── site/
+├── docs/
 │   ├── index.html
 │   ├── app.js
 │   ├── styles.css
