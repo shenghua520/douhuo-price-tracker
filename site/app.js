@@ -3,6 +3,21 @@
   'use strict';
 
   const DATA_BASE = 'data';
+  const CHANNELS = {
+    1: '京东',
+    4: '云商特卖',
+    5: '厂商特卖',
+    7: '微唯宝特卖',
+    10: '华南一仓',
+    12: '华南二仓',
+    13: '3C家电',
+    14: '新疆专场',
+    15: '西藏专场',
+    16: '内蒙专场',
+    17: '华东一仓',
+    18: '企业专属',
+  };
+
   const els = {
     updatedAt: document.getElementById('updated-at'),
     goodsCount: document.getElementById('goods-count'),
@@ -13,9 +28,19 @@
     errorBox: document.getElementById('error-box'),
     errorMsg: document.getElementById('error-msg'),
     banner: document.getElementById('banner'),
+    alertBanner: document.getElementById('alert-banner'),
+    alertCount: document.getElementById('alert-count'),
     searchInput: document.getElementById('search-input'),
+    channelSelect: document.getElementById('channel-select'),
     btnReload: document.getElementById('btn-reload'),
     btnRetry: document.getElementById('btn-retry'),
+    btnExport: document.getElementById('btn-export'),
+    btnAlerts: document.getElementById('btn-alerts'),
+    statTotal: document.getElementById('stat-total'),
+    statUp: document.getElementById('stat-up'),
+    statDown: document.getElementById('stat-down'),
+    statMaxUp: document.getElementById('stat-max-up'),
+    toast: document.getElementById('toast'),
     drawer: document.getElementById('drawer'),
     drawerBackdrop: document.getElementById('drawer-backdrop'),
     drawerTitle: document.getElementById('drawer-title'),
@@ -30,8 +55,17 @@
     history: null,
     filter: 'all',
     query: '',
+    channel: '',
     charts: [],
+    toastTimer: null,
   };
+
+  function channelName(code) {
+    const n = Number(code);
+    if (CHANNELS[n]) return CHANNELS[n];
+    if (!Number.isFinite(n) || !code) return '未知渠道';
+    return `渠道${n}`;
+  }
 
   function fmtPrice(v) {
     if (v === null || v === undefined || !Number.isFinite(Number(v))) return '—';
@@ -76,13 +110,12 @@
   }
 
   function safeCssUrl(url) {
-    // 只允许 http(s) 图片，避免在 CSS url() 里注入
     const s = String(url || '');
     if (!/^https?:\/\//i.test(s)) return '';
     return s.replace(/\\/g, '%5C').replace(/'/g, '%27').replace(/"/g, '%22');
   }
 
-  function showBanner(msg) {
+  function showBanner(msg, kind) {
     if (!msg) {
       els.banner.classList.add('hidden');
       els.banner.textContent = '';
@@ -90,6 +123,14 @@
     }
     els.banner.textContent = msg;
     els.banner.classList.remove('hidden');
+    els.banner.classList.toggle('banner-warn', kind === 'warn');
+  }
+
+  function showToast(msg) {
+    els.toast.textContent = msg;
+    els.toast.classList.remove('hidden');
+    clearTimeout(state.toastTimer);
+    state.toastTimer = setTimeout(() => els.toast.classList.add('hidden'), 2600);
   }
 
   function setView(view) {
@@ -107,44 +148,73 @@
     return res.json();
   }
 
-  async function loadAll() {
-    setView('loading');
-    showBanner('');
-    els.listSummary.textContent = '加载中…';
-    try {
-      const [products, history] = await Promise.all([
-        fetchJson(`${DATA_BASE}/products.json`),
-        fetchJson(`${DATA_BASE}/history.json`).catch(() => ({})),
-      ]);
-      state.products = products;
-      state.history = history || {};
-      els.updatedAt.textContent = fmtTime(products.updated_at);
-      els.goodsCount.textContent = String(products.goods_count ?? (products.goods || []).length);
-      if (products.error_count > 0) {
-        showBanner(
-          `上次采集有 ${products.error_count} 个商品失败，列表可能不完整。详见 data/products.json 的 errors 字段。`
-        );
-      }
-      renderList();
-    } catch (err) {
-      console.error(err);
-      els.errorMsg.textContent =
-        '无法读取 data/products.json。请先运行 `npm run collect` 生成数据，并用本地静态服务打开（不要直接双击 HTML）。';
-      setView('error');
-      els.updatedAt.textContent = '—';
-      els.goodsCount.textContent = '—';
-      els.listSummary.textContent = '加载失败';
+  function allGoods() {
+    return (state.products && state.products.goods) || [];
+  }
+
+  function updateStats() {
+    const goods = allGoods();
+    const ups = goods.filter((g) => g.price_change > 0);
+    const downs = goods.filter((g) => g.price_change < 0);
+    const maxUp = goods.reduce((acc, g) => {
+      if (!(g.price_change > 0)) return acc;
+      if (acc === null || g.price_change > acc) return g.price_change;
+      return acc;
+    }, null);
+
+    els.statTotal.textContent = String(goods.length);
+    els.statUp.textContent = String(ups.length);
+    els.statDown.textContent = String(downs.length);
+    els.statMaxUp.textContent = maxUp === null ? '—' : `+${maxUp.toFixed(2)}`;
+
+    els.alertCount.textContent = String(ups.length);
+    els.btnAlerts.classList.toggle('has-alert', ups.length > 0);
+
+    if (ups.length > 0) {
+      const top = ups
+        .slice()
+        .sort((a, b) => (b.price_change || 0) - (a.price_change || 0))
+        .slice(0, 3)
+        .map((g) => {
+          const name = String(g.goods_name || '').slice(0, 18);
+          return `${name} +${Number(g.price_change).toFixed(2)}`;
+        })
+        .join('；');
+      els.alertBanner.textContent = `涨价提醒：${ups.length} 个商品较上次上涨。${top}`;
+      els.alertBanner.classList.remove('hidden');
+    } else {
+      els.alertBanner.classList.add('hidden');
+      els.alertBanner.textContent = '';
     }
   }
 
+  function fillChannelOptions() {
+    const counts = new Map();
+    for (const g of allGoods()) {
+      const key = String(g.supply_type ?? '');
+      counts.set(key, (counts.get(key) || 0) + 1);
+    }
+    const keys = [...counts.keys()].sort((a, b) => Number(a) - Number(b));
+    const current = state.channel;
+    els.channelSelect.innerHTML = '<option value="">全部渠道</option>';
+    for (const key of keys) {
+      const opt = document.createElement('option');
+      opt.value = key;
+      opt.textContent = `${channelName(key)} (${counts.get(key)})`;
+      els.channelSelect.appendChild(opt);
+    }
+    els.channelSelect.value = current;
+  }
+
   function filteredGoods() {
-    const goods = (state.products && state.products.goods) || [];
+    const goods = allGoods();
     const q = state.query.trim().toLowerCase();
     return goods.filter((g) => {
       if (state.filter === 'up' && !(g.price_change > 0)) return false;
       if (state.filter === 'down' && !(g.price_change < 0)) return false;
+      if (state.channel !== '' && String(g.supply_type ?? '') !== state.channel) return false;
       if (!q) return true;
-      const hay = [g.goods_name, g.spu_sn, String(g.goods_id)]
+      const hay = [g.goods_name, g.spu_sn, String(g.goods_id), channelName(g.supply_type)]
         .concat((g.skus || []).map((s) => `${s.sku_name} ${s.attr_text} ${s.sku_id}`))
         .join(' ')
         .toLowerCase();
@@ -154,7 +224,7 @@
 
   function renderList() {
     const rows = filteredGoods();
-    els.listSummary.textContent = `显示 ${rows.length} / ${((state.products && state.products.goods) || []).length} 个商品`;
+    els.listSummary.textContent = `显示 ${rows.length} / ${allGoods().length} 个商品`;
     if (!rows.length) {
       setView('empty');
       return;
@@ -167,17 +237,22 @@
       btn.className = 'goods-row';
       btn.setAttribute('role', 'listitem');
       btn.dataset.goodsId = String(g.goods_id);
+      if (g.price_change > 0) btn.classList.add('row-up');
       const delta = fmtDelta(g.price_change, g.price_change_pct);
       const imgSrc = safeCssUrl(g.main_img);
       const img = imgSrc ? `style="background-image:url('${imgSrc}')"` : '';
+      const alertDot = g.price_change > 0 ? '<span class="row-alert-dot" title="有涨价"></span>' : '';
       btn.innerHTML = `
         <div class="thumb" ${img} aria-hidden="true"></div>
         <div class="goods-main">
-          <p class="goods-name">${escapeHtml(g.goods_name)}</p>
-          <p class="goods-code">${escapeHtml(g.spu_sn || '')}</p>
+          <p class="goods-name">${alertDot}${escapeHtml(g.goods_name)}</p>
+          <p class="goods-code">
+            <span class="channel-tag">${escapeHtml(channelName(g.supply_type))}</span>
+            ${escapeHtml(g.spu_sn || '')}
+          </p>
         </div>
         <div class="price-block">
-          <div class="price-main">¥${fmtPrice(g.min_price)}<span class="price-unit"></span></div>
+          <div class="price-main">¥${fmtPrice(g.min_price)}</div>
         </div>
         <div class="delta-cell"><span class="delta ${delta.cls}">${delta.text}</span></div>
         <div><span class="badge">${g.sku_count ?? (g.skus || []).length} SKU</span></div>
@@ -188,6 +263,65 @@
     }
     els.goodsList.innerHTML = '';
     els.goodsList.appendChild(frag);
+  }
+
+  function csvEscape(val) {
+    const s = val === null || val === undefined ? '' : String(val);
+    if (/[",\n\r]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+    return s;
+  }
+
+  function exportCsv() {
+    const rows = filteredGoods();
+    if (!rows.length) {
+      showToast('当前筛选没有可导出的商品');
+      return;
+    }
+    const date = (state.products && state.products.date) || '';
+    const header = [
+      '采集日期',
+      'goods_id',
+      'SPU',
+      '商品名称',
+      '渠道',
+      '当前最低代发价',
+      '上次代发价',
+      '涨跌额',
+      '涨跌%',
+      'SKU数',
+      '更新时间',
+    ];
+    const lines = [header.join(',')];
+    for (const g of rows) {
+      lines.push(
+        [
+          date,
+          g.goods_id,
+          g.spu_sn,
+          g.goods_name,
+          channelName(g.supply_type),
+          g.min_price,
+          g.prev_price,
+          g.price_change,
+          g.price_change_pct,
+          g.sku_count,
+          state.products?.updated_at || '',
+        ]
+          .map(csvEscape)
+          .join(',')
+      );
+    }
+    // BOM 便于 Excel 打开中文
+    const blob = new Blob(['﻿' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `代发价_${date || 'export'}_${rows.length}条.csv`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+    showToast(`已导出 ${rows.length} 条`);
   }
 
   function destroyCharts() {
@@ -214,13 +348,15 @@
   function openDrawer(goods) {
     destroyCharts();
     els.drawerTitle.textContent = goods.goods_name || '商品详情';
-    els.drawerSpu.textContent = goods.spu_sn || '';
+    els.drawerSpu.textContent = `${channelName(goods.supply_type)} · ${goods.spu_sn || ''}`;
     const delta = fmtDelta(goods.price_change, goods.price_change_pct);
+    const deltaColor =
+      delta.cls === 'up' ? 'var(--up)' : delta.cls === 'down' ? 'var(--down)' : 'var(--flat)';
     els.drawerMeta.innerHTML = `
       <div class="kv"><span class="kv-label">当前最低代发价</span><span class="kv-value">¥${fmtPrice(goods.min_price)}</span></div>
-      <div class="kv"><span class="kv-label">较上次</span><span class="kv-value" style="color:var(--${delta.cls === 'up' ? 'up' : delta.cls === 'down' ? 'down' : 'flat'})">${delta.text}</span></div>
+      <div class="kv"><span class="kv-label">较上次</span><span class="kv-value" style="color:${deltaColor}">${delta.text}</span></div>
       <div class="kv"><span class="kv-label">规格数</span><span class="kv-value">${goods.sku_count ?? (goods.skus || []).length}</span></div>
-      <div class="kv"><span class="kv-label">渠道</span><span class="kv-value">${escapeHtml(goods.supply_type ?? '—')}</span></div>
+      <div class="kv"><span class="kv-label">渠道</span><span class="kv-value">${escapeHtml(channelName(goods.supply_type))}</span></div>
     `;
 
     const skus = goods.skus || [];
@@ -342,9 +478,48 @@
     document.body.style.overflow = '';
   }
 
+  async function loadAll() {
+    setView('loading');
+    showBanner('');
+    els.listSummary.textContent = '加载中…';
+    try {
+      const [products, history] = await Promise.all([
+        fetchJson(`${DATA_BASE}/products.json`),
+        fetchJson(`${DATA_BASE}/history.json`).catch(() => ({})),
+      ]);
+      state.products = products;
+      state.history = history || {};
+      els.updatedAt.textContent = fmtTime(products.updated_at);
+      els.goodsCount.textContent = String(products.goods_count ?? allGoods().length);
+      if (products.error_count > 0) {
+        showBanner(
+          `上次采集有 ${products.error_count} 个商品失败，列表可能不完整。详见 data/products.json 的 errors 字段。`,
+          'warn'
+        );
+      }
+      updateStats();
+      fillChannelOptions();
+      renderList();
+    } catch (err) {
+      console.error(err);
+      els.errorMsg.textContent =
+        '无法读取 data/products.json。请先运行 `npm run collect` 生成数据，并用本地静态服务打开（不要直接双击 HTML）。';
+      setView('error');
+      els.updatedAt.textContent = '—';
+      els.goodsCount.textContent = '—';
+      els.listSummary.textContent = '加载失败';
+      els.alertBanner.classList.add('hidden');
+    }
+  }
+
   // events
   els.searchInput.addEventListener('input', () => {
     state.query = els.searchInput.value;
+    if (state.products) renderList();
+  });
+
+  els.channelSelect.addEventListener('change', () => {
+    state.channel = els.channelSelect.value;
     if (state.products) renderList();
   });
 
@@ -359,6 +534,16 @@
 
   els.btnReload.addEventListener('click', loadAll);
   els.btnRetry.addEventListener('click', loadAll);
+  els.btnExport.addEventListener('click', exportCsv);
+  els.btnAlerts.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach((c) => c.classList.remove('active'));
+    const upChip = document.querySelector('.chip[data-filter="up"]');
+    if (upChip) upChip.classList.add('active');
+    state.filter = 'up';
+    if (state.products) renderList();
+    const n = allGoods().filter((g) => g.price_change > 0).length;
+    showToast(n ? `已筛出 ${n} 个涨价商品` : '当前没有涨价商品');
+  });
   els.btnCloseDrawer.addEventListener('click', closeDrawer);
   els.drawerBackdrop.addEventListener('click', closeDrawer);
   document.addEventListener('keydown', (e) => {
