@@ -23,6 +23,7 @@
     goodsCount: document.getElementById('goods-count'),
     listSummary: document.getElementById('list-summary'),
     goodsList: document.getElementById('goods-list'),
+    board: document.querySelector('.board'),
     loading: document.getElementById('loading'),
     empty: document.getElementById('empty'),
     errorBox: document.getElementById('error-box'),
@@ -111,8 +112,10 @@
   }
 
   function safeCssUrl(url) {
-    const s = String(url || '');
-    if (!/^https?:\/\//i.test(s)) return '';
+    let s = String(url || '');
+    if (!s) return '';
+    if (s.startsWith('http://')) s = 'https://' + s.slice(7);
+    if (!/^https:\/\//i.test(s)) return '';
     return s.replace(/\\/g, '%5C').replace(/'/g, '%27').replace(/"/g, '%22');
   }
 
@@ -137,6 +140,7 @@
     els.loading.classList.toggle('hidden', view !== 'loading');
     els.empty.classList.toggle('hidden', view !== 'empty');
     els.errorBox.classList.toggle('hidden', view !== 'error');
+    if (els.board) els.board.classList.toggle('is-state', view !== 'list');
     if (view !== 'list') {
       els.goodsList.innerHTML = '';
     }
@@ -168,6 +172,7 @@
     els.statMaxUp.textContent = maxUp === null ? '—' : `+${maxUp.toFixed(2)}`;
 
     els.alertCount.textContent = String(ups.length);
+    els.alertCount.classList.toggle('hidden', ups.length === 0);
 
     if (ups.length > 0) {
       const top = ups
@@ -235,24 +240,29 @@
       btn.type = 'button';
       btn.className = 'goods-row';
       btn.dataset.goodsId = String(g.goods_id);
-      if (g.price_change > 0) btn.classList.add('row-up');
+      if (g.price_change > 0) btn.classList.add('is-up');
       const delta = fmtDelta(g.price_change, g.price_change_pct);
       const imgSrc = safeCssUrl(g.main_img);
-      const img = imgSrc ? `style="background-image:url('${imgSrc}')"` : '';
-      const alertDot = g.price_change > 0 ? '<span class="dot-alert" title="有涨价"></span>' : '';
+      const upDot = g.price_change > 0 ? '<span class="up-dot" title="有涨价"></span>' : '';
+      const dateText = fmtTime((state.products && state.products.updated_at) || '').slice(0, 10);
+      const thumbHtml = imgSrc
+        ? `<div class="thumb"><img src="${imgSrc}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('is-fallback');this.remove();" /></div>`
+        : `<div class="thumb is-fallback" aria-hidden="true"></div>`;
       btn.innerHTML = `
-        <div class="thumb" ${img} aria-hidden="true"></div>
-        <div class="goods-main">
-          <p class="goods-name">${alertDot}${escapeHtml(g.goods_name)}</p>
-          <p class="goods-code">
-            <span class="tag">${escapeHtml(channelName(g.supply_type))}</span>
-            ${escapeHtml(g.spu_sn || '')}
-          </p>
+        <div class="cell-product">
+          ${thumbHtml}
+          <div class="product-text">
+            <p class="product-name">${upDot}${escapeHtml(g.goods_name)}</p>
+            <p class="product-meta">
+              <span class="chip">${escapeHtml(channelName(g.supply_type))}</span>
+              <span class="spu">${escapeHtml(g.spu_sn || '')}</span>
+            </p>
+          </div>
         </div>
-        <div class="price">¥${fmtPrice(g.min_price)}</div>
-        <div class="delta ${delta.cls}">${delta.text}</div>
-        <span class="badge">${g.sku_count ?? (g.skus || []).length} SKU</span>
-        <div class="row-time">${escapeHtml(fmtTime((state.products && state.products.updated_at) || '').slice(0, 10))}</div>
+        <div class="cell-price">¥${fmtPrice(g.min_price)}</div>
+        <div class="cell-delta ${delta.cls}">${delta.text}</div>
+        <span class="cell-sku">${g.sku_count ?? (g.skus || []).length} SKU</span>
+        <div class="cell-date">${escapeHtml(dateText)}</div>
       `;
       btn.addEventListener('click', () => openDrawer(g));
       frag.appendChild(btn);
@@ -545,9 +555,9 @@
     if (state.products) renderList();
   });
 
-  document.querySelectorAll('.seg-btn').forEach((chip) => {
+  document.querySelectorAll('.seg').forEach((chip) => {
     chip.addEventListener('click', () => {
-      document.querySelectorAll('.seg-btn').forEach((c) => c.classList.remove('active'));
+      document.querySelectorAll('.seg').forEach((c) => c.classList.remove('active'));
       chip.classList.add('active');
       state.filter = chip.dataset.filter || 'all';
       if (state.products) renderList();
@@ -558,8 +568,8 @@
   els.btnRetry.addEventListener('click', loadAll);
   els.btnExport.addEventListener('click', exportCsv);
   els.btnAlerts.addEventListener('click', () => {
-    document.querySelectorAll('.seg-btn').forEach((c) => c.classList.remove('active'));
-    const upChip = document.querySelector('.seg-btn[data-filter="up"]');
+    document.querySelectorAll('.seg').forEach((c) => c.classList.remove('active'));
+    const upChip = document.querySelector('.seg[data-filter="up"]');
     if (upChip) upChip.classList.add('active');
     state.filter = 'up';
     if (state.products) renderList();
