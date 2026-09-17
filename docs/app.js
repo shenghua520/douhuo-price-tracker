@@ -273,6 +273,20 @@
     return s;
   }
 
+  function historyMinMax(goodsId) {
+    const g = state.history && state.history[String(goodsId)];
+    if (!g || !g.skus) return { min: null, max: null };
+    const prices = [];
+    for (const sku of Object.values(g.skus)) {
+      for (const pt of sku.points || []) {
+        const n = Number(pt.price);
+        if (Number.isFinite(n)) prices.push(n);
+      }
+    }
+    if (!prices.length) return { min: null, max: null };
+    return { min: Math.min(...prices), max: Math.max(...prices) };
+  }
+
   function exportCsv() {
     const rows = filteredGoods();
     if (!rows.length) {
@@ -286,7 +300,9 @@
       'SPU',
       '商品名称',
       '渠道',
-      '当前最低代发价',
+      '现价(当前最低代发价)',
+      '历史最低价',
+      '历史最高价',
       '上次代发价',
       '涨跌额',
       '涨跌%',
@@ -295,6 +311,7 @@
     ];
     const lines = [header.join(',')];
     for (const g of rows) {
+      const mm = historyMinMax(g.goods_id);
       lines.push(
         [
           date,
@@ -303,6 +320,8 @@
           g.goods_name,
           channelName(g.supply_type),
           g.min_price,
+          mm.min,
+          mm.max,
           g.prev_price,
           g.price_change,
           g.price_change_pct,
