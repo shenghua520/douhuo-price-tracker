@@ -3,14 +3,16 @@
 盯住斗货商城后台**已选品**商品的代发价（`plat_price`），每日自动采集；打开网页看列表，点商品看价格趋势。
 
 ```
-本机/服务器定时任务 → scripts/collect.js → data/*.json + site/data/*.json
-                                              ↓
-                                      git push 到 Gitee
-                                              ↓
-                                      Gitee Pages (site/)
-                                              ↓
-                                 列表 + 涨跌 + Chart.js 趋势图
+每天 09:10（北京时间）GitHub Actions 采价
+  → 更新 data/ 与 docs/data/
+  → push GitHub + 镜像 push Gitee
+
+你随时打开网页看（只读已提交的 JSON）
 ```
+
+**在线预览（GitHub Pages）**：https://shenghua520.github.io/douhuo-price-tracker/
+
+> 说明：Gitee 社区版目前已找不到可用的 **Gitee Pages** 入口（「服务」列表无此项）。因此展示改为 GitHub Pages；Gitee 仓库仍作代码镜像。
 
 ---
 
@@ -91,16 +93,16 @@ git push -u origin main
 
 > 不要把 `.env` 推到 Gitee。密钥只放本机 `.env` 或流水线变量。
 
-### B. 开启 Gitee Pages（展示）
+### B. 开启 GitHub Pages（展示）
 
-1. 仓库 **服务 → Gitee Pages**
-2. 部署目录尽量选择 **`site`**
-3. 启动服务，访问分配的域名
+1. 仓库 https://github.com/shenghua520/douhuo-price-tracker  
+2. Settings → Pages → Source：`main` 分支，目录 **`/docs`**  
+3. 访问：`https://shenghua520.github.io/douhuo-price-tracker/`
 
-**Pages 目录说明**
+前端在 `docs/`（`index.html` / `app.js` / `styles.css` / `data/`）。  
+本地预览：`npm run serve`（服务 `docs/`，默认 `http://localhost:5173`）。
 
-- 前端在 `site/`，数据副本在 `site/data/`，页面用相对路径 `data/*.json` 读取。
-- 若你的 Gitee Pages **只能选仓库根目录**：把 `index.html` / `styles.css` / `app.js` 复制到仓库根，并让采集写入根目录 `data/`（或把 `site/data` 同步过去）；也可用 `docs/` 作为 Pages 根目录。
+**Gitee Pages**：当前账号「服务」里没有 Pages；Gitee 只作代码镜像，不负责展示。
 
 ### C. 每日自动采集（推荐：本机计划任务）
 
