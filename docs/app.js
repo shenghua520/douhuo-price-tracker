@@ -58,6 +58,7 @@
     channel: '',
     charts: [],
     toastTimer: null,
+    lastFocus: null,
   };
 
   function channelName(code) {
@@ -115,7 +116,7 @@
     return s.replace(/\\/g, '%5C').replace(/'/g, '%27').replace(/"/g, '%22');
   }
 
-  function showBanner(msg, kind) {
+  function showBanner(msg) {
     if (!msg) {
       els.banner.classList.add('hidden');
       els.banner.textContent = '';
@@ -123,7 +124,6 @@
     }
     els.banner.textContent = msg;
     els.banner.classList.remove('hidden');
-    els.banner.classList.toggle('banner-warn', kind === 'warn');
   }
 
   function showToast(msg) {
@@ -168,7 +168,6 @@
     els.statMaxUp.textContent = maxUp === null ? '—' : `+${maxUp.toFixed(2)}`;
 
     els.alertCount.textContent = String(ups.length);
-    els.btnAlerts.classList.toggle('has-alert', ups.length > 0);
 
     if (ups.length > 0) {
       const top = ups
@@ -235,27 +234,24 @@
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'goods-row';
-      btn.setAttribute('role', 'listitem');
       btn.dataset.goodsId = String(g.goods_id);
       if (g.price_change > 0) btn.classList.add('row-up');
       const delta = fmtDelta(g.price_change, g.price_change_pct);
       const imgSrc = safeCssUrl(g.main_img);
       const img = imgSrc ? `style="background-image:url('${imgSrc}')"` : '';
-      const alertDot = g.price_change > 0 ? '<span class="row-alert-dot" title="有涨价"></span>' : '';
+      const alertDot = g.price_change > 0 ? '<span class="dot-alert" title="有涨价"></span>' : '';
       btn.innerHTML = `
         <div class="thumb" ${img} aria-hidden="true"></div>
         <div class="goods-main">
           <p class="goods-name">${alertDot}${escapeHtml(g.goods_name)}</p>
           <p class="goods-code">
-            <span class="channel-tag">${escapeHtml(channelName(g.supply_type))}</span>
+            <span class="tag">${escapeHtml(channelName(g.supply_type))}</span>
             ${escapeHtml(g.spu_sn || '')}
           </p>
         </div>
-        <div class="price-block">
-          <div class="price-main">¥${fmtPrice(g.min_price)}</div>
-        </div>
-        <div class="delta-cell"><span class="delta ${delta.cls}">${delta.text}</span></div>
-        <div><span class="badge">${g.sku_count ?? (g.skus || []).length} SKU</span></div>
+        <div class="price">¥${fmtPrice(g.min_price)}</div>
+        <div class="delta ${delta.cls}">${delta.text}</div>
+        <span class="badge">${g.sku_count ?? (g.skus || []).length} SKU</span>
         <div class="row-time">${escapeHtml(fmtTime((state.products && state.products.updated_at) || '').slice(0, 10))}</div>
       `;
       btn.addEventListener('click', () => openDrawer(g));
@@ -488,6 +484,8 @@
     els.drawerBackdrop.classList.remove('hidden');
     els.drawerBackdrop.hidden = false;
     document.body.style.overflow = 'hidden';
+    state.lastFocus = document.activeElement;
+    els.btnCloseDrawer.focus();
   }
 
   function closeDrawer() {
@@ -497,6 +495,10 @@
     els.drawerBackdrop.classList.add('hidden');
     els.drawerBackdrop.hidden = true;
     document.body.style.overflow = '';
+    if (state.lastFocus && typeof state.lastFocus.focus === 'function') {
+      try { state.lastFocus.focus(); } catch (_) { /* ignore */ }
+    }
+    state.lastFocus = null;
   }
 
   async function loadAll() {
@@ -514,8 +516,7 @@
       els.goodsCount.textContent = String(products.goods_count ?? allGoods().length);
       if (products.error_count > 0) {
         showBanner(
-          `上次采集有 ${products.error_count} 个商品失败，列表可能不完整。详见 data/products.json 的 errors 字段。`,
-          'warn'
+          `上次采集有 ${products.error_count} 个商品失败，列表可能不完整。详见 data/products.json 的 errors 字段。`
         );
       }
       updateStats();
@@ -544,9 +545,9 @@
     if (state.products) renderList();
   });
 
-  document.querySelectorAll('.chip').forEach((chip) => {
+  document.querySelectorAll('.seg-btn').forEach((chip) => {
     chip.addEventListener('click', () => {
-      document.querySelectorAll('.chip').forEach((c) => c.classList.remove('active'));
+      document.querySelectorAll('.seg-btn').forEach((c) => c.classList.remove('active'));
       chip.classList.add('active');
       state.filter = chip.dataset.filter || 'all';
       if (state.products) renderList();
@@ -557,8 +558,8 @@
   els.btnRetry.addEventListener('click', loadAll);
   els.btnExport.addEventListener('click', exportCsv);
   els.btnAlerts.addEventListener('click', () => {
-    document.querySelectorAll('.chip').forEach((c) => c.classList.remove('active'));
-    const upChip = document.querySelector('.chip[data-filter="up"]');
+    document.querySelectorAll('.seg-btn').forEach((c) => c.classList.remove('active'));
+    const upChip = document.querySelector('.seg-btn[data-filter="up"]');
     if (upChip) upChip.classList.add('active');
     state.filter = 'up';
     if (state.products) renderList();

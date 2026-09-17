@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
   <title>已选品代发价监控</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
@@ -10,99 +11,104 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="topbar-inner">
+    <div class="shell topbar-inner">
       <div class="brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <div>
-          <h1>已选品代发价监控</h1>
-          <p class="brand-sub">斗货商城 · 每日采集 · 趋势可追溯</p>
+        <span class="brand-dot" aria-hidden="true"></span>
+        <div class="brand-text">
+          <h1>代发价监控</h1>
+          <p>斗货已选品 · 每日同步 · 本地时区</p>
         </div>
       </div>
-      <div class="topbar-meta">
-        <div class="meta-item">
-          <span class="meta-label">更新</span>
-          <span id="updated-at" class="meta-value">—</span>
+      <div class="topbar-actions">
+        <div class="meta">
+          <span class="meta-k">更新</span>
+          <span class="meta-v" id="updated-at">—</span>
         </div>
-        <div class="meta-item">
-          <span class="meta-label">商品</span>
-          <span id="goods-count" class="meta-value">—</span>
+        <div class="meta">
+          <span class="meta-k">商品</span>
+          <span class="meta-v" id="goods-count">—</span>
         </div>
-        <button id="btn-alerts" type="button" class="btn btn-alert" title="涨价提醒">
-          涨价 <span id="alert-count" class="alert-badge">0</span>
+        <button type="button" class="btn btn-warn" id="btn-alerts">
+          涨价 <span class="pill" id="alert-count">0</span>
         </button>
-        <button id="btn-export" type="button" class="btn btn-ghost">导出 CSV</button>
-        <button id="btn-reload" type="button" class="btn btn-ghost">重新加载</button>
+        <button type="button" class="btn" id="btn-export">导出 CSV</button>
+        <button type="button" class="btn btn-quiet" id="btn-reload">刷新</button>
       </div>
     </div>
   </header>
 
-  <div id="banner" class="banner hidden" role="alert"></div>
-  <div id="alert-banner" class="alert-banner hidden" role="status"></div>
+  <div class="shell">
+    <div id="banner" class="banner hidden" role="alert"></div>
+    <div id="alert-banner" class="banner banner-alert hidden" role="status"></div>
 
-  <main class="layout">
-    <section class="stats" id="stats" aria-label="概览">
-      <div class="stat-card">
-        <span class="stat-label">在售商品</span>
-        <span class="stat-value" id="stat-total">—</span>
+    <section class="stats" aria-label="概览">
+      <div class="stat">
+        <span class="stat-k">在售</span>
+        <span class="stat-v" id="stat-total">—</span>
       </div>
-      <div class="stat-card stat-up">
-        <span class="stat-label">较上次涨价</span>
-        <span class="stat-value" id="stat-up">—</span>
+      <div class="stat">
+        <span class="stat-k">较上次涨价</span>
+        <span class="stat-v up" id="stat-up">—</span>
       </div>
-      <div class="stat-card stat-down">
-        <span class="stat-label">较上次降价</span>
-        <span class="stat-value" id="stat-down">—</span>
+      <div class="stat">
+        <span class="stat-k">较上次降价</span>
+        <span class="stat-v down" id="stat-down">—</span>
       </div>
-      <div class="stat-card">
-        <span class="stat-label">最大涨幅</span>
-        <span class="stat-value" id="stat-max-up">—</span>
+      <div class="stat">
+        <span class="stat-k">最大涨幅</span>
+        <span class="stat-v up" id="stat-max-up">—</span>
       </div>
     </section>
 
     <section class="toolbar" aria-label="筛选">
-      <label class="search">
-        <span class="sr-only">搜索商品</span>
-        <input id="search-input" type="search" placeholder="搜索商品名 / SPU / SKU…" autocomplete="off" />
-      </label>
-      <label class="select-wrap">
-        <span class="sr-only">渠道筛选</span>
-        <select id="channel-select" aria-label="渠道">
-          <option value="">全部渠道</option>
-        </select>
-      </label>
-      <div class="filters" role="group" aria-label="快捷筛选">
-        <button type="button" class="chip active" data-filter="all">全部</button>
-        <button type="button" class="chip" data-filter="up">有涨价</button>
-        <button type="button" data-filter="down" class="chip">有降价</button>
+      <input
+        id="search-input"
+        class="input search"
+        type="search"
+        placeholder="搜索商品名 / SPU / SKU"
+        aria-label="搜索商品"
+        autocomplete="off"
+      />
+      <select id="channel-select" class="input select" aria-label="渠道">
+        <option value="">全部渠道</option>
+      </select>
+      <div class="seg" role="group" aria-label="涨跌筛选">
+        <button type="button" class="seg-btn active" data-filter="all">全部</button>
+        <button type="button" class="seg-btn" data-filter="up">涨价</button>
+        <button type="button" class="seg-btn" data-filter="down">降价</button>
       </div>
-      <div class="toolbar-hint" id="list-summary">加载中…</div>
+      <div class="hint" id="list-summary">加载中…</div>
     </section>
 
-    <section class="list-panel" aria-label="商品列表">
-      <div id="loading" class="state-box">
+    <section class="panel" aria-label="商品列表">
+      <div id="loading" class="state">
         <div class="spinner" aria-hidden="true"></div>
         <p>正在加载价格数据…</p>
       </div>
-      <div id="empty" class="state-box hidden">
+      <div id="empty" class="state hidden">
         <p class="state-title">没有匹配的商品</p>
-        <p class="state-desc">换个关键词，或点「全部」清空筛选。</p>
+        <p class="state-desc">换个关键词，或切回「全部」。</p>
       </div>
-      <div id="error-box" class="state-box hidden">
+      <div id="error-box" class="state hidden">
         <p class="state-title">数据加载失败</p>
         <p class="state-desc" id="error-msg">请确认已运行采集脚本，并通过静态服务打开页面。</p>
         <button type="button" class="btn btn-primary" id="btn-retry">重试</button>
       </div>
       <div id="goods-list" class="goods-list" role="list"></div>
     </section>
-  </main>
+
+    <footer class="foot">
+      价格单位：元 · 数据来自斗货商城接口 · 涨跌对比「上次采集」
+    </footer>
+  </div>
 
   <div id="toast" class="toast hidden" role="status"></div>
 
-  <div id="drawer-backdrop" class="drawer-backdrop hidden" hidden></div>
-  <aside id="drawer" class="drawer hidden" aria-hidden="true" aria-labelledby="drawer-title">
+  <div id="drawer-backdrop" class="backdrop hidden" hidden></div>
+  <aside id="drawer" class="drawer hidden" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
     <div class="drawer-head">
       <div>
-        <p class="drawer-eyebrow" id="drawer-spu">—</p>
+        <p class="drawer-spu" id="drawer-spu">—</p>
         <h2 id="drawer-title">商品详情</h2>
       </div>
       <button type="button" class="btn btn-icon" id="btn-close-drawer" aria-label="关闭">×</button>
