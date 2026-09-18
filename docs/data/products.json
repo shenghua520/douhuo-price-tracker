@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T04:55:11.512Z",
-  "date": "2026-09-17",
+  "updated_at": "2026-09-18T01:31:05.940Z",
+  "date": "2026-09-18",
   "goods_count": 14,
   "error_count": 0,
   "errors": [],
@@ -15,9 +15,9 @@
       "sku_count": 1,
       "min_price": 128.52,
       "max_price": 128.52,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 128.52,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1250661467,
@@ -26,7 +26,7 @@
           "price": 128.52,
           "retail_price": 180,
           "status": 1,
-          "prev_price": null
+          "prev_price": 128.52
         }
       ]
     },
@@ -40,9 +40,9 @@
       "sku_count": 1,
       "min_price": 83.16,
       "max_price": 83.16,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 83.16,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1000353547,
@@ -51,7 +51,7 @@
           "price": 83.16,
           "retail_price": 149,
           "status": 1,
-          "prev_price": null
+          "prev_price": 83.16
         }
       ]
     },
@@ -65,9 +65,9 @@
       "sku_count": 1,
       "min_price": 111.24,
       "max_price": 111.24,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 111.24,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1250325129,
@@ -76,7 +76,7 @@
           "price": 111.24,
           "retail_price": 135,
           "status": 1,
-          "prev_price": null
+          "prev_price": 111.24
         }
       ]
     },
@@ -90,9 +90,9 @@
       "sku_count": 1,
       "min_price": 78.84,
       "max_price": 78.84,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 78.84,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1250401576,
@@ -101,7 +101,7 @@
           "price": 78.84,
           "retail_price": 84,
           "status": 1,
-          "prev_price": null
+          "prev_price": 78.84
         }
       ]
     },
@@ -115,9 +115,9 @@
       "sku_count": 1,
       "min_price": 87.34,
       "max_price": 87.34,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 87.34,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1001557456,
@@ -126,7 +126,7 @@
           "price": 87.34,
           "retail_price": 108.9,
           "status": 1,
-          "prev_price": null
+          "prev_price": 87.34
         }
       ]
     },
@@ -140,9 +140,9 @@
       "sku_count": 1,
       "min_price": 80.13,
       "max_price": 80.13,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 80.13,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1000154829,
@@ -151,7 +151,7 @@
           "price": 80.13,
           "retail_price": 99,
           "status": 1,
-          "prev_price": null
+          "prev_price": 80.13
         }
       ]
     },
@@ -165,9 +165,9 @@
       "sku_count": 1,
       "min_price": 104.75,
       "max_price": 104.75,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 104.75,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1001030651,
@@ -176,23 +176,23 @@
           "price": 104.75,
           "retail_price": 110,
           "status": 1,
-          "prev_price": null
+          "prev_price": 104.75
         }
       ]
     },
     {
       "goods_id": 2422615,
-      "goods_name": "金龙鱼压榨本香菜籽油(非转)1.5L",
-      "spu_sn": "GCC543B784A",
-      "main_img": "https://img.zzycmall.com//2024/10/241121185024225493997.jpg",
+      "goods_name": "金龙鱼压榨本香菜籽油1.5L（非转压榨）",
+      "spu_sn": "G19CC543B784A",
+      "main_img": "https://img.zzycmall.com//2025/11/251205110300943838612.jpg",
       "status": 1,
       "supply_type": 19,
       "sku_count": 1,
       "min_price": 31.86,
       "max_price": 31.86,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 31.86,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 6825014,
@@ -201,7 +201,7 @@
           "price": 31.86,
           "retail_price": 69.9,
           "status": 1,
-          "prev_price": null
+          "prev_price": 31.86
         }
       ]
     },
@@ -215,9 +215,9 @@
       "sku_count": 1,
       "min_price": 72.1,
       "max_price": 72.1,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 72.1,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1250645925,
@@ -226,7 +226,7 @@
           "price": 72.1,
           "retail_price": 108,
           "status": 1,
-          "prev_price": null
+          "prev_price": 72.1
         }
       ]
     },
@@ -240,9 +240,9 @@
       "sku_count": 1,
       "min_price": 38.11,
       "max_price": 38.11,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 38.11,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1250578230,
@@ -251,7 +251,7 @@
           "price": 38.11,
           "retail_price": 68.8,
           "status": 1,
-          "prev_price": null
+          "prev_price": 38.11
         }
       ]
     },
@@ -265,9 +265,9 @@
       "sku_count": 1,
       "min_price": 25.65,
       "max_price": 25.65,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 25.65,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 6810472,
@@ -276,7 +276,7 @@
           "price": 25.65,
           "retail_price": 29.8,
           "status": 1,
-          "prev_price": null
+          "prev_price": 25.65
         }
       ]
     },
@@ -290,9 +290,9 @@
       "sku_count": 1,
       "min_price": 46.35,
       "max_price": 46.35,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 46.35,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 6810471,
@@ -301,7 +301,7 @@
           "price": 46.35,
           "retail_price": 60,
           "status": 1,
-          "prev_price": null
+          "prev_price": 46.35
         }
       ]
     },
@@ -315,9 +315,9 @@
       "sku_count": 1,
       "min_price": 82.08,
       "max_price": 82.08,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 82.08,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1250508391,
@@ -326,7 +326,7 @@
           "price": 82.08,
           "retail_price": 120,
           "status": 1,
-          "prev_price": null
+          "prev_price": 82.08
         }
       ]
     },
@@ -340,9 +340,9 @@
       "sku_count": 1,
       "min_price": 18.36,
       "max_price": 18.36,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "prev_price": 18.36,
+      "price_change": 0,
+      "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 1250569154,
@@ -351,7 +351,7 @@
           "price": 18.36,
           "retail_price": 30,
           "status": 1,
-          "prev_price": null
+          "prev_price": 18.36
         }
       ]
     }
