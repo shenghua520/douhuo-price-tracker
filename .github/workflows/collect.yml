@@ -2,9 +2,11 @@ name: daily-price-collect
 
 on:
   schedule:
-    # UTC 00:10 = Beijing 08:10
-    # GitHub cron may delay 30min-2h; usually finishes before 12:00 CST
-    - cron: "10 0 * * *"
+    # Try several morning slots (UTC). Beijing = UTC+8.
+    # GitHub public-repo cron is best-effort and may skip/delay.
+    - cron: "10 0 * * *"   # 08:10 CST
+    - cron: "40 1 * * *"   # 09:40 CST
+    - cron: "10 3 * * *"   # 11:10 CST
   workflow_dispatch:
 
 permissions:
@@ -26,7 +28,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Collect prices
         env:
@@ -35,17 +37,18 @@ jobs:
           DOUHUO_MOBILE: ${{ secrets.DOUHUO_MOBILE }}
         run: node scripts/collect.js
 
-      - name: Commit to GitHub
+      - name: Commit and push GitHub
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add data/products.json data/history.json docs/data/products.json docs/data/history.json
           if git diff --staged --quiet; then
             echo "No data change"
             echo "CHANGED=0" >> "$GITHUB_ENV"
           else
             git commit -m "data: daily price snapshot"
-            git push
+            git push origin HEAD:main
             echo "CHANGED=1" >> "$GITHUB_ENV"
           fi
 
@@ -61,6 +64,7 @@ jobs:
           fi
           git remote remove gitee 2>/dev/null || true
           git remote add gitee "https://shenghua520:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git"
-          git push gitee HEAD:main
+          git fetch gitee main || true
+          git push gitee HEAD:main || git push gitee HEAD:main --force-with-lease
           git remote remove gitee
-          echo "pushed to gitee"
+          echo "gitee mirror done"
