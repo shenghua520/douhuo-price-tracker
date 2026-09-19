@@ -2,10 +2,10 @@ name: price-sync
 
 on:
   schedule:
-    # !! 临时测试用：每 10 分钟一次，用来验证 GitHub 的 schedule 到底会不会触发
-    # !! 验证完请改回下面这行（每天 09:10 北京时间，避开整点）：
-    #    - cron: "10 1 * * *"
-    - cron: "*/10 * * * *"
+    # 每天 09:17 北京时间（UTC+8）= 01:17 UTC，刻意避开整点（整点最容易被 GitHub 延迟/丢弃）
+    # 注意：GitHub 的 schedule 实测不稳定——本仓库曾用 */10 连跑 8 小时、0 次触发。
+    # 因此它只作为「兜底」；页面上的刷新按钮（手动 dispatch）才是主要触发方式。
+    - cron: "17 1 * * *"
   workflow_dispatch:
 
 permissions:
