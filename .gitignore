@@ -4,3 +4,5 @@ node_modules/
 *.log
 output/
 .worktrees/
+trigger-token.txt
+.workbuddy/
