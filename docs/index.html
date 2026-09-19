@@ -165,6 +165,16 @@
         <code>Actions</code> 设为 <code>Read and write</code>。若用经典 token，则勾选 <code>workflow</code>。
         这样即便令牌泄露，最坏也只是能重复触发采价——读不到仓库里的密钥，也动不了其他仓库。
       </p>
+      <p class="hint">
+        还没有令牌？
+        <a
+          class="link"
+          href="https://github.com/settings/personal-access-tokens/new?name=douhuo-price-tracker-refresh&amp;description=Trigger%20price%20collection%20from%20the%20web%20page&amp;target_name=shenghua520&amp;expires_in=90&amp;actions=write"
+          target="_blank"
+          rel="noopener noreferrer"
+        >在 GitHub 上创建令牌 ↗</a>
+        （链接已预填名称与 Actions 权限，进去后只需选仓库、点最下面 Generate token）
+      </p>
       <div class="modal-actions">
         <button type="button" class="btn btn-ghost" id="btn-clear-token">清除本机已保存的令牌</button>
         <button type="button" class="btn btn-primary" id="btn-save-token">保存并采价</button>
