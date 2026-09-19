@@ -2,18 +2,18 @@ name: daily-price-collect
 
 on:
   schedule:
-    # Try several morning slots (UTC). Beijing = UTC+8.
-    # GitHub public-repo cron is best-effort and may skip/delay.
-    - cron: "10 0 * * *"   # 08:10 CST
-    - cron: "40 1 * * *"   # 09:40 CST
-    - cron: "10 3 * * *"   # 11:10 CST
+    # Beijing = UTC+8
+    # 08:10 / 09:40 / 11:10 — one successful run before noon is enough
+    - cron: "10 0 * * *"
+    - cron: "40 1 * * *"
+    - cron: "10 3 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: collect
+  group: collect-gh
   cancel-in-progress: false
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
           DOUHUO_MOBILE: ${{ secrets.DOUHUO_MOBILE }}
         run: node scripts/collect.js
 
-      - name: Commit and push GitHub
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,26 +45,7 @@ jobs:
           git add data/products.json data/history.json docs/data/products.json docs/data/history.json
           if git diff --staged --quiet; then
             echo "No data change"
-            echo "CHANGED=0" >> "$GITHUB_ENV"
           else
             git commit -m "data: daily price snapshot"
             git push origin HEAD:main
-            echo "CHANGED=1" >> "$GITHUB_ENV"
           fi
-
-      - name: Push snapshot to Gitee (mirror)
-        if: env.CHANGED == '1'
-        env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-          GITEE_REPO: shenghua520/douhuo-price-tracker
-        run: |
-          if [ -z "$GITEE_TOKEN" ]; then
-            echo "GITEE_TOKEN not set, skip gitee push"
-            exit 0
-          fi
-          git remote remove gitee 2>/dev/null || true
-          git remote add gitee "https://shenghua520:${GITEE_TOKEN}@gitee.com/${GITEE_REPO}.git"
-          git fetch gitee main || true
-          git push gitee HEAD:main || git push gitee HEAD:main --force-with-lease
-          git remote remove gitee
-          echo "gitee mirror done"

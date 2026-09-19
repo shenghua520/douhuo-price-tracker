@@ -5,14 +5,14 @@
 ```
 每天 09:10（北京时间）GitHub Actions 采价
   → 更新 data/ 与 docs/data/
-  → push GitHub + 镜像 push Gitee
+
 
 你随时打开网页看（只读已提交的 JSON）
 ```
 
 **在线预览（GitHub Pages）**：https://shenghua520.github.io/douhuo-price-tracker/
 
-> 说明：Gitee 社区版目前已找不到可用的 **Gitee Pages** 入口（「服务」列表无此项）。因此展示改为 GitHub Pages；Gitee 仓库仍作代码镜像。
+
 
 ---
 
@@ -73,25 +73,25 @@ npm run serve
 
 浏览器打开 `http://localhost:5173`。
 
-## 部署到 Gitee
 
-> **架构说明**：Gitee 侧主要负责 **Pages 静态展示** 与 **代码托管**。  
-> 「每日定时采集」推荐在 **本机/内网服务器** 用计划任务跑 `collect-and-push.bat`，再 push 到 Gitee。  
-> Gitee 企业版流水线（Gitee Go）是 **纯 UI 编排**，不是 GitHub Actions 那种仓库内 YAML；若已开通企业版，也可在流水线界面加一个「执行脚本」任务运行采集（见下文 C）。
+
+
+
+
 
 ### A. 建仓并推送
 
-1. 在 [gitee.com](https://gitee.com) 新建仓库（建议**公开**，便于 Pages）。
+
 2. 将本项目推上去。注意：本地当前在 feature 分支时先合并到 `main`：
 
 ```bat
 git checkout main
 git merge feat/price-tracker
-git remote add origin https://gitee.com/<你的用户名>/<仓库名>.git
+
 git push -u origin main
 ```
 
-> 不要把 `.env` 推到 Gitee。密钥只放本机 `.env` 或流水线变量。
+
 
 ### B. 开启 GitHub Pages（展示）
 
@@ -102,11 +102,11 @@ git push -u origin main
 前端在 `docs/`（`index.html` / `app.js` / `styles.css` / `data/`）。  
 本地预览：`npm run serve`（服务 `docs/`，默认 `http://localhost:5173`）。
 
-**Gitee Pages**：当前账号「服务」里没有 Pages；Gitee 只作代码镜像，不负责展示。
+
 
 ### C. 每日自动采集（推荐：本机计划任务）
 
-这是**不依赖 Gitee 企业版**、最稳的方式。仓库根目录已有 `collect-and-push.bat`：
+
 
 1. 确认本机 `.env` 已配置、`npm run collect` 能成功。
 2. 注册 Windows 计划任务（每天 09:10）：
@@ -127,9 +127,9 @@ Linux 服务器 `crontab` 示例：
 10 9 * * * cd /path/to/repo && node scripts/collect.js && git add data docs/data && (git diff --staged --quiet || git commit -m "data: daily price snapshot" && git push)
 ```
 
-### C2. 可选：Gitee 企业版流水线（UI 配置）
 
-若公司已开通 **Gitee 企业版流水线**：
+
+
 
 1. 项目 → 流水线 → 新建流水线
 2. 触发：定时（cron 填 `10 9 * * *`，注意流水线时区是否为 UTC+8）
@@ -143,7 +143,7 @@ git diff --staged --quiet || (git commit -m "data: daily price snapshot" && git 
 ```
 
 流水线运行身份需要有仓库写权限（可用机器人账号 / Deploy Key）。  
-**本仓库不提供 `.gitee/workflows/*.yml`**：Gitee Go 当前以 UI 编排为主，与 GitHub Actions 语法不通用。
+
 
 ### D. 首次出图
 
@@ -194,10 +194,10 @@ git diff --staged --quiet || (git commit -m "data: daily price snapshot" && git 
 当天首次采集或昨日无数据，属正常；有连续两天数据后会显示涨跌。
 
 **App Secret 泄露风险**  
-Secret 只放在本地 `.env` 或 Gitee 仓库密钥，不要写进前端 JS。
 
-**Gitee 流水线没跑 / 找不到 YAML**  
-Gitee Go 是 UI 编排，请在企业版流水线里配置定时与脚本；社区版请用本机 `collect-and-push.bat` 计划任务。
+
+
+
 
 ## 许可
 
