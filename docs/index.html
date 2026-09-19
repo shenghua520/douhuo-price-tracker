@@ -40,7 +40,7 @@
               <span class="count" id="alert-count">0</span>
             </button>
             <button type="button" class="btn" id="btn-export">导出 CSV</button>
-            <button type="button" class="btn btn-ghost" id="btn-reload" title="重新加载">刷新</button>
+            <button type="button" class="btn btn-ghost" id="btn-reload" title="立即通知 GitHub 采集最新价格">刷新</button>
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@
         <div id="goods-list" class="rows" role="list"></div>
       </section>
 
-      <p class="footer-note">单位：元 · 涨跌对比上次采集 · 每日 09:10 自动更新</p>
+      <p class="footer-note">单位：元 · 涨跌对比上次采集 · 每日 09:17 自动更新 · 也可点「刷新」立即采价</p>
     </main>
   </div>
 
@@ -144,5 +144,32 @@
     <div class="drawer-meta" id="drawer-meta"></div>
     <div class="drawer-body" id="drawer-body"></div>
   </aside>
+
+  <div id="token-backdrop" class="backdrop hidden" hidden></div>
+  <section id="token-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="token-title">
+    <header class="modal-head">
+      <h2 id="token-title">触发采价需要一次性授权</h2>
+      <button type="button" class="icon-btn" id="btn-close-token" aria-label="关闭">×</button>
+    </header>
+    <div class="modal-body">
+      <p class="modal-lead">
+        网页本身采不了价：斗货接口不允许浏览器跨域，密钥也不能放进公开的网页。所以「刷新」的作法是——<b>通知 GitHub 那台免费机器去采价</b>。为此需要你粘贴一个 <b>GitHub 令牌</b>。
+      </p>
+      <label class="field-label" for="token-input">
+        GitHub 令牌
+        <span class="sub">只保存在你本机浏览器，不会上传，也不会提交到仓库</span>
+      </label>
+      <input id="token-input" class="text-input" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_… 或 ghp_…" />
+      <p class="hint">
+        推荐用 <b>Fine-grained token</b>：Repository access 只勾这一个仓库，Permissions 里把
+        <code>Actions</code> 设为 <code>Read and write</code>。若用经典 token，则勾选 <code>workflow</code>。
+        这样即便令牌泄露，最坏也只是能重复触发采价——读不到仓库里的密钥，也动不了其他仓库。
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-ghost" id="btn-clear-token">清除本机已保存的令牌</button>
+        <button type="button" class="btn btn-primary" id="btn-save-token">保存并采价</button>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

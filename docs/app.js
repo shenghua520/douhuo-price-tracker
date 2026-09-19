@@ -18,6 +18,22 @@
     18: '企业专属',
   };
 
+  // ===== 采价触发（网页 → GitHub Actions）=====
+  // 网页自身采不了价：斗货接口不允许浏览器跨域，密钥也不能放进公开的网页。
+  // 因此「刷新」的作法是：带上你自己的 GitHub 令牌，通知 GitHub 去跑采价工作流。
+  const REPO = {
+    owner: 'shenghua520',
+    repo: 'douhuo-price-tracker',
+    workflow: 'price-sync.yml',
+    ref: 'main',
+  };
+  const GH_API = 'https://api.github.com';
+  const TOKEN_KEY = 'douhuo_pt_gh_token';
+  const LAST_TRIGGER_KEY = 'douhuo_pt_last_trigger';
+  // 冷却：防止被连续点击刷爆斗货接口。生产 10 分钟；测试阶段按需求先关闭。
+  const COOLDOWN_MS = 10 * 60 * 1000;
+  const COOLDOWN_ENABLED = false;
+
   const els = {
     updatedAt: document.getElementById('updated-at'),
     goodsCount: document.getElementById('goods-count'),
@@ -49,6 +65,12 @@
     drawerMeta: document.getElementById('drawer-meta'),
     drawerBody: document.getElementById('drawer-body'),
     btnCloseDrawer: document.getElementById('btn-close-drawer'),
+    tokenModal: document.getElementById('token-modal'),
+    tokenBackdrop: document.getElementById('token-backdrop'),
+    tokenInput: document.getElementById('token-input'),
+    btnSaveToken: document.getElementById('btn-save-token'),
+    btnClearToken: document.getElementById('btn-clear-token'),
+    btnCloseToken: document.getElementById('btn-close-token'),
   };
 
   const state = {
@@ -60,7 +82,207 @@
     charts: [],
     toastTimer: null,
     lastFocus: null,
+    triggering: false,
+    bannerTimer: null,
   };
+
+  function sleep(ms) {
+    return new Promise((r) => setTimeout(r, ms));
+  }
+
+  function getToken() {
+    try {
+      return localStorage.getItem(TOKEN_KEY) || '';
+    } catch (_) {
+      return '';
+    }
+  }
+
+  function saveToken(v) {
+    try {
+      if (v) localStorage.setItem(TOKEN_KEY, v);
+      else localStorage.removeItem(TOKEN_KEY);
+    } catch (_) {
+      /* 隐私模式等无法写入时忽略 */
+    }
+  }
+
+  function getLastTrigger() {
+    try {
+      const n = Number(localStorage.getItem(LAST_TRIGGER_KEY) || 0);
+      return Number.isFinite(n) ? n : 0;
+    } catch (_) {
+      return 0;
+    }
+  }
+
+  function markTriggered() {
+    try {
+      localStorage.setItem(LAST_TRIGGER_KEY, String(Date.now()));
+    } catch (_) {
+      /* ignore */
+    }
+  }
+
+  function cooldownLeftMs() {
+    if (!COOLDOWN_ENABLED) return 0;
+    const left = COOLDOWN_MS - (Date.now() - getLastTrigger());
+    return left > 0 ? left : 0;
+  }
+
+  function fmtCooldown(ms) {
+    const total = Math.ceil(ms / 1000);
+    const m = Math.floor(total / 60);
+    const s = total % 60;
+    return m > 0 ? `${m} 分 ${s} 秒` : `${s} 秒`;
+  }
+
+  function setRefreshBusy(busy) {
+    els.btnReload.disabled = busy;
+    els.btnReload.textContent = busy ? '采价中…' : '刷新';
+  }
+
+  function openTokenModal() {
+    const has = !!getToken();
+    els.tokenInput.value = '';
+    els.tokenInput.placeholder = has ? '已保存令牌，如需更换请粘贴新的' : 'github_pat_… 或 ghp_…';
+    els.btnClearToken.classList.toggle('hidden', !has);
+    els.tokenModal.classList.remove('hidden');
+    els.tokenModal.setAttribute('aria-hidden', 'false');
+    els.tokenBackdrop.classList.remove('hidden');
+    els.tokenBackdrop.hidden = false;
+    els.tokenInput.focus();
+  }
+
+  function closeTokenModal() {
+    els.tokenModal.classList.add('hidden');
+    els.tokenModal.setAttribute('aria-hidden', 'true');
+    els.tokenBackdrop.classList.add('hidden');
+    els.tokenBackdrop.hidden = true;
+    els.tokenInput.value = '';
+  }
+
+  async function ghFetch(path, token, options = {}) {
+    const res = await fetch(`${GH_API}${path}`, {
+      ...options,
+      headers: {
+        Accept: 'application/vnd.github+json',
+        Authorization: `Bearer ${token}`,
+        'X-GitHub-Api-Version': '2022-11-28',
+        ...(options.headers || {}),
+      },
+    });
+    if (res.status === 204) return null;
+    let body = null;
+    try {
+      body = await res.json();
+    } catch (_) {
+      /* ignore */
+    }
+    if (!res.ok) {
+      const err = new Error((body && body.message) || `HTTP ${res.status}`);
+      err.status = res.status;
+      throw err;
+    }
+    return body;
+  }
+
+  async function waitForRun(token, sinceMs) {
+    const tries = 40;
+    const gap = 5000;
+    for (let i = 0; i < tries; i++) {
+      await sleep(gap);
+      let data;
+      try {
+        data = await ghFetch(
+          `/repos/${REPO.owner}/${REPO.repo}/actions/workflows/${REPO.workflow}/runs?per_page=5`,
+          token
+        );
+      } catch (_) {
+        continue;
+      }
+      const runs = (data && data.workflow_runs) || [];
+      const mine = runs.find(
+        (r) =>
+          r.event === 'workflow_dispatch' && new Date(r.created_at).getTime() >= sinceMs - 15000
+      );
+      if (!mine) continue;
+      if (mine.status === 'completed') {
+        if (mine.conclusion === 'success') return true;
+        console.warn('[refresh] 采价任务失败', mine.html_url);
+        return false;
+      }
+      showBanner(`GitHub 正在采价（${mine.status}）…通常 30~60 秒完成`);
+    }
+    return null;
+  }
+
+  async function triggerCollect() {
+    if (state.triggering) return;
+
+    const left = cooldownLeftMs();
+    if (left > 0) {
+      showToast(`冷却中（还剩 ${fmtCooldown(left)}），已重新加载当前数据`);
+      await loadAll();
+      return;
+    }
+
+    const token = getToken();
+    if (!token) {
+      openTokenModal();
+      return;
+    }
+
+    state.triggering = true;
+    setRefreshBusy(true);
+    const since = Date.now();
+    showBanner('正在通知 GitHub 开始采价…');
+    try {
+      await ghFetch(
+        `/repos/${REPO.owner}/${REPO.repo}/actions/workflows/${REPO.workflow}/dispatches`,
+        token,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ref: REPO.ref }),
+        }
+      );
+      markTriggered();
+      showBanner('已通知 GitHub 采价，通常 30~60 秒完成，完成后会自动刷新…');
+      showToast('已触发采价');
+      const result = await waitForRun(token, since);
+      if (result === true) {
+        await loadAll();
+        showToast('采价完成，数据已更新');
+      } else if (result === false) {
+        showBanner('采价任务执行失败，请到 GitHub Actions 查看日志。');
+        showToast('采价失败');
+      } else {
+        showBanner('采价仍在进行中，稍后点「刷新」查看结果。');
+      }
+    } catch (err) {
+      console.error('[refresh]', err.message);
+      if (err.status === 401) {
+        saveToken('');
+        showBanner('GitHub 令牌无效或已过期，请点「刷新」重新填写。');
+        showToast('令牌无效');
+      } else if (err.status === 403) {
+        showBanner('令牌权限不足：需要该仓库的 Actions 读写权限（经典 token 需勾选 workflow）。');
+        showToast('权限不足');
+      } else if (err.status === 404) {
+        showBanner('找不到仓库或工作流，或令牌没有授权这个仓库。');
+        showToast('触发失败');
+      } else {
+        showBanner(`触发失败：${err.message}`);
+        showToast('触发失败');
+      }
+    } finally {
+      state.triggering = false;
+      setRefreshBusy(false);
+      clearTimeout(state.bannerTimer);
+      state.bannerTimer = setTimeout(() => showBanner(''), 15000);
+    }
+  }
 
   function channelName(code) {
     const n = Number(code);
@@ -564,8 +786,31 @@
     });
   });
 
-  els.btnReload.addEventListener('click', loadAll);
+  els.btnReload.addEventListener('click', triggerCollect);
   els.btnRetry.addEventListener('click', loadAll);
+
+  els.btnSaveToken.addEventListener('click', async () => {
+    const v = els.tokenInput.value.trim();
+    if (!v) {
+      showToast('请先粘贴 GitHub 令牌');
+      els.tokenInput.focus();
+      return;
+    }
+    saveToken(v);
+    closeTokenModal();
+    await triggerCollect();
+  });
+  els.btnClearToken.addEventListener('click', () => {
+    saveToken('');
+    els.tokenInput.value = '';
+    els.btnClearToken.classList.add('hidden');
+    showToast('已清除本机保存的令牌');
+  });
+  els.btnCloseToken.addEventListener('click', closeTokenModal);
+  els.tokenBackdrop.addEventListener('click', closeTokenModal);
+  els.tokenInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') els.btnSaveToken.click();
+  });
   els.btnExport.addEventListener('click', exportCsv);
   els.btnAlerts.addEventListener('click', () => {
     document.querySelectorAll('.seg').forEach((c) => c.classList.remove('active'));
@@ -579,7 +824,10 @@
   els.btnCloseDrawer.addEventListener('click', closeDrawer);
   els.drawerBackdrop.addEventListener('click', closeDrawer);
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeDrawer();
+    if (e.key === 'Escape') {
+      closeTokenModal();
+      closeDrawer();
+    }
   });
 
   loadAll();
