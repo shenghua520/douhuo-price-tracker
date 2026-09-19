@@ -2,9 +2,10 @@ name: price-sync
 
 on:
   schedule:
-    # 每天 09:10 北京时间（UTC+8）= 01:10 UTC
-    # 刻意不用整点：GitHub 在每个整点负载最高，定时任务会被延迟、甚至直接被丢弃
-    - cron: "10 1 * * *"
+    # !! 临时测试用：每 10 分钟一次，用来验证 GitHub 的 schedule 到底会不会触发
+    # !! 验证完请改回下面这行（每天 09:10 北京时间，避开整点）：
+    #    - cron: "10 1 * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
