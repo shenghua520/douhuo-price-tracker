@@ -2,11 +2,8 @@ name: daily-price-collect
 
 on:
   schedule:
-    # Beijing = UTC+8
-    # 08:10 / 09:40 / 11:10 — one successful run before noon is enough
-    - cron: "10 0 * * *"
-    - cron: "40 1 * * *"
-    - cron: "10 3 * * *"
+    # every 30 minutes (public repo Actions = free on standard runners)
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -46,6 +43,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No data change"
           else
-            git commit -m "data: daily price snapshot"
+            git commit -m "data: price snapshot"
             git push origin HEAD:main
           fi
