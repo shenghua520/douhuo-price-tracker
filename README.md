@@ -157,22 +157,46 @@ npm run serve
 
 ## 自动采集
 
-### 主力：网页「刷新」按钮
+> **重要前提**：GitHub 自己的 `schedule`（workflow 里的 cron）**实测极不可靠**——本仓库 3 天里只成功触发 **1 次**，而且晚了 5 小时。所以**不要把每日自动采集压在它身上**，请用下面第一种方案。
 
-见上一节。任何设备（含手机）打开 Pages 页面，点一下就能立刻采一次——这是目前**最可靠**的触发方式。
+### 推荐（自动）：常开机器上的 cron
 
-### 兜底一：GitHub Actions 定时
+找一台**常开**的机器（例如京东云 Ubuntu 服务器），用仓库自带的 `scripts/trigger-remote.sh` 每天定时「通知 GitHub 去采价」：
 
-工作流 `.github/workflows/price-sync.yml`，每天 **09:17（北京时间）** 跑一次：
+```bash
+# 1) 写入细粒度令牌（只授权本仓库、Actions: Read and write），600 权限
+install -m 600 /dev/null ~/.douhuo-token
+printf '%s' 'github_pat_xxxxxxxx' > ~/.douhuo-token
+
+# 2) 让脚本可执行
+chmod +x scripts/trigger-remote.sh
+
+# 3) 注册每天 09:17（服务器本地时间）
+crontab -e
+# 加入这一行：
+17 9 * * * /path/to/repo/scripts/trigger-remote.sh >> /var/log/douhuo-trigger.log 2>&1
+```
+
+验证：`bash scripts/trigger-remote.sh` 输出 `HTTP 204` 且退出码 0 就对了（失败会打印原因并非 0 退出，cron 会邮件告警）。
+
+**服务器上不需要装 Node，也不需要放斗货凭证**——脚本只是发一个 HTTP 请求，真正的采集仍在 GitHub Actions 里跑，依然零成本。
+
+### 手动 / 即时：网页「刷新」按钮
+
+见上一节。任何设备（含手机）打开 Pages 页面点一下就能立刻采一次，还会自动等它跑完再刷新数据。
+
+### 兜底一：GitHub Actions 定时（不可靠，仅作保险）
+
+工作流 `.github/workflows/price-sync.yml`，cron 为每天 **09:17（北京时间）**：
 
 1. `node scripts/collect.js` — 采集
 2. `node scripts/selftest.js` — 自检产物，不通过就中止，不会把坏数据推上去
 3. 有变化就 commit & push 回 `main`
 
-**手动兜底**（想立刻拉一次、或定时没生效）：
+**其它手动入口**：
 
 - 网页：仓库 → Actions → `price-sync` → **Run workflow**
-- 命令行：双击 `trigger-github-action.bat`（token 取自 `trigger-token.txt` 或 `.env` 里的 `GITHUB_TOKEN`）
+- Windows 命令行：双击 `trigger-github-action.bat`
 
 ### 兜底二：本机计划任务（备用）
 
@@ -180,7 +204,7 @@ npm run serve
 schtasks /Create /TN "DouhuoPriceCollect" /TR "C:\path\to\repo\collect-and-push.bat" /SC DAILY /ST 09:17
 ```
 
-`collect-and-push.bat` 会采集 → 自检 → 提交 → 推送（带 rebase 重试），需要时手动双击也行。
+`collect-and-push.bat` 会采集 → 自检 → 提交 → 推送（带 rebase 重试），需要时手动双击也行。**依赖电脑处于开机状态。**
 
 Linux 服务器 `crontab`：
 
@@ -193,8 +217,12 @@ Linux 服务器 `crontab`：
 ## 关于 GitHub 定时任务，几件必须知道的事
 
 1. **`schedule` 是「尽力而为」的，而且可能长期不触发。** GitHub 在整点负载最高，定时任务会被延迟，负载足够高时**直接丢弃**。
-   > **本仓库的实测结论**：曾把 cron 改成 `*/10 * * * *`（每 10 分钟）连续观察 **8 小时**，**48 次机会、0 次触发**，所有运行都是手动 `workflow_dispatch`。仓库设置全部正常（public / 未归档 / Actions 已开启 / 默认分支 `main`），所以这是 GitHub 侧的不可靠，不是配置问题。
-   > **因此本项目不把定时当主力**，定时只作兜底；要立刻采价请点网页上的「刷新」。想验证定时到底生效没，看 Actions 里有没有事件来源是 `schedule` 的运行。
+   > **本仓库的实测结论（截至 2026-09-21）**
+   > - 把 cron 改成 `*/10 * * * *` 连续观察 **8 小时** → **48 次机会、0 次触发**；
+   > - 观察 3 天（09-19 ~ 09-21）累计只成功触发 **1 次**，而且比预定时间**晚了 5 小时**（cron 定的是 01:17 UTC，实际 06:14 UTC 才跑）；**09-21 当天一次都没跑**；
+   > - 期间仓库设置全部正常（public / 未归档 / Actions 已开启 / 默认分支 `main`），所以这是 GitHub 侧对新仓库的不可靠，不是配置问题。
+   >
+   > **结论：定时只能当买彩票，不能当机制。** 每日自动采集请用「常开机器上的 cron」（见上）；要立刻采价就点网页上的「刷新」。排查方法：看 Actions 里有没有事件来源是 `schedule` 的运行。
 2. **改工作流文件名 = 重新注册定时。** 每次重命名或新建 workflow 文件，GitHub 都要重新登记，期间不会触发。定下来之后尽量别改文件名。
 3. **仓库 60 天没有任何活动，定时会被自动停用。** 本项目每天有一次 bot commit，不会触发这条；但如果你停了采集很久，回来要手动跑一次把它「唤醒」。
 4. **`schedule` 只在默认分支 `main` 上生效。**
@@ -217,6 +245,7 @@ Linux 服务器 `crontab`：
 ├── scripts/
 │   ├── collect.js            # 采集脚本（Node ≥ 18，无第三方依赖）
 │   ├── selftest.js           # 产物自检（数据契约校验）
+│   ├── trigger-remote.sh     # 服务器 cron 用：只发一个 HTTP 请求通知 GitHub 采价
 │   └── dev-server.js         # 本地静态服务
 ├── collect-and-push.bat      # Windows：本机采集 + 有变更则 commit/push
 ├── trigger-github-action.bat # Windows：手动触发 GitHub 上的采集
