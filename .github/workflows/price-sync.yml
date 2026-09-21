@@ -41,14 +41,42 @@ jobs:
 
       - name: Commit and push
         run: |
-          set -e
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/products.json data/history.json docs/data/products.json docs/data/history.json
-          if git diff --staged --quiet; then
+
+          FILES="data/products.json data/history.json docs/data/products.json docs/data/history.json"
+          if git diff --quiet -- $FILES; then
             echo "No data change"
             exit 0
           fi
-          git commit -m "data: price snapshot"
-          git pull --rebase origin main
-          git push origin HEAD:main
+
+          # 留一份本次采集结果，后面要反复重放到「最新的远端」之上
+          mkdir -p /tmp/ours/data /tmp/ours/docs-data
+          cp data/products.json data/history.json /tmp/ours/data/
+          cp docs/data/products.json docs/data/history.json /tmp/ours/docs-data/
+
+          # 并发兜底：JSON 是逐行合并的，两个 run 同时提交必然在 updated_at / 价格行上冲突
+          # （实测过一次 `git pull --rebase` 报 CONFLICT in docs/data/products.json）。
+          # 所以每轮都对齐到最新远端，再把本次采集结果重放上去，直到 push 成功。
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard FETCH_HEAD
+            cp /tmp/ours/data/*.json data/
+            cp /tmp/ours/docs-data/*.json docs/data/
+            git add $FILES
+            if git diff --staged --quiet; then
+              echo "远端已含相同数据，无需提交"
+              exit 0
+            fi
+            git commit -m "data: price snapshot"
+            if git push origin HEAD:main; then
+              echo "push 成功（第 ${i} 次尝试）"
+              exit 0
+            fi
+            echo "push 失败，${i} 次后重试…" >&2
+            sleep 5
+          done
+
+          echo "push 连续失败，放弃" >&2
+          exit 1
