@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T05:57:46.225Z",
-  "date": "2026-09-23",
-  "goods_count": 15,
+  "updated_at": "2026-09-24T01:23:13.875Z",
+  "date": "2026-09-24",
+  "goods_count": 35,
   "error_count": 0,
   "errors": [],
   "goods": [
@@ -422,6 +422,587 @@
           "retail_price": 30,
           "status": 1,
           "prev_price": 18.36
+        }
+      ]
+    },
+    {
+      "goods_id": 2299517,
+      "goods_name": "飞利浦（PHILIPS）电吹风机家用吹风机快干恒温护发冷热风低噪吹风筒电风吹 BHD356/45",
+      "spu_sn": "GCFB1EDC018",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/450465/28/7132/15078/6a27ae56Fc642c570/0083320320bd3b1a.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 175,
+      "max_price": 175,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6602352,
+          "sku_name": "飞利浦（PHILIPS）电吹风机家用吹风机快干恒温护发冷热风低噪吹风筒电风吹 BHD356/45",
+          "attr_text": "默认",
+          "price": 175,
+          "retail_price": 259,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 65137,
+      "goods_name": "飞利浦（PHILIPS）家用净水器75G原装反渗透滤芯 WP3995/01（适配净水器WP4170/PRO75）",
+      "spu_sn": "G3B8F5654C8",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/281953/1/2792/58657/67d4e957F4986ccaf/04aeaeb121f0a873.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 2,
+      "min_price": 386.2,
+      "max_price": 505.92,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 2431469,
+          "sku_name": "飞利浦（PHILIPS）家用净水器75G原装反渗透滤芯 WP3995/01（适配净水器WP4170/PRO75）",
+          "attr_text": "反渗透滤芯RO 3995",
+          "price": 386.2,
+          "retail_price": 529,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 135822,
+          "sku_name": "飞利浦（PHILIPS）家用净水器500G原装反渗透滤芯 WP3996/00（适配净水器WP4190/PRO500）",
+          "attr_text": "反渗透滤芯RO 3996",
+          "price": 505.92,
+          "retail_price": 919,
+          "status": 0,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102793771,
+      "goods_name": "飞利浦无雾加湿器 五重抑菌智能调节 纳米云无雾加湿 4.5升卧室静音加湿器 HU5710/10【HU5710/10/国内发货/1件】",
+      "spu_sn": "GAF7142218C",
+      "main_img": "https://img.picing.com/3124170502032499111_800X800_1uW.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 538.92,
+      "max_price": 538.92,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250697697,
+          "sku_name": "飞利浦无雾加湿器 五重抑菌智能调节 纳米云无雾加湿 4.5升卧室静音加湿器 HU5710/10【HU5710/10/国内发货/1件】",
+          "attr_text": "HU5710/10 / 国内发货 / 1件",
+          "price": 538.92,
+          "retail_price": 709,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 40370,
+      "goods_name": "格力（GREE）加湿器家用静音卧室床头小型母婴除菌拆洗空气加湿器办公室桌面落地大雾量宿舍取暖有雾加湿(X70a)",
+      "spu_sn": "G86EEE1439C",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/134397/37/34637/8926/6484d97eF3242547e/cd3e877e8b8e12a1.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 98,
+      "max_price": 169,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 84236,
+          "sku_name": "格力（GREE）加湿器家用静音卧室床头小型母婴除菌拆洗空气加湿器办公室桌面落地大雾量宿舍取暖有雾加湿(X70a)",
+          "attr_text": "格力卧室静音性价比款 200mL/h",
+          "price": 98,
+          "retail_price": 129,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 84238,
+          "sku_name": "格力（GREE）加湿器家用 4L大容量孕妇母婴 静音大雾量空气加湿办公室卧室床头桌面落地香薰空调房实用礼物X66",
+          "attr_text": "默认",
+          "price": 160,
+          "retail_price": 169,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 84237,
+          "sku_name": "格力(GREE)加湿器4升红点设计奖大容量智能恒湿低噪上加水 空气加湿办公室家用卧室带香薰盒 SC-40X65",
+          "attr_text": "4L智能恒湿香薰款",
+          "price": 169,
+          "retail_price": 199,
+          "status": 0,
+          "prev_price": null
+        },
+        {
+          "sku_id": 84240,
+          "sku_name": "格力（GREE）加湿器 低噪迷你办公室卧室家用带香薰盒加湿孕妇婴儿可用(SC-25X68)",
+          "attr_text": "迷你萌宠款",
+          "price": 113,
+          "retail_price": 149,
+          "status": 0,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1101997993,
+      "goods_name": "红双喜FB1115--红双喜5号篮球（红白蓝）中篮球DBBS011-1",
+      "spu_sn": "G869B47CE05",
+      "main_img": "http://oss-product-98.xingyunyezi.com/images/2023/02/07/101950/主图/DBBS011-1.jpg",
+      "status": 1,
+      "supply_type": 20,
+      "sku_count": 1,
+      "min_price": 62.21,
+      "max_price": 62.21,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250167833,
+          "sku_name": "红双喜FB1115--红双喜5号篮球（红白蓝）中篮球DBBS011-1",
+          "attr_text": "红白蓝 / MISC",
+          "price": 62.21,
+          "retail_price": 108,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1000004236,
+      "goods_name": "红双喜FB2127--红双喜7号篮球中篮球DBBS018-1",
+      "spu_sn": "G131C734452",
+      "main_img": "http://oss-product-98.xingyunyezi.com/images/2026/07/22/主图/183028_2292871_7e3447d159743eb84b5d0ef94d2fa23f.jpg",
+      "status": 1,
+      "supply_type": 20,
+      "sku_count": 1,
+      "min_price": 72.58,
+      "max_price": 72.58,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250314483,
+          "sku_name": "红双喜FB2127--红双喜7号篮球中篮球DBBS018-1",
+          "attr_text": "MISC",
+          "price": 72.58,
+          "retail_price": 126,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1000007270,
+      "goods_name": "红双喜FB3727--红双喜7号篮球（黄）中篮球DBBS030-1",
+      "spu_sn": "G793FE7AEF7",
+      "main_img": "http://oss-product-98.xingyunyezi.com/images/2023/02/07/101950/主图/DBBS030-1.jpg",
+      "status": 1,
+      "supply_type": 20,
+      "sku_count": 2,
+      "min_price": 80.06,
+      "max_price": 439.6,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250312834,
+          "sku_name": "红双喜FB3727--红双喜7号篮球（黄）中篮球DBBS030-1",
+          "attr_text": "黄色 / MISC",
+          "price": 80.06,
+          "retail_price": 139,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 1000445912,
+          "sku_name": "阿迪达斯CLIMACOOL VENTO 3.0中中正IH2282",
+          "attr_text": "灰色/红色/银色 / 41",
+          "price": 439.6,
+          "retail_price": 1099,
+          "status": 0,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1000004190,
+      "goods_name": "红双喜FB4717--红双喜7号篮球中篮球DBBS035-1",
+      "spu_sn": "G79D4B3AF2A",
+      "main_img": "http://oss-product-98.xingyunyezi.com/images/2023/02/07/101950/主图/DBBS035-1.jpg",
+      "status": 1,
+      "supply_type": 20,
+      "sku_count": 1,
+      "min_price": 91.58,
+      "max_price": 91.58,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250316210,
+          "sku_name": "红双喜FB4717--红双喜7号篮球中篮球DBBS035-1",
+          "attr_text": "MISC",
+          "price": 91.58,
+          "retail_price": 159,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2300651,
+      "goods_name": "徕芬SE 白色 吹风机家用电吹风筒大功率高速吹风机负离子大风力速干低噪音莱芬便携无叶",
+      "spu_sn": "GB8D92A6DA6",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/240563/12/16918/24524/66ceda85F390facc0/8709cdab33359a6e.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 398,
+      "max_price": 398,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6603486,
+          "sku_name": "徕芬SE 白色 吹风机家用电吹风筒大功率高速吹风机负离子大风力速干低噪音莱芬便携无叶",
+          "attr_text": "默认",
+          "price": 398,
+          "retail_price": 540.14,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2426480,
+      "goods_name": "美的超声波加湿器 CS-LSY45-加湿器 CS-LSY45",
+      "spu_sn": "G2087E7DDB3",
+      "main_img": "https://img-erp1.douhuomall.com//firm_25/goods/cover/12f51d90d80dd0b9d725e5eb18cbc4eb59f390c6.jpg?eUAHQYKmAsh8sjYU1rzOhg&FbGugludVI9LUyJkx8TxW006szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 111.24,
+      "max_price": 111.24,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6830155,
+          "sku_name": "美的超声波加湿器 CS-LSY45-加湿器 CS-LSY45",
+          "attr_text": "加湿器 CS-LSY45",
+          "price": 111.24,
+          "retail_price": 299,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 30030,
+      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+      "spu_sn": "GA1C5A305C5",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/344437/40/9790/84934/68e50d1aFa6cf6f56/7cd9f8237327d177.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 2,
+      "min_price": 339.34,
+      "max_price": 378.77,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 60205,
+          "sku_name": "美的净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
+          "attr_text": "禅意-储水壶款/F1-更换周期1年 / 购前详询客服",
+          "price": 378.77,
+          "retail_price": 435,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 2446120,
+          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+          "attr_text": "100G台式一体芯-更换周期1年 / 购前详询客服",
+          "price": 339.34,
+          "retail_price": 499,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2227770,
+      "goods_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
+      "spu_sn": "G792A5745EC",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/235690/38/25744/77253/66d8853fF004cc513/6419371c55e7b128.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 221.29,
+      "max_price": 221.29,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 3753990,
+          "sku_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
+          "attr_text": "前置过滤器  15T/h   反冲洗",
+          "price": 221.29,
+          "retail_price": 469,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1101994922,
+      "goods_name": "耐克装备ELITE CHAMPIONSHIP 2.0篮球中篮球FQ1460-891",
+      "spu_sn": "G0E6587C86A",
+      "main_img": "http://oss-product-98.xingyunyezi.com/images/2024/06/16/主图/3807469FQ1460-89128B129.jpg",
+      "status": 1,
+      "supply_type": 20,
+      "sku_count": 2,
+      "min_price": 371.38,
+      "max_price": 419.4,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1000237393,
+          "sku_name": "耐克装备ELITE CHAMPIONSHIP 2.0篮球中篮球FQ1460-891",
+          "attr_text": "7",
+          "price": 371.38,
+          "retail_price": 599,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 1102989737,
+          "sku_name": "耐克装备ELITE CHAMPIONSHIP 2.0篮球中篮球FQ1460-891",
+          "attr_text": "7",
+          "price": 419.4,
+          "retail_price": 699,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2414731,
+      "goods_name": "山水加湿器SJS-Q17-加湿器",
+      "spu_sn": "G63F1B9EAE0",
+      "main_img": "https://img-erp1.douhuomall.com//firm_172/goods/cover/5ce14c93dd42297bc95b2b0230a5bb1b143ff00d.jpg?eUAHQYKmAsh8sjYU1rzOhg&z3ewchg-RsceQrRS559kxE06szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 48.28,
+      "max_price": 48.28,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6812454,
+          "sku_name": "山水加湿器SJS-Q17-加湿器",
+          "attr_text": "加湿器",
+          "price": 48.28,
+          "retail_price": 81,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2705582,
+      "goods_name": "史密斯（A.O.SMITH）净水器家用净水器厨房专用台下用净水机直饮一体机 高水效 冠军之选 R2000HWi-E",
+      "spu_sn": "G7E0BC5AE5B",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/224410/30/2239/65980/654a4ba3Fa87a9a3d/64f8c0115f218c04.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 2670.05,
+      "max_price": 2670.05,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 19640,
+          "sku_name": "史密斯（A.O.SMITH）净水器家用净水器厨房专用台下用净水机直饮一体机 高水效 冠军之选 R2000HWi-E",
+          "attr_text": "【真流速】2升/分钟",
+          "price": 2670.05,
+          "retail_price": 6563,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2216313,
+      "goods_name": "斯伯丁SPALDING篮球CUBA联赛7号橡胶耐磨篮球84-379Y室外用橘白色",
+      "spu_sn": "G4FB608E78F",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/285242/12/9742/140727/67e4e7c6F90cbb27f/60fc7f669ed86173.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 87,
+      "max_price": 87,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 732513,
+          "sku_name": "斯伯丁SPALDING篮球CUBA联赛7号橡胶耐磨篮球84-379Y室外用橘白色",
+          "attr_text": "经典配色",
+          "price": 87,
+          "retail_price": 165,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 6850,
+      "goods_name": "苏泊尔（SUPOR）净水器家用超滤机滤水器厨下式自来水净化器矿物质净水器水龙头前置过滤器净水机DU2U3",
+      "spu_sn": "G5D235FF38F",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 244.32,
+      "max_price": 292.81,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 13028,
+          "sku_name": "苏泊尔（SUPOR）厨下净水器超滤机家用简约款 0阻垢剂净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
+          "attr_text": "【自行安装】-1.5升/分钟",
+          "price": 244.32,
+          "retail_price": 337.66,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 65236,
+          "sku_name": "苏泊尔（SUPOR）净水器家用超滤机滤水器厨下式自来水净化器矿物质净水器水龙头前置过滤器净水机DU2U3",
+          "attr_text": "【基础款】-0废水不用电",
+          "price": 292.81,
+          "retail_price": 696,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 2438261,
+          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
+          "attr_text": "纳米级超滤-小海绵",
+          "price": 264.6,
+          "retail_price": 299,
+          "status": 0,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2789170,
+      "goods_name": "西屋 高速吹风机H7家用吹风机负离子护发速干高速电吹风【灰色/国内发货/1台】",
+      "spu_sn": "GCEDFAFD366",
+      "main_img": "https://img.picing.com/4350710819012697361_800X800_1bW.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 437.4,
+      "max_price": 437.4,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250001134,
+          "sku_name": "西屋 高速吹风机H7家用吹风机负离子护发速干高速电吹风【灰色/国内发货/1台】",
+          "attr_text": "灰色 / 国内发货 / 1台",
+          "price": 437.4,
+          "retail_price": 899,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2297775,
+      "goods_name": "小米有品吹风机 直白电吹风三层水润家用电吹风负离子发廊级大功率吹风筒 恒温 HL505【可支持logo 印制】 ",
+      "spu_sn": "G5967395F2D",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/162229/25/26321/69142/61a89e5bEf591e56e/a8a3e5f8628049df.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 299,
+      "max_price": 299,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6600608,
+          "sku_name": "小米有品吹风机 直白电吹风三层水润家用电吹风负离子发廊级大功率吹风筒 恒温 HL505【可支持logo 印制】 ",
+          "attr_text": "默认",
+          "price": 299,
+          "retail_price": 399,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102760975,
+      "goods_name": "MOVA 扫地机 E50 Ultra水箱版 扫拖一体自动清洗智能抬高 毛发0缠绕 扫地机器人【E50 Ultra水箱版/国内发货/1件】",
+      "spu_sn": "GE9258C0294",
+      "main_img": "https://img.picing.com/6113530282045897871_800X800_1rW.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 2154.6,
+      "max_price": 2154.6,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250610185,
+          "sku_name": "MOVA 扫地机 E50 Ultra水箱版 扫拖一体自动清洗智能抬高 毛发0缠绕 扫地机器人【E50 Ultra水箱版/国内发货/1件】",
+          "attr_text": "E50 Ultra水箱版 / 国内发货 / 1件",
+          "price": 2154.6,
+          "retail_price": 3999,
+          "status": 1,
+          "prev_price": null
         }
       ]
     }
