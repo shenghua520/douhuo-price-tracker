@@ -1,53 +1,10 @@
 {
-  "updated_at": "2026-09-25T06:12:48.017Z",
-  "date": "2026-09-25",
+  "updated_at": "2026-09-26T01:22:04.162Z",
+  "date": "2026-09-26",
   "goods_count": 247,
   "error_count": 0,
   "errors": [],
   "goods": [
-    {
-      "goods_id": 959757,
-      "goods_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2赠身体乳",
-      "spu_sn": "GE9B533B27F",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/99801/39/48636/162975/66f4f87cF60cc2f05/bf47627ffdbf123e.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 88,
-      "max_price": 157.99,
-      "prev_price": 74,
-      "price_change": 14,
-      "price_change_pct": 18.92,
-      "skus": [
-        {
-          "sku_id": 39035,
-          "sku_name": "松达儿童面霜宝宝护肤保湿婴儿面霜秋冬润肤滋润舒缓山茶油霜68g",
-          "attr_text": "【经典保湿霜】山茶油霜68g",
-          "price": 88,
-          "retail_price": 79,
-          "status": 1,
-          "prev_price": 74
-        },
-        {
-          "sku_id": 426685,
-          "sku_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2赠身体乳",
-          "attr_text": "【囤货推荐】霜68g*2瓶",
-          "price": 115.13,
-          "retail_price": 176,
-          "status": 1,
-          "prev_price": 115.13
-        },
-        {
-          "sku_id": 3751739,
-          "sku_name": "松达儿童面霜婴儿山茶油润肤乳宝宝保湿乳液秋冬滋润128g+68g",
-          "attr_text": "【90%选择】霜68g+乳128g",
-          "price": 157.99,
-          "retail_price": 218,
-          "status": 1,
-          "prev_price": 157.99
-        }
-      ]
-    },
     {
       "goods_id": 1102671568,
       "goods_name": "【4支】牙博士宝贝保健儿童（超细软毛）牙刷6-12岁适用儿童牙刷1支装*4支 DT221【儿童牙刷1支装*4支/国内发货/1件】",
@@ -2277,6 +2234,31 @@
       ]
     },
     {
+      "goods_id": 2217604,
+      "goods_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
+      "spu_sn": "GCA01E8E16D",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/154397/26/38427/12648/66595f25F3e028c75/fd83ca36a6cc2d30.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 15.9,
+      "max_price": 15.9,
+      "prev_price": 15.9,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 40456,
+          "sku_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
+          "attr_text": "【儿童专研】防晒霜35ml",
+          "price": 15.9,
+          "retail_price": 25,
+          "status": 1,
+          "prev_price": 15.9
+        }
+      ]
+    },
+    {
       "goods_id": 1102684467,
       "goods_name": "红色小象儿童洁面泡99ml儿童洗面奶洁面乳【99ml/国内发货/1瓶】",
       "spu_sn": "G4BC555B637",
@@ -3152,58 +3134,6 @@
       ]
     },
     {
-      "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g儿童麦片零食营养代餐即食中秋礼品",
-      "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 25.6,
-      "max_price": 54.98,
-      "prev_price": 25.6,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 360103,
-          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g速食麦片儿童零食营养早餐代餐即食中秋礼品",
-          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
-          "price": 25.6,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 25.6
-        },
-        {
-          "sku_id": 431075,
-          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片早餐零食低脂营养即食食品中秋礼品",
-          "attr_text": "【营养早餐】香甜玉米片420g/盒",
-          "price": 26,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26
-        },
-        {
-          "sku_id": 638688,
-          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片早餐零食营养早餐代餐即食巧克力中秋礼品",
-          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
-          "price": 26.9,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26.9
-        },
-        {
-          "sku_id": 3361127,
-          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g儿童麦片零食营养代餐即食中秋礼品",
-          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
-          "status": 1,
-          "prev_price": 54.98
-        }
-      ]
-    },
-    {
       "goods_id": 22864,
       "goods_name": "简爱父爱配方儿童酸奶 2%蔗糖果蔬 100g*6 宝宝酸奶零食 营养早餐",
       "spu_sn": "G3B63202CFD",
@@ -3458,7 +3388,7 @@
       "supply_type": 1,
       "sku_count": 7,
       "min_price": 23.63,
-      "max_price": 51.2,
+      "max_price": 49.9,
       "prev_price": 23.63,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3476,10 +3406,10 @@
           "sku_id": 32547,
           "sku_name": "金纺自营衣物调香大师香氛香水柔顺剂薰衣草10斤除味防静电留香除湿味",
           "attr_text": "【香软防静电】薰衣草2.5kg*2瓶",
-          "price": 51.2,
+          "price": 49.9,
           "retail_price": 58,
           "status": 1,
-          "prev_price": 49.9
+          "prev_price": 51.2
         },
         {
           "sku_id": 33034,
@@ -5040,7 +4970,7 @@
       "supply_type": 1,
       "sku_count": 11,
       "min_price": 11.52,
-      "max_price": 21.76,
+      "max_price": 19.9,
       "prev_price": 11.52,
       "price_change": 0,
       "price_change_pct": 0,
@@ -5094,7 +5024,7 @@
           "sku_id": 1250115494,
           "sku_name": "马博士儿童牙刷宝宝牙刷小孩换牙期软毛牙刷口腔清洁训练牙刷套装2支装",
           "attr_text": "【2支装】熊猫牙刷绿+黄",
-          "price": 21.76,
+          "price": 19.9,
           "retail_price": 22.9,
           "status": 1,
           "prev_price": 21.76
@@ -5711,13 +5641,13 @@
           "price": 41.2,
           "retail_price": 42,
           "status": 1,
-          "prev_price": 39.3
+          "prev_price": 41.2
         },
         {
           "sku_id": 43285,
           "sku_name": "妙可蓝多 汪汪队儿童奶酪棒500g 混合水果味 高钙0防腐剂健康营养宝宝零食",
           "attr_text": "【25支 经典款】500g水果味",
-          "price": 40.2,
+          "price": 39.2,
           "retail_price": 45,
           "status": 1,
           "prev_price": 40.2
@@ -6205,7 +6135,7 @@
       "supply_type": 1,
       "sku_count": 10,
       "min_price": 0,
-      "max_price": 49.9,
+      "max_price": 50.9,
       "prev_price": 0,
       "price_change": 0,
       "price_change_pct": null,
@@ -6250,10 +6180,10 @@
           "sku_id": 433998,
           "sku_name": "欧扎克每日麦片礼盒 营养早餐多口味燕麦片麦片零食代餐600g",
           "attr_text": "【超值礼盒】量贩装600g",
-          "price": 42.74,
+          "price": 50.9,
           "retail_price": 55,
           "status": 1,
-          "prev_price": 50.9
+          "prev_price": 42.74
         },
         {
           "sku_id": 1250100153,
@@ -6860,31 +6790,6 @@
           "retail_price": 59.9,
           "status": 0,
           "prev_price": 59.9
-        }
-      ]
-    },
-    {
-      "goods_id": 2217637,
-      "goods_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
-      "spu_sn": "G4E7AF5C8A2",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/423519/34/14017/32902/69f1ca7fF0b794a40/05f73203205428b0.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 10.95,
-      "max_price": 10.95,
-      "prev_price": 10.95,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 416367,
-          "sku_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
-          "attr_text": "【户外便携】喷雾花露水185ml",
-          "price": 10.95,
-          "retail_price": 17.9,
-          "status": 1,
-          "prev_price": 10.95
         }
       ]
     },
@@ -8441,6 +8346,49 @@
       ]
     },
     {
+      "goods_id": 959757,
+      "goods_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2赠身体乳",
+      "spu_sn": "GE9B533B27F",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/99801/39/48636/162975/66f4f87cF60cc2f05/bf47627ffdbf123e.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 88,
+      "max_price": 157.99,
+      "prev_price": 88,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 39035,
+          "sku_name": "松达儿童面霜宝宝护肤保湿婴儿面霜秋冬润肤滋润舒缓山茶油霜68g",
+          "attr_text": "【经典保湿霜】山茶油霜68g",
+          "price": 88,
+          "retail_price": 79,
+          "status": 1,
+          "prev_price": 88
+        },
+        {
+          "sku_id": 426685,
+          "sku_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2赠身体乳",
+          "attr_text": "【囤货推荐】霜68g*2瓶",
+          "price": 115.13,
+          "retail_price": 176,
+          "status": 1,
+          "prev_price": 115.13
+        },
+        {
+          "sku_id": 3751739,
+          "sku_name": "松达儿童面霜婴儿山茶油润肤乳宝宝保湿乳液秋冬滋润128g+68g",
+          "attr_text": "【90%选择】霜68g+乳128g",
+          "price": 157.99,
+          "retail_price": 218,
+          "status": 1,
+          "prev_price": 157.99
+        }
+      ]
+    },
+    {
       "goods_id": 2545,
       "goods_name": "松下（Panasonic）台灯 AAAAA级台灯学生学习阅读全光谱护眼台灯智能灯",
       "spu_sn": "GB9BE8294B9",
@@ -8564,7 +8512,7 @@
     },
     {
       "goods_id": 6850,
-      "goods_name": "苏泊尔（SUPOR）净水器家用超滤机滤水器厨下式自来水净化器矿物质净水器水龙头前置过滤器净水机DU2U3",
+      "goods_name": "苏泊尔（SUPOR）苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机水龙头保留矿物质水不插电过滤器家庭用DU2U3",
       "spu_sn": "G5D235FF38F",
       "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
       "status": 1,
@@ -8587,7 +8535,7 @@
         },
         {
           "sku_id": 65236,
-          "sku_name": "苏泊尔（SUPOR）净水器家用超滤机滤水器厨下式自来水净化器矿物质净水器水龙头前置过滤器净水机DU2U3",
+          "sku_name": "苏泊尔（SUPOR）苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机水龙头保留矿物质水不插电过滤器家庭用DU2U3",
           "attr_text": "【基础款】-0废水不用电",
           "price": 292.81,
           "retail_price": 696,
@@ -9029,7 +8977,7 @@
           "price": 56.9,
           "retail_price": 63,
           "status": 1,
-          "prev_price": 49.9
+          "prev_price": 56.9
         },
         {
           "sku_id": 33010,
@@ -9255,7 +9203,7 @@
           "price": 31.4,
           "retail_price": 45.9,
           "status": 1,
-          "prev_price": 30.53
+          "prev_price": 31.4
         },
         {
           "sku_id": 1250123274,
@@ -11502,27 +11450,79 @@
       ]
     },
     {
-      "goods_id": 2217604,
-      "goods_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
-      "spu_sn": "GCA01E8E16D",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/154397/26/38427/12648/66595f25F3e028c75/fd83ca36a6cc2d30.png",
+      "goods_id": 2217637,
+      "goods_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
+      "spu_sn": "G4E7AF5C8A2",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/423519/34/14017/32902/69f1ca7fF0b794a40/05f73203205428b0.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 1,
-      "min_price": 15.9,
-      "max_price": 15.9,
-      "prev_price": 16.15,
-      "price_change": -0.25,
-      "price_change_pct": -1.55,
+      "min_price": 9.9,
+      "max_price": 9.9,
+      "prev_price": 10.95,
+      "price_change": -1.05,
+      "price_change_pct": -9.59,
       "skus": [
         {
-          "sku_id": 40456,
-          "sku_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
-          "attr_text": "【儿童专研】防晒霜35ml",
-          "price": 15.9,
-          "retail_price": 25,
+          "sku_id": 416367,
+          "sku_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
+          "attr_text": "【户外便携】喷雾花露水185ml",
+          "price": 9.9,
+          "retail_price": 17.9,
           "status": 1,
-          "prev_price": 16.15
+          "prev_price": 10.95
+        }
+      ]
+    },
+    {
+      "goods_id": 219499,
+      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g儿童麦片零食营养代餐即食中秋礼品",
+      "spu_sn": "GEA38F355C9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 23.65,
+      "max_price": 54.98,
+      "prev_price": 26.9,
+      "price_change": -3.25,
+      "price_change_pct": -12.08,
+      "skus": [
+        {
+          "sku_id": 360103,
+          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g速食麦片儿童零食营养早餐代餐即食中秋礼品",
+          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
+          "price": 25.6,
+          "retail_price": 29,
+          "status": 1,
+          "prev_price": 25.6
+        },
+        {
+          "sku_id": 431075,
+          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片早餐零食低脂营养即食食品中秋礼品",
+          "attr_text": "【营养早餐】香甜玉米片420g/盒",
+          "price": 26,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26
+        },
+        {
+          "sku_id": 638688,
+          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片早餐零食营养早餐代餐即食巧克力中秋礼品",
+          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
+          "price": 23.65,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26.9
+        },
+        {
+          "sku_id": 3361127,
+          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g儿童麦片零食营养代餐即食中秋礼品",
+          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
+          "price": 54.98,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 54.98
         }
       ]
     }
