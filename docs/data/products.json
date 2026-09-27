@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-26T06:12:50.482Z",
-  "date": "2026-09-26",
-  "goods_count": 246,
+  "updated_at": "2026-09-27T01:20:53.899Z",
+  "date": "2026-09-27",
+  "goods_count": 247,
   "error_count": 0,
   "errors": [],
   "goods": [
@@ -3134,6 +3134,58 @@
       ]
     },
     {
+      "goods_id": 219499,
+      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g儿童麦片零食营养代餐即食中秋礼品",
+      "spu_sn": "GEA38F355C9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 25.6,
+      "max_price": 54.98,
+      "prev_price": 25.6,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 360103,
+          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g速食麦片儿童零食营养早餐代餐即食中秋礼品",
+          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
+          "price": 25.6,
+          "retail_price": 29,
+          "status": 1,
+          "prev_price": 25.6
+        },
+        {
+          "sku_id": 431075,
+          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片早餐零食低脂营养即食食品中秋礼品",
+          "attr_text": "【营养早餐】香甜玉米片420g/盒",
+          "price": 26,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26
+        },
+        {
+          "sku_id": 638688,
+          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片早餐零食营养早餐代餐即食巧克力中秋礼品",
+          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
+          "price": 26.9,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 23.65
+        },
+        {
+          "sku_id": 3361127,
+          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g儿童麦片零食营养代餐即食中秋礼品",
+          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
+          "price": 54.98,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 54.98
+        }
+      ]
+    },
+    {
       "goods_id": 22864,
       "goods_name": "简爱父爱配方儿童酸奶 2%蔗糖果蔬 100g*6 宝宝酸奶零食 营养早餐",
       "spu_sn": "G3B63202CFD",
@@ -3388,7 +3440,7 @@
       "supply_type": 1,
       "sku_count": 7,
       "min_price": 23.63,
-      "max_price": 51.2,
+      "max_price": 49.9,
       "prev_price": 23.63,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3406,7 +3458,7 @@
           "sku_id": 32547,
           "sku_name": "金纺自营衣物调香大师香氛香水柔顺剂薰衣草10斤除味防静电留香除湿味",
           "attr_text": "【香软防静电】薰衣草2.5kg*2瓶",
-          "price": 51.2,
+          "price": 49.9,
           "retail_price": 58,
           "status": 1,
           "prev_price": 51.2
@@ -5027,7 +5079,7 @@
           "price": 19.9,
           "retail_price": 22.9,
           "status": 1,
-          "prev_price": 21.76
+          "prev_price": 19.9
         },
         {
           "sku_id": 1250115496,
@@ -5647,10 +5699,10 @@
           "sku_id": 43285,
           "sku_name": "妙可蓝多 汪汪队儿童奶酪棒500g 混合水果味 高钙0防腐剂健康营养宝宝零食",
           "attr_text": "【25支 经典款】500g水果味",
-          "price": 39.2,
+          "price": 40.2,
           "retail_price": 45,
           "status": 1,
-          "prev_price": 40.2
+          "prev_price": 39.2
         },
         {
           "sku_id": 1250186737,
@@ -6183,7 +6235,7 @@
           "price": 50.9,
           "retail_price": 55,
           "status": 1,
-          "prev_price": 42.74
+          "prev_price": 50.9
         },
         {
           "sku_id": 1250100153,
@@ -6790,6 +6842,31 @@
           "retail_price": 59.9,
           "status": 0,
           "prev_price": 59.9
+        }
+      ]
+    },
+    {
+      "goods_id": 2217637,
+      "goods_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
+      "spu_sn": "G4E7AF5C8A2",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/423519/34/14017/32902/69f1ca7fF0b794a40/05f73203205428b0.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 9.9,
+      "max_price": 9.9,
+      "prev_price": 9.9,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 416367,
+          "sku_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
+          "attr_text": "【户外便携】喷雾花露水185ml",
+          "price": 9.9,
+          "retail_price": 17.9,
+          "status": 1,
+          "prev_price": 9.9
         }
       ]
     },
@@ -11425,79 +11502,27 @@
       ]
     },
     {
-      "goods_id": 2217637,
-      "goods_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
-      "spu_sn": "G4E7AF5C8A2",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/423519/34/14017/32902/69f1ca7fF0b794a40/05f73203205428b0.png",
+      "goods_id": 196943,
+      "goods_name": "长寿花压榨玉米油 5L 非转基因 纯正一级 食用油 （新老包装随机发货）",
+      "spu_sn": "GEA59D609C1",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/401866/25/6396/130092/69ae6fc7F51261c4e/00833203209b69e7.jpg",
       "status": 1,
       "supply_type": 1,
       "sku_count": 1,
-      "min_price": 9.9,
-      "max_price": 9.9,
-      "prev_price": 10.95,
-      "price_change": -1.05,
-      "price_change_pct": -9.59,
+      "min_price": 76.9,
+      "max_price": 76.9,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
       "skus": [
         {
-          "sku_id": 416367,
-          "sku_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
-          "attr_text": "【户外便携】喷雾花露水185ml",
-          "price": 9.9,
-          "retail_price": 17.9,
+          "sku_id": 374020,
+          "sku_name": "长寿花压榨玉米油 5L 非转基因 纯正一级 食用油 （新老包装随机发货）",
+          "attr_text": "玉米油 / 5L",
+          "price": 76.9,
+          "retail_price": 96,
           "status": 1,
-          "prev_price": 10.95
-        }
-      ]
-    },
-    {
-      "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g儿童麦片零食营养代餐即食中秋礼品",
-      "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 23.65,
-      "max_price": 54.98,
-      "prev_price": 26.9,
-      "price_change": -3.25,
-      "price_change_pct": -12.08,
-      "skus": [
-        {
-          "sku_id": 360103,
-          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g速食麦片儿童零食营养早餐代餐即食中秋礼品",
-          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
-          "price": 25.6,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 25.6
-        },
-        {
-          "sku_id": 431075,
-          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片早餐零食低脂营养即食食品中秋礼品",
-          "attr_text": "【营养早餐】香甜玉米片420g/盒",
-          "price": 26,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26
-        },
-        {
-          "sku_id": 638688,
-          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片早餐零食营养早餐代餐即食巧克力中秋礼品",
-          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
-          "price": 23.65,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26.9
-        },
-        {
-          "sku_id": 3361127,
-          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g儿童麦片零食营养代餐即食中秋礼品",
-          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
-          "status": 1,
-          "prev_price": 54.98
+          "prev_price": null
         }
       ]
     }
