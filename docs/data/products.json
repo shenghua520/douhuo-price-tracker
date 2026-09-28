@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T01:29:21.452Z",
+  "updated_at": "2026-09-28T06:55:22.649Z",
   "date": "2026-09-28",
   "goods_count": 247,
   "error_count": 0,
@@ -24,7 +24,7 @@
           "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
           "attr_text": "1.6L 【爆款升级】小饭煲N1",
           "price": 169,
-          "retail_price": 176,
+          "retail_price": 179,
           "status": 1,
           "prev_price": 157.17
         },
@@ -4703,30 +4703,30 @@
     },
     {
       "goods_id": 2220977,
-      "goods_name": "良品铺子每日坚果7种纯坚果750g/30袋 含开心果腰果核桃休闲零食中秋送礼",
+      "goods_name": "良品铺子每日坚果750g/30袋 锁鲜混合坚果开心果核桃坚果礼盒零食团购送礼",
       "spu_sn": "G1BE6BA29D8",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/482488/40/18985/431407/6a7992f0Fecb321c5/05f75a05a0ee3875.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/297216/5/12130/567264/68402d88F11c706b4/61a787e42acf1fc1.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 9,
       "min_price": 12.9,
-      "max_price": 97.92,
+      "max_price": 97.89,
       "prev_price": 12.9,
       "price_change": 0,
       "price_change_pct": 0,
       "skus": [
         {
           "sku_id": 410850,
-          "sku_name": "良品铺子每日坚果7种纯坚果750g/30袋 含开心果腰果核桃休闲零食中秋送礼",
+          "sku_name": "良品铺子每日坚果7种纯坚果750g/30袋 含开心果腰果核桃休闲零食团购送礼",
           "attr_text": "【7种100%纯坚果】 750g/盒",
-          "price": 97.92,
+          "price": 97.89,
           "retail_price": 109,
           "status": 1,
           "prev_price": 97.92
         },
         {
           "sku_id": 1250078149,
-          "sku_name": "良品铺子每日坚果600g/盒 纯坚果籽类鹰嘴豆腰果夏威夷果健身家庭中秋送礼",
+          "sku_name": "良品铺子每日坚果600g/盒 纯坚果籽类鹰嘴豆腰果夏威夷果健身家庭团购送礼",
           "attr_text": "【7+健身充能版】 600g/盒",
           "price": 55,
           "retail_price": 59.9,
@@ -4735,7 +4735,7 @@
         },
         {
           "sku_id": 1250078151,
-          "sku_name": "良品铺子每日坚果750g/30袋 锁鲜混合坚果开心果核桃坚果礼盒零食中秋送礼",
+          "sku_name": "良品铺子每日坚果750g/30袋 锁鲜混合坚果开心果核桃坚果礼盒零食团购送礼",
           "attr_text": "【6+3臻享版】 750g/盒",
           "price": 85,
           "retail_price": 94,
@@ -5690,7 +5690,7 @@
           "sku_id": 43280,
           "sku_name": "妙可蓝多 汪汪队儿童奶酪棒500g 原味 高钙0防腐剂健康营养宝宝零食",
           "attr_text": "【25支 经典款】500g原味",
-          "price": 39.1,
+          "price": 41.2,
           "retail_price": 42,
           "status": 1,
           "prev_price": 41.2
@@ -7064,9 +7064,9 @@
     },
     {
       "goods_id": 961899,
-      "goods_name": "清风有芯卷纸 厚柔4层110克*30卷 卫生纸厕纸 卷纸 卷筒纸纸巾整箱",
+      "goods_name": "清风有芯卷纸 厚柔4层110克*12卷 柔韧厚实 卫生纸卷筒 纸厕纸纸巾",
       "spu_sn": "G7F3B10A6E6",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/415892/10/5815/934164/69d5c253Fcdd33296/05f74b04b0c3b89f.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/401648/40/10429/893233/69afe206Ff4645ae6/05f75dc5dcbe799a.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 3,
@@ -7080,7 +7080,7 @@
           "sku_id": 183362,
           "sku_name": "清风有芯卷纸 厚柔4层110克*30卷 卫生纸厕纸 卷纸 卷筒纸纸巾整箱",
           "attr_text": "4层 110g*30卷 【超值囤货装】",
-          "price": 41.79,
+          "price": 46.1,
           "retail_price": 63.09,
           "status": 1,
           "prev_price": 46.1
@@ -7399,7 +7399,7 @@
       "skus": [
         {
           "sku_id": 55568,
-          "sku_name": "认养一头牛全脂纯牛奶250ml*15盒 3.3g蛋白牛奶整箱 京东自营 中秋礼盒",
+          "sku_name": "认养一头牛纯牛奶250ml*15盒 3.3g蛋白牛奶整箱 京东自营 家庭囤货 礼盒装",
           "attr_text": "【口碑爆款 特惠礼盒】250ml*15",
           "price": 33.9,
           "retail_price": 49.9,
@@ -7426,7 +7426,7 @@
         },
         {
           "sku_id": 1250069518,
-          "sku_name": "认养一头牛低脂纯牛奶200ml*10盒 3.3g减脂期早餐牛奶整箱 京东自营中秋礼盒",
+          "sku_name": "认养一头牛低脂纯牛奶200ml*10盒 3.3g减脂期早餐牛奶整箱 京东自营",
           "attr_text": "【轻负担 低脂纯奶】200ml*10",
           "price": 29.9,
           "retail_price": 39.9,
