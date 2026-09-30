@@ -1,35 +1,10 @@
 {
-  "updated_at": "2026-09-29T06:56:38.014Z",
-  "date": "2026-09-29",
+  "updated_at": "2026-09-30T01:21:52.718Z",
+  "date": "2026-09-30",
   "goods_count": 247,
   "error_count": 0,
   "errors": [],
   "goods": [
-    {
-      "goods_id": 2217637,
-      "goods_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
-      "spu_sn": "G4E7AF5C8A2",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/423519/34/14017/32902/69f1ca7fF0b794a40/05f73203205428b0.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 10.95,
-      "max_price": 10.95,
-      "prev_price": 9.9,
-      "price_change": 1.05,
-      "price_change_pct": 10.61,
-      "skus": [
-        {
-          "sku_id": 416367,
-          "sku_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
-          "attr_text": "【户外便携】喷雾花露水185ml",
-          "price": 10.95,
-          "retail_price": 17.9,
-          "status": 1,
-          "prev_price": 9.9
-        }
-      ]
-    },
     {
       "goods_id": 1102671568,
       "goods_name": "【4支】牙博士宝贝保健儿童（超细软毛）牙刷6-12岁适用儿童牙刷1支装*4支 DT221【儿童牙刷1支装*4支/国内发货/1件】",
@@ -3159,6 +3134,58 @@
       ]
     },
     {
+      "goods_id": 219499,
+      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+      "spu_sn": "GEA38F355C9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 25.4,
+      "max_price": 54.98,
+      "prev_price": 25.4,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 360103,
+          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
+          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
+          "price": 25.4,
+          "retail_price": 29,
+          "status": 1,
+          "prev_price": 25.4
+        },
+        {
+          "sku_id": 431075,
+          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
+          "attr_text": "【营养早餐】香甜玉米片420g/盒",
+          "price": 26,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26
+        },
+        {
+          "sku_id": 638688,
+          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
+          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
+          "price": 26.9,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26.9
+        },
+        {
+          "sku_id": 3361127,
+          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
+          "price": 54.98,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 54.98
+        }
+      ]
+    },
+    {
       "goods_id": 22864,
       "goods_name": "简爱父爱配方儿童酸奶 2%蔗糖果蔬 100g*6 宝宝酸奶零食 营养早餐",
       "spu_sn": "G3B63202CFD",
@@ -6178,7 +6205,7 @@
           "sku_id": 54702,
           "sku_name": "欧扎克 麦片营养早餐 水果麦片即食燕麦片零食代餐酸奶果粒味400g",
           "attr_text": "【店铺爆款】酸奶果粒麦片400g",
-          "price": 32.23,
+          "price": 27.44,
           "retail_price": 55,
           "status": 1,
           "prev_price": 32.23
@@ -6815,6 +6842,31 @@
           "retail_price": 59.9,
           "status": 0,
           "prev_price": 59.9
+        }
+      ]
+    },
+    {
+      "goods_id": 2217637,
+      "goods_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
+      "spu_sn": "G4E7AF5C8A2",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/423519/34/14017/32902/69f1ca7fF0b794a40/05f73203205428b0.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 10.95,
+      "max_price": 10.95,
+      "prev_price": 10.95,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 416367,
+          "sku_name": "青蛙王子喷雾型花露水 户外便携清凉花露水 缓解蚊虫叮咬花露水185ml",
+          "attr_text": "【户外便携】喷雾花露水185ml",
+          "price": 10.95,
+          "retail_price": 17.9,
+          "status": 1,
+          "prev_price": 10.95
         }
       ]
     },
@@ -8347,7 +8399,7 @@
     },
     {
       "goods_id": 959757,
-      "goods_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2购2赠身体乳",
+      "goods_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2",
       "spu_sn": "GE9B533B27F",
       "main_img": "https://img13.360buyimg.com/n12/jfs/t1/99801/39/48636/162975/66f4f87cF60cc2f05/bf47627ffdbf123e.png",
       "status": 1,
@@ -8370,7 +8422,7 @@
         },
         {
           "sku_id": 426685,
-          "sku_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2购2赠身体乳",
+          "sku_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2",
           "attr_text": "【囤货推荐】霜68g*2瓶",
           "price": 115.13,
           "retail_price": 176,
@@ -10317,6 +10369,49 @@
       ]
     },
     {
+      "goods_id": 2705922,
+      "goods_name": "元气森林0糖0脂0卡 维C橙味气泡水 480mL*15瓶 整箱碳酸饮料",
+      "spu_sn": "G7CCC354302",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/433924/1/4788/41615/6a02dfeeFecdc1a1e/05f7320320443e65.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 57,
+      "max_price": 58.14,
+      "prev_price": 57,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 55221,
+          "sku_name": "元气森林0糖0脂0卡 夏黑葡萄味气泡水 480mL*15瓶  整箱碳酸饮料",
+          "attr_text": "【热卖】夏黑葡萄15瓶",
+          "price": 58.14,
+          "retail_price": 68,
+          "status": 1,
+          "prev_price": 58.14
+        },
+        {
+          "sku_id": 55223,
+          "sku_name": "元气森林0糖0脂0卡 白桃味气泡水 480mL*15瓶 整箱碳酸饮料",
+          "attr_text": "【白桃】气泡水15瓶",
+          "price": 58.14,
+          "retail_price": 66,
+          "status": 1,
+          "prev_price": 58.14
+        },
+        {
+          "sku_id": 1250072100,
+          "sku_name": "元气森林0糖0脂0卡 维C橙味气泡水 480mL*15瓶 整箱碳酸饮料",
+          "attr_text": "【橙味】维C气泡水15瓶",
+          "price": 57,
+          "retail_price": 93.7,
+          "status": 1,
+          "prev_price": 57
+        }
+      ]
+    },
+    {
       "goods_id": 1102780123,
       "goods_name": "元气森林0糖0脂0卡苏打气泡水无糖饮料卡曼橘味480mL9瓶汽水整箱-箱",
       "spu_sn": "G8FA661B86D",
@@ -10413,49 +10508,6 @@
           "retail_price": 49.9,
           "status": 1,
           "prev_price": 40.17
-        }
-      ]
-    },
-    {
-      "goods_id": 2705922,
-      "goods_name": "元气森林维C橙味气泡水 480mL*15瓶 0糖0脂0卡",
-      "spu_sn": "G7CCC354302",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/433924/1/4788/41615/6a02dfeeFecdc1a1e/05f7320320443e65.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 57,
-      "max_price": 58.14,
-      "prev_price": 57,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 55221,
-          "sku_name": "元气森林夏黑葡萄味气泡水 480mL*15瓶  0糖0脂0卡",
-          "attr_text": "【热卖】夏黑葡萄15瓶",
-          "price": 58.14,
-          "retail_price": 68,
-          "status": 1,
-          "prev_price": 58.14
-        },
-        {
-          "sku_id": 55223,
-          "sku_name": "元气森林白桃味气泡水 480mL*15瓶 0糖0脂0卡",
-          "attr_text": "【白桃】气泡水15瓶",
-          "price": 58.14,
-          "retail_price": 66,
-          "status": 1,
-          "prev_price": 58.14
-        },
-        {
-          "sku_id": 1250072100,
-          "sku_name": "元气森林维C橙味气泡水 480mL*15瓶 0糖0脂0卡",
-          "attr_text": "【橙味】维C气泡水15瓶",
-          "price": 57,
-          "retail_price": 93.7,
-          "status": 1,
-          "prev_price": 57
         }
       ]
     },
@@ -11471,58 +11523,6 @@
           "retail_price": 49,
           "status": 1,
           "prev_price": 36.05
-        }
-      ]
-    },
-    {
-      "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-      "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 25.4,
-      "max_price": 54.98,
-      "prev_price": 25.6,
-      "price_change": -0.2,
-      "price_change_pct": -0.78,
-      "skus": [
-        {
-          "sku_id": 360103,
-          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
-          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
-          "price": 25.4,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 25.6
-        },
-        {
-          "sku_id": 431075,
-          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
-          "attr_text": "【营养早餐】香甜玉米片420g/盒",
-          "price": 26,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26
-        },
-        {
-          "sku_id": 638688,
-          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
-          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
-          "price": 26.9,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26.9
-        },
-        {
-          "sku_id": 3361127,
-          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
-          "status": 1,
-          "prev_price": 54.98
         }
       ]
     }
