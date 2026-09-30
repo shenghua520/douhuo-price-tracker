@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-30T01:21:52.718Z",
+  "updated_at": "2026-09-30T06:45:05.784Z",
   "date": "2026-09-30",
-  "goods_count": 247,
+  "goods_count": 246,
   "error_count": 0,
   "errors": [],
   "goods": [
@@ -699,31 +699,6 @@
           "retail_price": 199,
           "status": 1,
           "prev_price": 60.77
-        }
-      ]
-    },
-    {
-      "goods_id": 1102787133,
-      "goods_name": "奥妙 洗衣液家庭5件套组合大礼包 （1kg洗衣液+400g袋装洗衣液+内衣皂100g*2+洗衣皂220g+洗衣粉300g【1kg+400g+100g*2+220g+300g/国内发货/1件】",
-      "spu_sn": "GCC7B958117",
-      "main_img": "https://img.picing.com/1018210384031891034_600X600_1dW.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
-      "status": 1,
-      "supply_type": 17,
-      "sku_count": 1,
-      "min_price": 36.72,
-      "max_price": 36.72,
-      "prev_price": 36.72,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 1250670900,
-          "sku_name": "奥妙 洗衣液家庭5件套组合大礼包 （1kg洗衣液+400g袋装洗衣液+内衣皂100g*2+洗衣皂220g+洗衣粉300g【1kg+400g+100g*2+220g+300g/国内发货/1件】",
-          "attr_text": "1kg+400g+100g*2+220g+300g / 国内发货 / 1件",
-          "price": 36.72,
-          "retail_price": 50,
-          "status": 1,
-          "prev_price": 36.72
         }
       ]
     },
@@ -7444,7 +7419,7 @@
         },
         {
           "sku_id": 1103079179,
-          "sku_name": "认养一头牛【高钙】3.6g蛋白质纯牛奶250ml*10盒*2箱 家庭礼盒中秋囤货送礼",
+          "sku_name": "认养一头牛高钙纯牛奶3.6g蛋白 250ml*10盒*2箱 京东自营 家庭囤货礼盒装",
           "attr_text": "【高钙礼盒】250ml*10盒*2提",
           "price": 74.9,
           "retail_price": 99.62,
