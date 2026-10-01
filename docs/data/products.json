@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-30T06:45:05.784Z",
-  "date": "2026-09-30",
-  "goods_count": 246,
+  "updated_at": "2026-10-01T01:20:33.807Z",
+  "date": "2026-10-01",
+  "goods_count": 245,
   "error_count": 0,
   "errors": [],
   "goods": [
@@ -3293,7 +3293,7 @@
           "sku_id": 33352,
           "sku_name": "洁柔抽纸 黑Face3层120抽*20包 可湿水 大规格M码面巾纸 纸巾整箱",
           "attr_text": "3层 120抽*20包 【加量大规格】",
-          "price": 63.49,
+          "price": 63.39,
           "retail_price": 85.9,
           "status": 1,
           "prev_price": 63.49
@@ -3519,7 +3519,7 @@
       "supply_type": 1,
       "sku_count": 6,
       "min_price": 39.5,
-      "max_price": 105.5,
+      "max_price": 102.46,
       "prev_price": 39.5,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3537,7 +3537,7 @@
           "sku_id": 55177,
           "sku_name": "金龙鱼 食用油【保真菜籽油】 非转基因压榨 外婆乡小榨菜籽油6.18L",
           "attr_text": "外婆乡小榨菜籽油6.18L",
-          "price": 105.5,
+          "price": 102.46,
           "retail_price": 114,
           "status": 1,
           "prev_price": 105.5
@@ -5204,7 +5204,7 @@
         {
           "sku_id": 2446120,
           "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-          "attr_text": "100G台式一体芯-更换周期1年 / 购前详询客服",
+          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
           "price": 339.34,
           "retail_price": 499,
           "status": 1,
@@ -5345,40 +5345,6 @@
           "retail_price": 469,
           "status": 1,
           "prev_price": 221.29
-        }
-      ]
-    },
-    {
-      "goods_id": 2607818,
-      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-      "spu_sn": "G4DDEF0D20A",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 169,
-      "max_price": 179,
-      "prev_price": 169,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 7507984,
-          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-          "attr_text": "1.6L 【爆款升级】小饭煲N1",
-          "price": 169,
-          "retail_price": 179,
-          "status": 1,
-          "prev_price": 169
-        },
-        {
-          "sku_id": 7507983,
-          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
-          "attr_text": "1.5L 【智能互联】小饭煲",
-          "price": 179,
-          "retail_price": 212,
-          "status": 1,
-          "prev_price": 179
         }
       ]
     },
@@ -6183,7 +6149,7 @@
           "price": 27.44,
           "retail_price": 55,
           "status": 1,
-          "prev_price": 32.23
+          "prev_price": 27.44
         },
         {
           "sku_id": 433993,
@@ -7304,7 +7270,7 @@
       "skus": [
         {
           "sku_id": 417220,
-          "sku_name": "雀巢（Nestle）进口儿童零食可可味滋滋330g早餐儿童麦片非油炸全谷物学生开学",
+          "sku_name": "雀巢（Nestle）进口儿童零食可可味滋滋330g早餐儿童麦片非油炸全谷物出游代餐",
           "attr_text": "【全麦+钙】可可味滋滋 330g*1盒",
           "price": 26,
           "retail_price": 28,
@@ -7313,7 +7279,7 @@
         },
         {
           "sku_id": 417221,
-          "sku_name": "雀巢（Nestle）进口脆谷乐儿童300g谷物脆儿童麦片早餐即食非油炸全谷物学生开学",
+          "sku_name": "雀巢（Nestle）进口脆谷乐儿童300g谷物脆儿童麦片早餐即食非油炸全谷物国庆佳礼",
           "attr_text": "【高纤谷物圈】脆谷乐 300g*1盒",
           "price": 26,
           "retail_price": 31.5,
@@ -7340,7 +7306,7 @@
         },
         {
           "sku_id": 417227,
-          "sku_name": "雀巢（Nestle）进口儿童零食蜜奇星300g蜂蜜星星儿童麦片早餐即食非油炸学生开学",
+          "sku_name": "雀巢（Nestle）进口儿童零食蜜奇星300g蜂蜜星星儿童麦片早餐即食非油炸国庆佳礼",
           "attr_text": "【全麦+5倍钙】蜜奇星 300g*1盒",
           "price": 26,
           "retail_price": 30,
@@ -7349,7 +7315,7 @@
         },
         {
           "sku_id": 417228,
-          "sku_name": "雀巢（Nestle）进口蜂蜜脆谷乐儿童300g谷物脆儿童营养早餐麦片即食非油炸开学",
+          "sku_name": "雀巢（Nestle）进口蜂蜜脆谷乐儿童300g谷物脆儿童营养早餐麦片即食非油炸出游",
           "attr_text": "【高纤谷物】蜂蜜脆谷乐 300g*1盒",
           "price": 26,
           "retail_price": 30,
@@ -8424,7 +8390,7 @@
       "supply_type": 1,
       "sku_count": 7,
       "min_price": 239.64,
-      "max_price": 493.1,
+      "max_price": 479,
       "prev_price": 239.64,
       "price_change": 0,
       "price_change_pct": 0,
@@ -8433,8 +8399,8 @@
           "sku_id": 736699,
           "sku_name": "松下（Panasonic）台灯 AAAAA级台灯学生学习阅读全光谱护眼台灯智能灯",
           "attr_text": "【旋钮式】致焰-17W-全光谱",
-          "price": 493.1,
-          "retail_price": 547,
+          "price": 479,
+          "retail_price": 532,
           "status": 1,
           "prev_price": 493.1
         },
