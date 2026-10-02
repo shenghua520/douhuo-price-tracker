@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-01T07:13:40.129Z",
-  "date": "2026-10-01",
-  "goods_count": 245,
+  "updated_at": "2026-10-02T01:20:35.323Z",
+  "date": "2026-10-02",
+  "goods_count": 242,
   "error_count": 0,
   "errors": [],
   "goods": [
@@ -2959,31 +2959,6 @@
       ]
     },
     {
-      "goods_id": 1102762964,
-      "goods_name": "汇源100%果汁苹果汁300ml*8瓶【默认/国内发货/1件】",
-      "spu_sn": "G6D9B4858E5",
-      "main_img": "https://d5ma.img.apiunion.com/i/16ec68ce86666a433b113f9076963610_300X300_aW.jpg?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
-      "status": 1,
-      "supply_type": 17,
-      "sku_count": 1,
-      "min_price": 46.44,
-      "max_price": 46.44,
-      "prev_price": 46.44,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 1250613056,
-          "sku_name": "汇源100%果汁苹果汁300ml*8瓶【默认/国内发货/1件】",
-          "attr_text": "默认 / 国内发货 / 1件",
-          "price": 46.44,
-          "retail_price": 60,
-          "status": 1,
-          "prev_price": 46.44
-        }
-      ]
-    },
-    {
       "goods_id": 1102675366,
       "goods_name": "汇源100%桃混合果汁整箱200ml*20盒【默认/国内发货/1件】",
       "spu_sn": "G6DA951369B",
@@ -3030,31 +3005,6 @@
           "retail_price": 36,
           "status": 1,
           "prev_price": 33.37
-        }
-      ]
-    },
-    {
-      "goods_id": 1102754228,
-      "goods_name": "汇源四口味混合果汁200ml*12盒【四口味混合果汁200ml*12盒/国内发货/1件】",
-      "spu_sn": "G3FCCCFC92F",
-      "main_img": "https://d5ma.img.apiunion.com/i/14900d0dd6399648535736b1875e5c72_300X300_oW.jpg?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
-      "status": 1,
-      "supply_type": 17,
-      "sku_count": 1,
-      "min_price": 34.56,
-      "max_price": 34.56,
-      "prev_price": 34.56,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 1250588864,
-          "sku_name": "汇源四口味混合果汁200ml*12盒【四口味混合果汁200ml*12盒/国内发货/1件】",
-          "attr_text": "四口味混合果汁200ml*12盒 / 国内发货 / 1件",
-          "price": 34.56,
-          "retail_price": 42,
-          "status": 1,
-          "prev_price": 34.56
         }
       ]
     },
@@ -3275,7 +3225,7 @@
       "supply_type": 1,
       "sku_count": 8,
       "min_price": 17.9,
-      "max_price": 71.57,
+      "max_price": 64.24,
       "prev_price": 17.9,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3293,16 +3243,16 @@
           "sku_id": 33352,
           "sku_name": "洁柔抽纸 黑Face3层120抽*20包 可湿水 大规格M码面巾纸 纸巾整箱",
           "attr_text": "3层 120抽*20包 【加量大规格】",
-          "price": 63.39,
+          "price": 63.49,
           "retail_price": 85.9,
           "status": 1,
-          "prev_price": 63.49
+          "prev_price": 63.39
         },
         {
           "sku_id": 33724,
           "sku_name": "洁柔抽纸 黑Face3层120抽*24包 可湿水卫生纸 整箱纸巾 热门商品",
           "attr_text": "【囤货首选】 3层 120抽*24包",
-          "price": 63.49,
+          "price": 61.51,
           "retail_price": 89.9,
           "status": 1,
           "prev_price": 63.49
@@ -3329,7 +3279,7 @@
           "sku_id": 3812410,
           "sku_name": "洁柔抽纸 黑Face3层150抽*18包 古龙香水味 大规格M码亲肤可湿水 整箱",
           "attr_text": "3层 150抽*18包 【古龙水香箱装】",
-          "price": 71.57,
+          "price": 64.24,
           "retail_price": 89.9,
           "status": 1,
           "prev_price": 71.57
@@ -3540,7 +3490,7 @@
           "price": 102.46,
           "retail_price": 114,
           "status": 1,
-          "prev_price": 105.5
+          "prev_price": 102.46
         },
         {
           "sku_id": 103198,
@@ -3969,49 +3919,6 @@
           "retail_price": 152,
           "status": 1,
           "prev_price": 95.84
-        }
-      ]
-    },
-    {
-      "goods_id": 2217163,
-      "goods_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女护肤京东自营 保湿洁面泡沫150ml",
-      "spu_sn": "G12DDC03D6B",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/460355/35/11771/24375/6a3e39e4Ff16b843e/0083320320449b7b.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 57,
-      "max_price": 80,
-      "prev_price": 57,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 37089,
-          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女护肤京东自营 保湿洁面泡沫150ml",
-          "attr_text": "【干敏肌/不紧绷】保湿洁面150ml",
-          "price": 76,
-          "retail_price": 89,
-          "status": 1,
-          "prev_price": 76
-        },
-        {
-          "sku_id": 37096,
-          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 保湿洁面泡沫补充装130ml",
-          "attr_text": "【性价比挚选】保湿洁面130ml",
-          "price": 57,
-          "retail_price": 61,
-          "status": 1,
-          "prev_price": 57
-        },
-        {
-          "sku_id": 37097,
-          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女京东自营 控油保湿洁面泡沫150ml",
-          "attr_text": "【油性肌/净毛孔】控油洁面150ml",
-          "price": 80,
-          "retail_price": 89,
-          "status": 1,
-          "prev_price": 80
         }
       ]
     },
@@ -5194,8 +5101,8 @@
       "skus": [
         {
           "sku_id": 60205,
-          "sku_name": "美的净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
-          "attr_text": "禅意-储水壶款/F1-更换周期1年 / 购前详询客服",
+          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
+          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
           "price": 378.77,
           "retail_price": 435,
           "status": 1,
@@ -5345,6 +5252,40 @@
           "retail_price": 469,
           "status": 1,
           "prev_price": 221.29
+        }
+      ]
+    },
+    {
+      "goods_id": 2607818,
+      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
+      "spu_sn": "G4DDEF0D20A",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 2,
+      "min_price": 169,
+      "max_price": 179,
+      "prev_price": 169,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 7507984,
+          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
+          "attr_text": "1.6L 【爆款升级】小饭煲N1",
+          "price": 169,
+          "retail_price": 179,
+          "status": 1,
+          "prev_price": 169
+        },
+        {
+          "sku_id": 7507983,
+          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
+          "attr_text": "1.5L 【智能互联】小饭煲",
+          "price": 179,
+          "retail_price": 212,
+          "status": 1,
+          "prev_price": 179
         }
       ]
     },
@@ -6812,31 +6753,6 @@
       ]
     },
     {
-      "goods_id": 2113493,
-      "goods_name": "清风 厨房湿巾（40片/包）-40片/包*2包",
-      "spu_sn": "GDC2CABD7F6",
-      "main_img": "http://img-erp1.douhuomall.com/firm_0208/sku/carousel/212c20c6ff6a2acebb26f24426d25c498392bce3.jpg?eUAHQYKmAsh8sjYU1rzOhg&F4MnFxcFsB3C4hxy76s05U06szu88r6v1uc35WJ0WXk",
-      "status": 1,
-      "supply_type": 5,
-      "sku_count": 1,
-      "min_price": 23.45,
-      "max_price": 23.45,
-      "prev_price": 23.45,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 6288489,
-          "sku_name": "清风 厨房湿巾（40片/包）-40片/包*2包",
-          "attr_text": "40片/包*2包",
-          "price": 23.45,
-          "retail_price": 59,
-          "status": 1,
-          "prev_price": 23.45
-        }
-      ]
-    },
-    {
       "goods_id": 1102802484,
       "goods_name": "清风 有芯卷纸原木纯品4层140克*24卷压花小卷纸-有芯卷纸原木纯品4层140克*24卷",
       "spu_sn": "GFCD7FD12EE",
@@ -6879,7 +6795,7 @@
           "sku_id": 34487,
           "sku_name": "清风【李昀锐同款】抽纸 厚柔4层90抽24包M码 卫生纸巾餐巾纸 整箱装",
           "attr_text": "4层 90抽*24包 【店铺销量top1】",
-          "price": 39.8,
+          "price": 39.48,
           "retail_price": 65.8,
           "status": 1,
           "prev_price": 39.8
@@ -7256,7 +7172,7 @@
     },
     {
       "goods_id": 2616529,
-      "goods_name": "雀巢（Nestle）进口脆谷乐儿童零食500g谷物圈儿童麦片早餐即食非油炸学生开学",
+      "goods_name": "雀巢（Nestle）进口脆谷乐儿童零食500g谷物圈儿童麦片早餐即食非油炸国庆佳礼",
       "spu_sn": "G56F0846A4F",
       "main_img": "https://img13.360buyimg.com/n12/jfs/t1/512242/40/2800/537288/6a8d5533F60167eab/05f732032036cb87.png",
       "status": 1,
@@ -7288,7 +7204,7 @@
         },
         {
           "sku_id": 417225,
-          "sku_name": "雀巢（Nestle）进口儿童零食可可味滋滋即食谷物500g早餐麦片代餐全谷物开学",
+          "sku_name": "雀巢（Nestle）进口儿童零食可可味滋滋即食谷物500g早餐麦片代餐全谷物国庆佳礼",
           "attr_text": "【家庭乐享】可可味滋滋 500g*1盒",
           "price": 35,
           "retail_price": 36,
@@ -7297,7 +7213,7 @@
         },
         {
           "sku_id": 417226,
-          "sku_name": "雀巢（Nestle）进口脆谷乐儿童零食500g谷物圈儿童麦片早餐即食非油炸学生开学",
+          "sku_name": "雀巢（Nestle）进口脆谷乐儿童零食500g谷物圈儿童麦片早餐即食非油炸国庆佳礼",
           "attr_text": "【超值囤货】脆谷乐 500g*1盒",
           "price": 39.89,
           "retail_price": 60.9,
@@ -7357,15 +7273,6 @@
           "prev_price": 29.9
         },
         {
-          "sku_id": 1250069516,
-          "sku_name": "认养一头牛零乳糖牛奶125ml*12盒 3.6g高钙牛奶整箱 京东自营 奈娃联名礼盒",
-          "attr_text": "【Mini款 奈娃零乳糖】125ml*12",
-          "price": 25.9,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 25.9
-        },
-        {
           "sku_id": 1250069518,
           "sku_name": "认养一头牛低脂纯牛奶200ml*10盒 3.3g减脂期早餐牛奶整箱 京东自营",
           "attr_text": "【轻负担 低脂纯奶】200ml*10",
@@ -7384,15 +7291,6 @@
           "prev_price": 99
         },
         {
-          "sku_id": 1103079179,
-          "sku_name": "认养一头牛高钙纯牛奶3.6g蛋白 250ml*10盒*2箱 京东自营 家庭囤货礼盒装",
-          "attr_text": "【高钙礼盒】250ml*10盒*2提",
-          "price": 74.9,
-          "retail_price": 99.62,
-          "status": 1,
-          "prev_price": 74.9
-        },
-        {
           "sku_id": 55569,
           "sku_name": "认养一头牛娟姗纯牛奶 250ml*10盒 高端牛奶 纯牛奶 早餐奶 一提装",
           "attr_text": "【奢华娟姗】娟姗纯牛奶250ml*10",
@@ -7409,6 +7307,24 @@
           "retail_price": 39,
           "status": 0,
           "prev_price": 0
+        },
+        {
+          "sku_id": 1250069516,
+          "sku_name": "认养一头牛零乳糖牛奶125ml*12盒 3.6g高钙牛奶整箱 京东自营 奈娃联名礼盒",
+          "attr_text": "【Mini款 奈娃零乳糖】125ml*12",
+          "price": 0,
+          "retail_price": 29,
+          "status": 0,
+          "prev_price": 25.9
+        },
+        {
+          "sku_id": 1103079179,
+          "sku_name": "认养一头牛高钙纯牛奶3.6g蛋白 250ml*10盒*2箱 京东自营 家庭囤货礼盒装",
+          "attr_text": "【高钙礼盒】250ml*10盒*2提",
+          "price": 74.9,
+          "retail_price": 99.62,
+          "status": 0,
+          "prev_price": 74.9
         }
       ]
     },
@@ -8390,7 +8306,7 @@
       "supply_type": 1,
       "sku_count": 7,
       "min_price": 239.64,
-      "max_price": 479,
+      "max_price": 493.1,
       "prev_price": 239.64,
       "price_change": 0,
       "price_change_pct": 0,
@@ -8399,10 +8315,10 @@
           "sku_id": 736699,
           "sku_name": "松下（Panasonic）台灯 AAAAA级台灯学生学习阅读全光谱护眼台灯智能灯",
           "attr_text": "【旋钮式】致焰-17W-全光谱",
-          "price": 479,
-          "retail_price": 532,
+          "price": 493.1,
+          "retail_price": 567,
           "status": 1,
-          "prev_price": 493.1
+          "prev_price": 479
         },
         {
           "sku_id": 4919,
@@ -8500,49 +8416,6 @@
           "retail_price": 1099,
           "status": 0,
           "prev_price": 699
-        }
-      ]
-    },
-    {
-      "goods_id": 6850,
-      "goods_name": "苏泊尔（SUPOR）苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机水龙头保留矿物质水不插电过滤器家庭用DU2U3",
-      "spu_sn": "G5D235FF38F",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 244.32,
-      "max_price": 292.81,
-      "prev_price": 244.32,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 13028,
-          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
-          "attr_text": "【自行安装】-1.5升/分钟",
-          "price": 244.32,
-          "retail_price": 337.66,
-          "status": 1,
-          "prev_price": 244.32
-        },
-        {
-          "sku_id": 65236,
-          "sku_name": "苏泊尔（SUPOR）苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机水龙头保留矿物质水不插电过滤器家庭用DU2U3",
-          "attr_text": "【基础款】-0废水不用电",
-          "price": 292.81,
-          "retail_price": 696,
-          "status": 1,
-          "prev_price": 292.81
-        },
-        {
-          "sku_id": 2438261,
-          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
-          "attr_text": "纳米级超滤-小海绵",
-          "price": 264.6,
-          "retail_price": 299,
-          "status": 0,
-          "prev_price": 264.6
         }
       ]
     },
@@ -8967,7 +8840,7 @@
           "sku_id": 33009,
           "sku_name": "威猛先生（Mr Muscle） 地板清洁剂 2kg*2瓶 柠檬香型 瓷砖除菌除垢 浓缩配方",
           "attr_text": "2kg 2瓶 柠檬香型",
-          "price": 56.9,
+          "price": 49.9,
           "retail_price": 63,
           "status": 1,
           "prev_price": 56.9
@@ -9528,31 +9401,6 @@
           "retail_price": 399,
           "status": 1,
           "prev_price": 272.16
-        }
-      ]
-    },
-    {
-      "goods_id": 1102765865,
-      "goods_name": "心相印 XJA040 厨房湿巾 M码 40片*3包【40片*3包/国内发货/1件】",
-      "spu_sn": "GF888831B8F",
-      "main_img": "https://img.picing.com/7160590307088198359_600X600_vW.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
-      "status": 1,
-      "supply_type": 17,
-      "sku_count": 1,
-      "min_price": 35.64,
-      "max_price": 35.64,
-      "prev_price": 35.64,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 1250619546,
-          "sku_name": "心相印 XJA040 厨房湿巾 M码 40片*3包【40片*3包/国内发货/1件】",
-          "attr_text": "40片*3包 / 国内发货 / 1件",
-          "price": 35.64,
-          "retail_price": 60,
-          "status": 1,
-          "prev_price": 35.64
         }
       ]
     },
@@ -11453,7 +11301,7 @@
           "attr_text": "巧级元气（草莓巧克力）200ml",
           "price": 36.05,
           "retail_price": 49,
-          "status": 1,
+          "status": 0,
           "prev_price": 36.05
         },
         {
@@ -11462,8 +11310,103 @@
           "attr_text": "来比个椰（清新椰奶香）200ml",
           "price": 36.05,
           "retail_price": 49,
-          "status": 1,
+          "status": 0,
           "prev_price": 36.05
+        }
+      ]
+    },
+    {
+      "goods_id": 6850,
+      "goods_name": "苏泊尔（SUPOR）苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机水龙头保留矿物质水不插电过滤器家庭用DU2U3",
+      "spu_sn": "G5D235FF38F",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 242.76,
+      "max_price": 292.81,
+      "prev_price": 244.32,
+      "price_change": -1.56,
+      "price_change_pct": -0.64,
+      "skus": [
+        {
+          "sku_id": 13028,
+          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
+          "attr_text": "【自行安装】-1.5升/分钟",
+          "price": 242.76,
+          "retail_price": 337.66,
+          "status": 1,
+          "prev_price": 244.32
+        },
+        {
+          "sku_id": 65236,
+          "sku_name": "苏泊尔（SUPOR）苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机水龙头保留矿物质水不插电过滤器家庭用DU2U3",
+          "attr_text": "【基础款】-0废水不用电",
+          "price": 292.81,
+          "retail_price": 696,
+          "status": 1,
+          "prev_price": 292.81
+        },
+        {
+          "sku_id": 2438261,
+          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
+          "attr_text": "纳米级超滤-小海绵",
+          "price": 264.6,
+          "retail_price": 299,
+          "status": 0,
+          "prev_price": 264.6
+        }
+      ]
+    },
+    {
+      "goods_id": 2217163,
+      "goods_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 控油洁面泡沫补充装130ml",
+      "spu_sn": "G12DDC03D6B",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/117042/4/16340/362230/5f472fc4E6d295884/164d328b9393be8d.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 49,
+      "max_price": 80,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 37089,
+          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女护肤京东自营 保湿洁面泡沫150ml",
+          "attr_text": "【干敏肌/不紧绷】保湿洁面150ml",
+          "price": 76,
+          "retail_price": 89,
+          "status": 1,
+          "prev_price": 76
+        },
+        {
+          "sku_id": 37096,
+          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 保湿洁面泡沫补充装130ml",
+          "attr_text": "【性价比挚选】保湿洁面130ml",
+          "price": 57,
+          "retail_price": 61,
+          "status": 1,
+          "prev_price": 57
+        },
+        {
+          "sku_id": 37097,
+          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女京东自营 控油保湿洁面泡沫150ml",
+          "attr_text": "【油性肌/净毛孔】控油洁面150ml",
+          "price": 80,
+          "retail_price": 89,
+          "status": 1,
+          "prev_price": 80
+        },
+        {
+          "sku_id": 37098,
+          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 控油洁面泡沫补充装130ml",
+          "attr_text": "【纯享补充装】控油洁面130ml",
+          "price": 49,
+          "retail_price": 77,
+          "status": 1,
+          "prev_price": null
         }
       ]
     }
