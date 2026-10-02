@@ -1,10 +1,62 @@
 {
-  "updated_at": "2026-10-02T01:20:35.323Z",
+  "updated_at": "2026-10-02T07:02:44.547Z",
   "date": "2026-10-02",
   "goods_count": 242,
   "error_count": 0,
   "errors": [],
   "goods": [
+    {
+      "goods_id": 219499,
+      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+      "spu_sn": "GEA38F355C9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 25.6,
+      "max_price": 54.98,
+      "prev_price": 25.4,
+      "price_change": 0.2,
+      "price_change_pct": 0.79,
+      "skus": [
+        {
+          "sku_id": 360103,
+          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
+          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
+          "price": 25.6,
+          "retail_price": 29,
+          "status": 1,
+          "prev_price": 25.4
+        },
+        {
+          "sku_id": 431075,
+          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
+          "attr_text": "【营养早餐】香甜玉米片420g/盒",
+          "price": 26,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26
+        },
+        {
+          "sku_id": 638688,
+          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
+          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
+          "price": 26.9,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26.9
+        },
+        {
+          "sku_id": 3361127,
+          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
+          "price": 54.98,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 54.98
+        }
+      ]
+    },
     {
       "goods_id": 1102671568,
       "goods_name": "【4支】牙博士宝贝保健儿童（超细软毛）牙刷6-12岁适用儿童牙刷1支装*4支 DT221【儿童牙刷1支装*4支/国内发货/1件】",
@@ -2568,7 +2620,7 @@
           "sku_id": 186413,
           "sku_name": "花王（KAO）柔软洗衣液690g+560g*2 衣物持久留香含柔顺剂去污 味道随机发货",
           "attr_text": "柔顺 690g*1瓶 +560g*2袋-随机发货",
-          "price": 82.3,
+          "price": 75.29,
           "retail_price": 99,
           "status": 1,
           "prev_price": 82.3
@@ -3055,58 +3107,6 @@
           "retail_price": 138,
           "status": 1,
           "prev_price": 61.56
-        }
-      ]
-    },
-    {
-      "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-      "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 25.4,
-      "max_price": 54.98,
-      "prev_price": 25.4,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 360103,
-          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
-          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
-          "price": 25.4,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 25.4
-        },
-        {
-          "sku_id": 431075,
-          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
-          "attr_text": "【营养早餐】香甜玉米片420g/盒",
-          "price": 26,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26
-        },
-        {
-          "sku_id": 638688,
-          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
-          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
-          "price": 26.9,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26.9
-        },
-        {
-          "sku_id": 3361127,
-          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
-          "status": 1,
-          "prev_price": 54.98
         }
       ]
     },
@@ -8901,7 +8901,7 @@
           "sku_id": 404538,
           "sku_name": "威猛先生（Mr Muscle）洁厕灵 600g*2瓶 柠檬草香 洁厕剂 马桶清洁 超市同款",
           "attr_text": "柠檬草香 600g 2瓶",
-          "price": 16.79,
+          "price": 13.7,
           "retail_price": 18,
           "status": 1,
           "prev_price": 16.79
@@ -11317,7 +11317,7 @@
     },
     {
       "goods_id": 6850,
-      "goods_name": "苏泊尔（SUPOR）苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机水龙头保留矿物质水不插电过滤器家庭用DU2U3",
+      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
       "spu_sn": "G5D235FF38F",
       "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
       "status": 1,
@@ -11340,7 +11340,7 @@
         },
         {
           "sku_id": 65236,
-          "sku_name": "苏泊尔（SUPOR）苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机水龙头保留矿物质水不插电过滤器家庭用DU2U3",
+          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
           "attr_text": "【基础款】-0废水不用电",
           "price": 292.81,
           "retail_price": 696,
