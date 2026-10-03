@@ -1,59 +1,84 @@
 {
-  "updated_at": "2026-10-02T07:02:44.547Z",
-  "date": "2026-10-02",
+  "updated_at": "2026-10-03T01:20:37.316Z",
+  "date": "2026-10-03",
   "goods_count": 242,
   "error_count": 0,
   "errors": [],
   "goods": [
     {
-      "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-      "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
+      "goods_id": 30030,
+      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+      "spu_sn": "GA1C5A305C5",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/528860/4/5199/116439/6abf7de7F552a06ad/00833203200adf3e.jpg",
       "status": 1,
       "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 25.6,
-      "max_price": 54.98,
-      "prev_price": 25.4,
-      "price_change": 0.2,
-      "price_change_pct": 0.79,
+      "sku_count": 2,
+      "min_price": 375.2,
+      "max_price": 378.77,
+      "prev_price": 339.34,
+      "price_change": 35.86,
+      "price_change_pct": 10.57,
       "skus": [
         {
-          "sku_id": 360103,
-          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
-          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
-          "price": 25.6,
-          "retail_price": 29,
+          "sku_id": 60205,
+          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
+          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
+          "price": 378.77,
+          "retail_price": 435,
           "status": 1,
-          "prev_price": 25.4
+          "prev_price": 378.77
         },
         {
-          "sku_id": 431075,
-          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
-          "attr_text": "【营养早餐】香甜玉米片420g/盒",
-          "price": 26,
-          "retail_price": 34.9,
+          "sku_id": 2446120,
+          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
+          "price": 375.2,
+          "retail_price": 499,
           "status": 1,
-          "prev_price": 26
+          "prev_price": 339.34
+        }
+      ]
+    },
+    {
+      "goods_id": 6850,
+      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
+      "spu_sn": "G5D235FF38F",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 244.32,
+      "max_price": 292.81,
+      "prev_price": 242.76,
+      "price_change": 1.56,
+      "price_change_pct": 0.64,
+      "skus": [
+        {
+          "sku_id": 13028,
+          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
+          "attr_text": "【自行安装】-1.5升/分钟",
+          "price": 244.32,
+          "retail_price": 337.66,
+          "status": 1,
+          "prev_price": 242.76
         },
         {
-          "sku_id": 638688,
-          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
-          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
-          "price": 26.9,
-          "retail_price": 34.9,
+          "sku_id": 65236,
+          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
+          "attr_text": "【基础款】-0废水不用电",
+          "price": 292.81,
+          "retail_price": 696,
           "status": 1,
-          "prev_price": 26.9
+          "prev_price": 292.81
         },
         {
-          "sku_id": 3361127,
-          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
-          "status": 1,
-          "prev_price": 54.98
+          "sku_id": 2438261,
+          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
+          "attr_text": "纳米级超滤-小海绵",
+          "price": 264.6,
+          "retail_price": 299,
+          "status": 0,
+          "prev_price": 264.6
         }
       ]
     },
@@ -2623,7 +2648,7 @@
           "price": 75.29,
           "retail_price": 99,
           "status": 1,
-          "prev_price": 82.3
+          "prev_price": 75.29
         },
         {
           "sku_id": 410675,
@@ -2734,6 +2759,15 @@
           "prev_price": 61.1
         },
         {
+          "sku_id": 7532961,
+          "sku_name": "花王（KAO）室内阴干不臭洗衣液720g 酵素抗菌留香洁霸洗衣液原装进口",
+          "attr_text": "【阴干不臭】 720g*1瓶",
+          "price": 36,
+          "retail_price": 59,
+          "status": 1,
+          "prev_price": 36
+        },
+        {
           "sku_id": 7532962,
           "sku_name": "花王（KAO）柔软洗衣液690g*2 含柔顺剂护色清洁去污洗护合一持久留香",
           "attr_text": "【香氛柔顺】玫瑰香 690g*2瓶",
@@ -2804,15 +2838,6 @@
           "retail_price": 49.9,
           "status": 0,
           "prev_price": 32.1
-        },
-        {
-          "sku_id": 7532961,
-          "sku_name": "花王（KAO）室内阴干不臭洗衣液720g 酵素抗菌留香洁霸洗衣液原装进口",
-          "attr_text": "【阴干不臭】 720g*1瓶",
-          "price": 36,
-          "retail_price": 59,
-          "status": 0,
-          "prev_price": 36
         }
       ]
     },
@@ -3218,14 +3243,14 @@
     },
     {
       "goods_id": 231286,
-      "goods_name": "洁柔抽纸 黑Face4层108抽*3盒 硬盒装抽纸 可湿水面巾纸 卫生纸纸巾",
+      "goods_name": "洁柔抽纸 黑Face3层100抽*30包 可湿水面巾纸 干湿两用卫生纸纸巾",
       "spu_sn": "G296571AAC5",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/341112/5/15039/166725/6937b54dFccf4426f/0faf7cbdd6bc2386.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/496344/31/14100/172125/6a87f6dfFb97956d5/05f75a05a01d0037.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 8,
       "min_price": 17.9,
-      "max_price": 64.24,
+      "max_price": 63.49,
       "prev_price": 17.9,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3234,7 +3259,7 @@
           "sku_id": 32518,
           "sku_name": "洁柔抽纸 黑Face3层100抽*30包 可湿水面巾纸 干湿两用卫生纸纸巾",
           "attr_text": "【家庭囤货装】 3层 100抽*30包",
-          "price": 63.49,
+          "price": 61.64,
           "retail_price": 99,
           "status": 1,
           "prev_price": 63.49
@@ -3246,7 +3271,7 @@
           "price": 63.49,
           "retail_price": 85.9,
           "status": 1,
-          "prev_price": 63.39
+          "prev_price": 63.49
         },
         {
           "sku_id": 33724,
@@ -3255,7 +3280,7 @@
           "price": 61.51,
           "retail_price": 89.9,
           "status": 1,
-          "prev_price": 63.49
+          "prev_price": 61.51
         },
         {
           "sku_id": 144469,
@@ -3279,10 +3304,10 @@
           "sku_id": 3812410,
           "sku_name": "洁柔抽纸 黑Face3层150抽*18包 古龙香水味 大规格M码亲肤可湿水 整箱",
           "attr_text": "3层 150抽*18包 【古龙水香箱装】",
-          "price": 64.24,
+          "price": 61.79,
           "retail_price": 89.9,
           "status": 1,
-          "prev_price": 71.57
+          "prev_price": 64.24
         },
         {
           "sku_id": 3812411,
@@ -3919,6 +3944,58 @@
           "retail_price": 152,
           "status": 1,
           "prev_price": 95.84
+        }
+      ]
+    },
+    {
+      "goods_id": 2217163,
+      "goods_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 控油洁面泡沫补充装130ml",
+      "spu_sn": "G12DDC03D6B",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/117042/4/16340/362230/5f472fc4E6d295884/164d328b9393be8d.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 49,
+      "max_price": 80,
+      "prev_price": 49,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 37089,
+          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女护肤京东自营 保湿洁面泡沫150ml",
+          "attr_text": "【干敏肌/不紧绷】保湿洁面150ml",
+          "price": 76,
+          "retail_price": 89,
+          "status": 1,
+          "prev_price": 76
+        },
+        {
+          "sku_id": 37096,
+          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 保湿洁面泡沫补充装130ml",
+          "attr_text": "【性价比挚选】保湿洁面130ml",
+          "price": 57,
+          "retail_price": 61,
+          "status": 1,
+          "prev_price": 57
+        },
+        {
+          "sku_id": 37097,
+          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女京东自营 控油保湿洁面泡沫150ml",
+          "attr_text": "【油性肌/净毛孔】控油洁面150ml",
+          "price": 80,
+          "retail_price": 89,
+          "status": 1,
+          "prev_price": 80
+        },
+        {
+          "sku_id": 37098,
+          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 控油洁面泡沫补充装130ml",
+          "attr_text": "【纯享补充装】控油洁面130ml",
+          "price": 49,
+          "retail_price": 77,
+          "status": 1,
+          "prev_price": 49
         }
       ]
     },
@@ -5086,40 +5163,6 @@
       ]
     },
     {
-      "goods_id": 30030,
-      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-      "spu_sn": "GA1C5A305C5",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/344437/40/9790/84934/68e50d1aFa6cf6f56/7cd9f8237327d177.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 339.34,
-      "max_price": 378.77,
-      "prev_price": 339.34,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 60205,
-          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
-          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
-          "price": 378.77,
-          "retail_price": 435,
-          "status": 1,
-          "prev_price": 378.77
-        },
-        {
-          "sku_id": 2446120,
-          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
-          "price": 339.34,
-          "retail_price": 499,
-          "status": 1,
-          "prev_price": 339.34
-        }
-      ]
-    },
-    {
       "goods_id": 2220694,
       "goods_name": "美好时光原味海苔片48包36g 即食紫菜寿司包饭海苔 儿童休闲零食礼物",
       "spu_sn": "GEE4B0E4A0F",
@@ -5252,40 +5295,6 @@
           "retail_price": 469,
           "status": 1,
           "prev_price": 221.29
-        }
-      ]
-    },
-    {
-      "goods_id": 2607818,
-      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-      "spu_sn": "G4DDEF0D20A",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 169,
-      "max_price": 179,
-      "prev_price": 169,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 7507984,
-          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-          "attr_text": "1.6L 【爆款升级】小饭煲N1",
-          "price": 169,
-          "retail_price": 179,
-          "status": 1,
-          "prev_price": 169
-        },
-        {
-          "sku_id": 7507983,
-          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
-          "attr_text": "1.5L 【智能互联】小饭煲",
-          "price": 179,
-          "retail_price": 212,
-          "status": 1,
-          "prev_price": 179
         }
       ]
     },
@@ -6795,10 +6804,10 @@
           "sku_id": 34487,
           "sku_name": "清风【李昀锐同款】抽纸 厚柔4层90抽24包M码 卫生纸巾餐巾纸 整箱装",
           "attr_text": "4层 90抽*24包 【店铺销量top1】",
-          "price": 39.48,
+          "price": 39.8,
           "retail_price": 65.8,
           "status": 1,
-          "prev_price": 39.8
+          "prev_price": 39.48
         },
         {
           "sku_id": 149705,
@@ -7315,7 +7324,7 @@
           "price": 0,
           "retail_price": 29,
           "status": 0,
-          "prev_price": 25.9
+          "prev_price": 0
         },
         {
           "sku_id": 1103079179,
@@ -8318,7 +8327,7 @@
           "price": 493.1,
           "retail_price": 567,
           "status": 1,
-          "prev_price": 479
+          "prev_price": 493.1
         },
         {
           "sku_id": 4919,
@@ -8843,7 +8852,7 @@
           "price": 49.9,
           "retail_price": 63,
           "status": 1,
-          "prev_price": 56.9
+          "prev_price": 49.9
         },
         {
           "sku_id": 33010,
@@ -8904,7 +8913,7 @@
           "price": 13.7,
           "retail_price": 18,
           "status": 1,
-          "prev_price": 16.79
+          "prev_price": 13.7
         },
         {
           "sku_id": 32154,
@@ -11316,97 +11325,88 @@
       ]
     },
     {
-      "goods_id": 6850,
-      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
-      "spu_sn": "G5D235FF38F",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
+      "goods_id": 219499,
+      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+      "spu_sn": "GEA38F355C9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
       "status": 1,
       "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 242.76,
-      "max_price": 292.81,
-      "prev_price": 244.32,
-      "price_change": -1.56,
-      "price_change_pct": -0.64,
+      "sku_count": 4,
+      "min_price": 25.4,
+      "max_price": 54.98,
+      "prev_price": 25.6,
+      "price_change": -0.2,
+      "price_change_pct": -0.78,
       "skus": [
         {
-          "sku_id": 13028,
-          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
-          "attr_text": "【自行安装】-1.5升/分钟",
-          "price": 242.76,
-          "retail_price": 337.66,
+          "sku_id": 360103,
+          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
+          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
+          "price": 25.4,
+          "retail_price": 29,
           "status": 1,
-          "prev_price": 244.32
+          "prev_price": 25.6
         },
         {
-          "sku_id": 65236,
-          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
-          "attr_text": "【基础款】-0废水不用电",
-          "price": 292.81,
-          "retail_price": 696,
+          "sku_id": 431075,
+          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
+          "attr_text": "【营养早餐】香甜玉米片420g/盒",
+          "price": 26,
+          "retail_price": 34.9,
           "status": 1,
-          "prev_price": 292.81
+          "prev_price": 26
         },
         {
-          "sku_id": 2438261,
-          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
-          "attr_text": "纳米级超滤-小海绵",
-          "price": 264.6,
-          "retail_price": 299,
-          "status": 0,
-          "prev_price": 264.6
+          "sku_id": 638688,
+          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
+          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
+          "price": 26.9,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26.9
+        },
+        {
+          "sku_id": 3361127,
+          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
+          "price": 54.98,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 54.98
         }
       ]
     },
     {
-      "goods_id": 2217163,
-      "goods_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 控油洁面泡沫补充装130ml",
-      "spu_sn": "G12DDC03D6B",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/117042/4/16340/362230/5f472fc4E6d295884/164d328b9393be8d.png",
+      "goods_id": 2607818,
+      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
+      "spu_sn": "G4DDEF0D20A",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
       "status": 1,
       "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 49,
-      "max_price": 80,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "sku_count": 2,
+      "min_price": 152.1,
+      "max_price": 179,
+      "prev_price": 169,
+      "price_change": -16.9,
+      "price_change_pct": -10,
       "skus": [
         {
-          "sku_id": 37089,
-          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女护肤京东自营 保湿洁面泡沫150ml",
-          "attr_text": "【干敏肌/不紧绷】保湿洁面150ml",
-          "price": 76,
-          "retail_price": 89,
+          "sku_id": 7507984,
+          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
+          "attr_text": "1.6L 【爆款升级】小饭煲N1",
+          "price": 152.1,
+          "retail_price": 179,
           "status": 1,
-          "prev_price": 76
+          "prev_price": 169
         },
         {
-          "sku_id": 37096,
-          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 保湿洁面泡沫补充装130ml",
-          "attr_text": "【性价比挚选】保湿洁面130ml",
-          "price": 57,
-          "retail_price": 61,
+          "sku_id": 7507983,
+          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
+          "attr_text": "1.5L 【智能互联】小饭煲",
+          "price": 179,
+          "retail_price": 212,
           "status": 1,
-          "prev_price": 57
-        },
-        {
-          "sku_id": 37097,
-          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女京东自营 控油保湿洁面泡沫150ml",
-          "attr_text": "【油性肌/净毛孔】控油洁面150ml",
-          "price": 80,
-          "retail_price": 89,
-          "status": 1,
-          "prev_price": 80
-        },
-        {
-          "sku_id": 37098,
-          "sku_name": "珂润（Curel）氨基酸洗面奶温和清洁敏感肌男女士自营 控油洁面泡沫补充装130ml",
-          "attr_text": "【纯享补充装】控油洁面130ml",
-          "price": 49,
-          "retail_price": 77,
-          "status": 1,
-          "prev_price": null
+          "prev_price": 179
         }
       ]
     }
