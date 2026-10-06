@@ -1,62 +1,10 @@
 {
-  "updated_at": "2026-10-05T07:04:38.525Z",
-  "date": "2026-10-05",
+  "updated_at": "2026-10-06T01:20:45.770Z",
+  "date": "2026-10-06",
   "goods_count": 242,
   "error_count": 0,
   "errors": [],
   "goods": [
-    {
-      "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-      "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 25.6,
-      "max_price": 54.98,
-      "prev_price": 25.4,
-      "price_change": 0.2,
-      "price_change_pct": 0.79,
-      "skus": [
-        {
-          "sku_id": 360103,
-          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
-          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
-          "price": 25.6,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 25.4
-        },
-        {
-          "sku_id": 431075,
-          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
-          "attr_text": "【营养早餐】香甜玉米片420g/盒",
-          "price": 26,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26
-        },
-        {
-          "sku_id": 638688,
-          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
-          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
-          "price": 26.9,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26.9
-        },
-        {
-          "sku_id": 3361127,
-          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
-          "status": 1,
-          "prev_price": 54.98
-        }
-      ]
-    },
     {
       "goods_id": 1102671568,
       "goods_name": "【4支】牙博士宝贝保健儿童（超细软毛）牙刷6-12岁适用儿童牙刷1支装*4支 DT221【儿童牙刷1支装*4支/国内发货/1件】",
@@ -3111,6 +3059,58 @@
       ]
     },
     {
+      "goods_id": 219499,
+      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+      "spu_sn": "GEA38F355C9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 25.6,
+      "max_price": 54.98,
+      "prev_price": 25.6,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 360103,
+          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
+          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
+          "price": 25.6,
+          "retail_price": 29,
+          "status": 1,
+          "prev_price": 25.6
+        },
+        {
+          "sku_id": 431075,
+          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
+          "attr_text": "【营养早餐】香甜玉米片420g/盒",
+          "price": 26,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26
+        },
+        {
+          "sku_id": 638688,
+          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
+          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
+          "price": 26.9,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26.9
+        },
+        {
+          "sku_id": 3361127,
+          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
+          "price": 54.98,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 54.98
+        }
+      ]
+    },
+    {
       "goods_id": 22864,
       "goods_name": "简爱父爱配方儿童酸奶 2%蔗糖果蔬 100g*6 宝宝酸奶零食 营养早餐",
       "spu_sn": "G3B63202CFD",
@@ -3246,7 +3246,7 @@
           "price": 63.39,
           "retail_price": 85.9,
           "status": 1,
-          "prev_price": 63.49
+          "prev_price": 63.39
         },
         {
           "sku_id": 33724,
@@ -3273,7 +3273,7 @@
           "price": 29.9,
           "retail_price": 39.9,
           "status": 1,
-          "prev_price": 29.8
+          "prev_price": 29.9
         },
         {
           "sku_id": 3812410,
@@ -6074,7 +6074,7 @@
           "price": 69.9,
           "retail_price": 75,
           "status": 1,
-          "prev_price": 72
+          "prev_price": 69.9
         },
         {
           "sku_id": 432243,
@@ -6580,7 +6580,7 @@
       "goods_id": 217434,
       "goods_name": "青蛙王子儿童面霜 宝宝面霜 儿童宝宝霜 倍润补水保湿修护霜 60g",
       "spu_sn": "G2DABD7761C",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/346657/24/19837/324287/69030615F49ae0cd5/9fde7b336f762f78.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/351535/10/16187/26744/6936678eFa0d2bb6f/d69a77a3bd7e862a.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 11,
@@ -6615,7 +6615,7 @@
           "price": 23.9,
           "retail_price": 27,
           "status": 1,
-          "prev_price": 25.9
+          "prev_price": 23.9
         },
         {
           "sku_id": 425554,
@@ -7644,7 +7644,7 @@
           "sku_id": 1250066766,
           "sku_name": "沙巴哇越南进口果蔬干180g 果蔬脆片蜜饯水果干混合装 休闲零食下午茶",
           "attr_text": "180g1袋",
-          "price": 21.8,
+          "price": 21.9,
           "retail_price": 24,
           "status": 0,
           "prev_price": 21.8
@@ -8370,7 +8370,7 @@
           "price": 479,
           "retail_price": 551,
           "status": 1,
-          "prev_price": 493.1
+          "prev_price": 479
         },
         {
           "sku_id": 4919,
