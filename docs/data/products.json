@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T01:20:45.770Z",
+  "updated_at": "2026-10-06T07:36:15.750Z",
   "date": "2026-10-06",
   "goods_count": 242,
   "error_count": 0,
@@ -10608,94 +10608,6 @@
       ]
     },
     {
-      "goods_id": 218064,
-      "goods_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
-      "spu_sn": "GEA78EC2083",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/509349/26/14107/260405/6a9b8c21F565faa3d/00834e64e6dd8765.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 8,
-      "min_price": 12.91,
-      "max_price": 49,
-      "prev_price": 12.91,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 427773,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩嘴唇防干裂滋润保湿护唇膏宝宝学生秋冬",
-          "attr_text": "【保湿唇膏】蜜桃+植物",
-          "price": 18.9,
-          "retail_price": 25,
-          "status": 1,
-          "prev_price": 18.9
-        },
-        {
-          "sku_id": 3751757,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
-          "attr_text": "【倍润护唇】儿童蜜桃唇膏",
-          "price": 12.91,
-          "retail_price": 20,
-          "status": 1,
-          "prev_price": 12.91
-        },
-        {
-          "sku_id": 427772,
-          "sku_name": "植物主义 儿童护手霜身体乳宝宝秋冬专用补水保湿小花护手霜+金盏花身体乳",
-          "attr_text": "【水润保湿】身体乳250ml手霜60g",
-          "price": 49,
-          "retail_price": 49,
-          "status": 0,
-          "prev_price": 49
-        },
-        {
-          "sku_id": 427774,
-          "sku_name": "植物主义儿童护手霜非按压婴儿润肤霜花朵型保湿滋润款女童手霜60g",
-          "attr_text": "【保湿嫩肤】小花儿童手霜60g",
-          "price": 19.9,
-          "retail_price": 19.9,
-          "status": 0,
-          "prev_price": 19.9
-        },
-        {
-          "sku_id": 427775,
-          "sku_name": "植物主义 护手霜 儿童护手霜 孕妈可用 非按压婴儿润肤霜 滋润防冻防干裂 花朵型保湿护手霜2支",
-          "attr_text": "【柔润水嫩】儿童手霜60gx2支",
-          "price": 32.59,
-          "retail_price": 29.9,
-          "status": 0,
-          "prev_price": 32.59
-        },
-        {
-          "sku_id": 427776,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生植物护唇膏",
-          "attr_text": "【植萃保湿】儿童植物唇膏",
-          "price": 13.9,
-          "retail_price": 19.9,
-          "status": 0,
-          "prev_price": 13.9
-        },
-        {
-          "sku_id": 427779,
-          "sku_name": "植物主义 宝宝身体乳 儿童润肤乳 滋润补水保湿护肤霜 每日倍护全身适用",
-          "attr_text": "【保湿润肤】儿童身体乳250ml",
-          "price": 30.31,
-          "retail_price": 39,
-          "status": 0,
-          "prev_price": 30.31
-        },
-        {
-          "sku_id": 427780,
-          "sku_name": "植物主义 儿童面霜乳液宝宝保湿霜防裂滋养润肤霜秋冬季2-3-6-12岁",
-          "attr_text": "【保湿舒缓】儿童润肤面霜55g",
-          "price": 31.13,
-          "retail_price": 39,
-          "status": 0,
-          "prev_price": 31.13
-        }
-      ]
-    },
-    {
       "goods_id": 356706,
       "goods_name": "植物主义儿童洗面奶氨基酸洁面3-6-12岁学生温和洁面泡沫男女孩护肤品",
       "spu_sn": "G8428E499D8",
@@ -11407,6 +11319,94 @@
           "retail_price": 49,
           "status": 0,
           "prev_price": 36.05
+        }
+      ]
+    },
+    {
+      "goods_id": 218064,
+      "goods_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
+      "spu_sn": "GEA78EC2083",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/509349/26/14107/260405/6a9b8c21F565faa3d/00834e64e6dd8765.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 8,
+      "min_price": 12.9,
+      "max_price": 49,
+      "prev_price": 12.91,
+      "price_change": -0.01,
+      "price_change_pct": -0.08,
+      "skus": [
+        {
+          "sku_id": 427773,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩嘴唇防干裂滋润保湿护唇膏宝宝学生秋冬",
+          "attr_text": "【保湿唇膏】蜜桃+植物",
+          "price": 18.9,
+          "retail_price": 25,
+          "status": 1,
+          "prev_price": 18.9
+        },
+        {
+          "sku_id": 3751757,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
+          "attr_text": "【倍润护唇】儿童蜜桃唇膏",
+          "price": 12.9,
+          "retail_price": 20,
+          "status": 1,
+          "prev_price": 12.91
+        },
+        {
+          "sku_id": 427772,
+          "sku_name": "植物主义 儿童护手霜身体乳宝宝秋冬专用补水保湿小花护手霜+金盏花身体乳",
+          "attr_text": "【水润保湿】身体乳250ml手霜60g",
+          "price": 49,
+          "retail_price": 49,
+          "status": 0,
+          "prev_price": 49
+        },
+        {
+          "sku_id": 427774,
+          "sku_name": "植物主义儿童护手霜非按压婴儿润肤霜花朵型保湿滋润款女童手霜60g",
+          "attr_text": "【保湿嫩肤】小花儿童手霜60g",
+          "price": 19.9,
+          "retail_price": 19.9,
+          "status": 0,
+          "prev_price": 19.9
+        },
+        {
+          "sku_id": 427775,
+          "sku_name": "植物主义 护手霜 儿童护手霜 孕妈可用 非按压婴儿润肤霜 滋润防冻防干裂 花朵型保湿护手霜2支",
+          "attr_text": "【柔润水嫩】儿童手霜60gx2支",
+          "price": 32.59,
+          "retail_price": 29.9,
+          "status": 0,
+          "prev_price": 32.59
+        },
+        {
+          "sku_id": 427776,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生植物护唇膏",
+          "attr_text": "【植萃保湿】儿童植物唇膏",
+          "price": 13.9,
+          "retail_price": 19.9,
+          "status": 0,
+          "prev_price": 13.9
+        },
+        {
+          "sku_id": 427779,
+          "sku_name": "植物主义 宝宝身体乳 儿童润肤乳 滋润补水保湿护肤霜 每日倍护全身适用",
+          "attr_text": "【保湿润肤】儿童身体乳250ml",
+          "price": 30.31,
+          "retail_price": 39,
+          "status": 0,
+          "prev_price": 30.31
+        },
+        {
+          "sku_id": 427780,
+          "sku_name": "植物主义 儿童面霜乳液宝宝保湿霜防裂滋养润肤霜秋冬季2-3-6-12岁",
+          "attr_text": "【保湿舒缓】儿童润肤面霜55g",
+          "price": 31.13,
+          "retail_price": 39,
+          "status": 0,
+          "prev_price": 31.13
         }
       ]
     }
