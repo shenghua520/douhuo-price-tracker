@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06T07:36:15.750Z",
-  "date": "2026-10-06",
+  "updated_at": "2026-10-07T01:21:03.747Z",
+  "date": "2026-10-07",
   "goods_count": 242,
   "error_count": 0,
   "errors": [],
@@ -3059,58 +3059,6 @@
       ]
     },
     {
-      "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-      "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 25.6,
-      "max_price": 54.98,
-      "prev_price": 25.6,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 360103,
-          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
-          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
-          "price": 25.6,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 25.6
-        },
-        {
-          "sku_id": 431075,
-          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
-          "attr_text": "【营养早餐】香甜玉米片420g/盒",
-          "price": 26,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26
-        },
-        {
-          "sku_id": 638688,
-          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
-          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
-          "price": 26.9,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26.9
-        },
-        {
-          "sku_id": 3361127,
-          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
-          "status": 1,
-          "prev_price": 54.98
-        }
-      ]
-    },
-    {
       "goods_id": 22864,
       "goods_name": "简爱父爱配方儿童酸奶 2%蔗糖果蔬 100g*6 宝宝酸奶零食 营养早餐",
       "spu_sn": "G3B63202CFD",
@@ -3225,7 +3173,7 @@
       "supply_type": 1,
       "sku_count": 8,
       "min_price": 17.9,
-      "max_price": 63.39,
+      "max_price": 63.49,
       "prev_price": 17.9,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3243,7 +3191,7 @@
           "sku_id": 33352,
           "sku_name": "洁柔抽纸 黑Face3层120抽*20包 可湿水 大规格M码面巾纸 纸巾整箱",
           "attr_text": "3层 120抽*20包 【加量大规格】",
-          "price": 63.39,
+          "price": 63.49,
           "retail_price": 85.9,
           "status": 1,
           "prev_price": 63.39
@@ -7647,7 +7595,7 @@
           "price": 21.9,
           "retail_price": 24,
           "status": 0,
-          "prev_price": 21.8
+          "prev_price": 21.9
         }
       ]
     },
@@ -10473,15 +10421,6 @@
           "prev_price": 73.62
         },
         {
-          "sku_id": 7515629,
-          "sku_name": "云南白药【采销推荐】经典薄荷护龈牙膏囤货装清新口气改善牙龈问题210g*3",
-          "attr_text": "【囤货装】薄荷香210g*3",
-          "price": 75,
-          "retail_price": 115,
-          "status": 1,
-          "prev_price": 75
-        },
-        {
           "sku_id": 7515631,
           "sku_name": "云南白药益生菌热门牙膏套装清新口气去口臭护龈牙膏6支500g+环保购物袋",
           "attr_text": "【爆款四支】加赠小样两支共500g",
@@ -10525,6 +10464,15 @@
           "retail_price": 119,
           "status": 1,
           "prev_price": 75.6
+        },
+        {
+          "sku_id": 7515629,
+          "sku_name": "云南白药【采销推荐】经典薄荷护龈牙膏囤货装清新口气改善牙龈问题210g*3",
+          "attr_text": "【囤货装】薄荷香210g*3",
+          "price": 75,
+          "retail_price": 115,
+          "status": 0,
+          "prev_price": 75
         },
         {
           "sku_id": 1250065919,
@@ -10604,6 +10552,94 @@
           "retail_price": 96,
           "status": 1,
           "prev_price": 76.9
+        }
+      ]
+    },
+    {
+      "goods_id": 218064,
+      "goods_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
+      "spu_sn": "GEA78EC2083",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/509349/26/14107/260405/6a9b8c21F565faa3d/00834e64e6dd8765.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 8,
+      "min_price": 12.9,
+      "max_price": 49,
+      "prev_price": 12.9,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 427773,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩嘴唇防干裂滋润保湿护唇膏宝宝学生秋冬",
+          "attr_text": "【保湿唇膏】蜜桃+植物",
+          "price": 18.9,
+          "retail_price": 25,
+          "status": 1,
+          "prev_price": 18.9
+        },
+        {
+          "sku_id": 3751757,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
+          "attr_text": "【倍润护唇】儿童蜜桃唇膏",
+          "price": 12.9,
+          "retail_price": 20,
+          "status": 1,
+          "prev_price": 12.9
+        },
+        {
+          "sku_id": 427772,
+          "sku_name": "植物主义 儿童护手霜身体乳宝宝秋冬专用补水保湿小花护手霜+金盏花身体乳",
+          "attr_text": "【水润保湿】身体乳250ml手霜60g",
+          "price": 49,
+          "retail_price": 49,
+          "status": 0,
+          "prev_price": 49
+        },
+        {
+          "sku_id": 427774,
+          "sku_name": "植物主义儿童护手霜非按压婴儿润肤霜花朵型保湿滋润款女童手霜60g",
+          "attr_text": "【保湿嫩肤】小花儿童手霜60g",
+          "price": 19.9,
+          "retail_price": 19.9,
+          "status": 0,
+          "prev_price": 19.9
+        },
+        {
+          "sku_id": 427775,
+          "sku_name": "植物主义 护手霜 儿童护手霜 孕妈可用 非按压婴儿润肤霜 滋润防冻防干裂 花朵型保湿护手霜2支",
+          "attr_text": "【柔润水嫩】儿童手霜60gx2支",
+          "price": 32.59,
+          "retail_price": 29.9,
+          "status": 0,
+          "prev_price": 32.59
+        },
+        {
+          "sku_id": 427776,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生植物护唇膏",
+          "attr_text": "【植萃保湿】儿童植物唇膏",
+          "price": 13.9,
+          "retail_price": 19.9,
+          "status": 0,
+          "prev_price": 13.9
+        },
+        {
+          "sku_id": 427779,
+          "sku_name": "植物主义 宝宝身体乳 儿童润肤乳 滋润补水保湿护肤霜 每日倍护全身适用",
+          "attr_text": "【保湿润肤】儿童身体乳250ml",
+          "price": 30.31,
+          "retail_price": 39,
+          "status": 0,
+          "prev_price": 30.31
+        },
+        {
+          "sku_id": 427780,
+          "sku_name": "植物主义 儿童面霜乳液宝宝保湿霜防裂滋养润肤霜秋冬季2-3-6-12岁",
+          "attr_text": "【保湿舒缓】儿童润肤面霜55g",
+          "price": 31.13,
+          "retail_price": 39,
+          "status": 0,
+          "prev_price": 31.13
         }
       ]
     },
@@ -11323,90 +11359,54 @@
       ]
     },
     {
-      "goods_id": 218064,
-      "goods_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
-      "spu_sn": "GEA78EC2083",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/509349/26/14107/260405/6a9b8c21F565faa3d/00834e64e6dd8765.png",
+      "goods_id": 219499,
+      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+      "spu_sn": "GEA38F355C9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
       "status": 1,
       "supply_type": 1,
-      "sku_count": 8,
-      "min_price": 12.9,
-      "max_price": 49,
-      "prev_price": 12.91,
-      "price_change": -0.01,
-      "price_change_pct": -0.08,
+      "sku_count": 4,
+      "min_price": 25.4,
+      "max_price": 54.98,
+      "prev_price": 25.6,
+      "price_change": -0.2,
+      "price_change_pct": -0.78,
       "skus": [
         {
-          "sku_id": 427773,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩嘴唇防干裂滋润保湿护唇膏宝宝学生秋冬",
-          "attr_text": "【保湿唇膏】蜜桃+植物",
-          "price": 18.9,
-          "retail_price": 25,
+          "sku_id": 360103,
+          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
+          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
+          "price": 25.4,
+          "retail_price": 29,
           "status": 1,
-          "prev_price": 18.9
+          "prev_price": 25.6
         },
         {
-          "sku_id": 3751757,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
-          "attr_text": "【倍润护唇】儿童蜜桃唇膏",
-          "price": 12.9,
-          "retail_price": 20,
+          "sku_id": 431075,
+          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
+          "attr_text": "【营养早餐】香甜玉米片420g/盒",
+          "price": 26,
+          "retail_price": 34.9,
           "status": 1,
-          "prev_price": 12.91
+          "prev_price": 26
         },
         {
-          "sku_id": 427772,
-          "sku_name": "植物主义 儿童护手霜身体乳宝宝秋冬专用补水保湿小花护手霜+金盏花身体乳",
-          "attr_text": "【水润保湿】身体乳250ml手霜60g",
-          "price": 49,
-          "retail_price": 49,
-          "status": 0,
-          "prev_price": 49
+          "sku_id": 638688,
+          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
+          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
+          "price": 26.9,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26.9
         },
         {
-          "sku_id": 427774,
-          "sku_name": "植物主义儿童护手霜非按压婴儿润肤霜花朵型保湿滋润款女童手霜60g",
-          "attr_text": "【保湿嫩肤】小花儿童手霜60g",
-          "price": 19.9,
-          "retail_price": 19.9,
-          "status": 0,
-          "prev_price": 19.9
-        },
-        {
-          "sku_id": 427775,
-          "sku_name": "植物主义 护手霜 儿童护手霜 孕妈可用 非按压婴儿润肤霜 滋润防冻防干裂 花朵型保湿护手霜2支",
-          "attr_text": "【柔润水嫩】儿童手霜60gx2支",
-          "price": 32.59,
-          "retail_price": 29.9,
-          "status": 0,
-          "prev_price": 32.59
-        },
-        {
-          "sku_id": 427776,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生植物护唇膏",
-          "attr_text": "【植萃保湿】儿童植物唇膏",
-          "price": 13.9,
-          "retail_price": 19.9,
-          "status": 0,
-          "prev_price": 13.9
-        },
-        {
-          "sku_id": 427779,
-          "sku_name": "植物主义 宝宝身体乳 儿童润肤乳 滋润补水保湿护肤霜 每日倍护全身适用",
-          "attr_text": "【保湿润肤】儿童身体乳250ml",
-          "price": 30.31,
-          "retail_price": 39,
-          "status": 0,
-          "prev_price": 30.31
-        },
-        {
-          "sku_id": 427780,
-          "sku_name": "植物主义 儿童面霜乳液宝宝保湿霜防裂滋养润肤霜秋冬季2-3-6-12岁",
-          "attr_text": "【保湿舒缓】儿童润肤面霜55g",
-          "price": 31.13,
-          "retail_price": 39,
-          "status": 0,
-          "prev_price": 31.13
+          "sku_id": 3361127,
+          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
+          "price": 54.98,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 54.98
         }
       ]
     }
