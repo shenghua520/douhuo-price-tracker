@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T01:21:16.567Z",
+  "updated_at": "2026-10-08T07:25:56.519Z",
   "date": "2026-10-08",
-  "goods_count": 243,
+  "goods_count": 244,
   "error_count": 0,
   "errors": [],
   "goods": [
@@ -3270,7 +3270,7 @@
           "sku_id": 3812409,
           "sku_name": "洁柔抽纸 黑Face3层130抽*8包 可湿水纸巾 柔软亲肤 大规格M码面巾纸",
           "attr_text": "3层 130抽*8包 【黑face可湿水】",
-          "price": 29.9,
+          "price": 29.8,
           "retail_price": 39.9,
           "status": 1,
           "prev_price": 29.9
@@ -3485,7 +3485,7 @@
         },
         {
           "sku_id": 55177,
-          "sku_name": "金龙鱼 食用油【保真菜籽油】 非转基因压榨 外婆乡小榨菜籽油6.18L",
+          "sku_name": "金龙鱼食用油 保真菜籽油 非转基因 外婆乡小榨菜籽油6.18L美食大赛同款",
           "attr_text": "外婆乡小榨菜籽油6.18L",
           "price": 102.46,
           "retail_price": 114,
@@ -5205,7 +5205,7 @@
         },
         {
           "sku_id": 525016,
-          "sku_name": "美好时光原味海苔16包共12g 寿司即食海苔片下午茶 中秋国庆休闲零食",
+          "sku_name": "美好时光原味海苔16包共12g 寿司即食海苔片下午茶 儿童休闲零食",
           "attr_text": "原味海苔片 12g*1袋 16小包",
           "price": 10.1,
           "retail_price": 11,
@@ -6847,7 +6847,7 @@
           "sku_id": 34487,
           "sku_name": "清风【李昀锐同款】抽纸 厚柔4层90抽24包M码 卫生纸巾餐巾纸 整箱装",
           "attr_text": "4层 90抽*24包 【店铺销量top1】",
-          "price": 39.8,
+          "price": 39.71,
           "retail_price": 65.8,
           "status": 1,
           "prev_price": 39.8
@@ -8368,7 +8368,7 @@
           "sku_name": "松下（Panasonic）台灯 AAAAA级台灯学生学习阅读全光谱护眼台灯智能灯",
           "attr_text": "【旋钮式】致焰-17W-全光谱",
           "price": 493.1,
-          "retail_price": 551,
+          "retail_price": 557,
           "status": 1,
           "prev_price": 479
         },
@@ -9854,7 +9854,7 @@
       "goods_id": 2615554,
       "goods_name": "英氏儿童面霜3-6岁宝宝面霜婴儿护肤面霜新生儿保湿身体乳 坚果霜20g",
       "spu_sn": "G76A28A7E65",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/273923/2/7106/47538/67dcfe3fF82456bc0/0c97206faaba95d1.jpg",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/537776/36/8468/49373/6ac6ef8bF9c99ae7f/0083320320e7c34b.jpg",
       "status": 1,
       "supply_type": 1,
       "sku_count": 7,
@@ -11431,6 +11431,49 @@
           "price": 172.01,
           "retail_price": 232,
           "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 338046,
+      "goods_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
+      "spu_sn": "GAE2E635E97",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/333049/38/15736/73172/68d10d0aFf2a340e7/a7ac0ade6e9039b3.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 123,
+      "max_price": 127,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 697315,
+          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
+          "attr_text": "00MW天蓝色 / 均码",
+          "price": 127,
+          "retail_price": 268,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 697313,
+          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
+          "attr_text": "0018碳黑 / 均码",
+          "price": 123,
+          "retail_price": 268,
+          "status": 0,
+          "prev_price": null
+        },
+        {
+          "sku_id": 697314,
+          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
+          "attr_text": "001V淡粉色 / 均码",
+          "price": 127,
+          "retail_price": 268,
+          "status": 0,
           "prev_price": null
         }
       ]
