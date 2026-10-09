@@ -1,10 +1,150 @@
 {
-  "updated_at": "2026-10-08T07:25:56.519Z",
-  "date": "2026-10-08",
-  "goods_count": 244,
+  "updated_at": "2026-10-09T01:20:30.658Z",
+  "date": "2026-10-09",
+  "goods_count": 243,
   "error_count": 0,
   "errors": [],
   "goods": [
+    {
+      "goods_id": 219499,
+      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+      "spu_sn": "GEA38F355C9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 4,
+      "min_price": 25.6,
+      "max_price": 54.98,
+      "prev_price": 25.4,
+      "price_change": 0.2,
+      "price_change_pct": 0.79,
+      "skus": [
+        {
+          "sku_id": 360103,
+          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
+          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
+          "price": 25.6,
+          "retail_price": 29,
+          "status": 1,
+          "prev_price": 25.4
+        },
+        {
+          "sku_id": 431075,
+          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
+          "attr_text": "【营养早餐】香甜玉米片420g/盒",
+          "price": 26,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26
+        },
+        {
+          "sku_id": 638688,
+          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
+          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
+          "price": 26.9,
+          "retail_price": 34.9,
+          "status": 1,
+          "prev_price": 26.9
+        },
+        {
+          "sku_id": 3361127,
+          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
+          "price": 54.98,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": 54.98
+        }
+      ]
+    },
+    {
+      "goods_id": 218064,
+      "goods_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
+      "spu_sn": "GEA78EC2083",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/509349/26/14107/260405/6a9b8c21F565faa3d/00834e64e6dd8765.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 8,
+      "min_price": 12.91,
+      "max_price": 49,
+      "prev_price": 12.9,
+      "price_change": 0.01,
+      "price_change_pct": 0.08,
+      "skus": [
+        {
+          "sku_id": 427773,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩嘴唇防干裂滋润保湿护唇膏宝宝学生秋冬",
+          "attr_text": "【保湿唇膏】蜜桃+植物",
+          "price": 18.9,
+          "retail_price": 25,
+          "status": 1,
+          "prev_price": 18.9
+        },
+        {
+          "sku_id": 3751757,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
+          "attr_text": "【倍润护唇】儿童蜜桃唇膏",
+          "price": 12.91,
+          "retail_price": 20,
+          "status": 1,
+          "prev_price": 12.9
+        },
+        {
+          "sku_id": 427772,
+          "sku_name": "植物主义 儿童护手霜身体乳宝宝秋冬专用补水保湿小花护手霜+金盏花身体乳",
+          "attr_text": "【水润保湿】身体乳250ml手霜60g",
+          "price": 49,
+          "retail_price": 49,
+          "status": 0,
+          "prev_price": 49
+        },
+        {
+          "sku_id": 427774,
+          "sku_name": "植物主义儿童护手霜非按压婴儿润肤霜花朵型保湿滋润款女童手霜60g",
+          "attr_text": "【保湿嫩肤】小花儿童手霜60g",
+          "price": 19.9,
+          "retail_price": 19.9,
+          "status": 0,
+          "prev_price": 19.9
+        },
+        {
+          "sku_id": 427775,
+          "sku_name": "植物主义 护手霜 儿童护手霜 孕妈可用 非按压婴儿润肤霜 滋润防冻防干裂 花朵型保湿护手霜2支",
+          "attr_text": "【柔润水嫩】儿童手霜60gx2支",
+          "price": 32.59,
+          "retail_price": 29.9,
+          "status": 0,
+          "prev_price": 32.59
+        },
+        {
+          "sku_id": 427776,
+          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生植物护唇膏",
+          "attr_text": "【植萃保湿】儿童植物唇膏",
+          "price": 13.9,
+          "retail_price": 19.9,
+          "status": 0,
+          "prev_price": 13.9
+        },
+        {
+          "sku_id": 427779,
+          "sku_name": "植物主义 宝宝身体乳 儿童润肤乳 滋润补水保湿护肤霜 每日倍护全身适用",
+          "attr_text": "【保湿润肤】儿童身体乳250ml",
+          "price": 30.31,
+          "retail_price": 39,
+          "status": 0,
+          "prev_price": 30.31
+        },
+        {
+          "sku_id": 427780,
+          "sku_name": "植物主义 儿童面霜乳液宝宝保湿霜防裂滋养润肤霜秋冬季2-3-6-12岁",
+          "attr_text": "【保湿舒缓】儿童润肤面霜55g",
+          "price": 31.13,
+          "retail_price": 39,
+          "status": 0,
+          "prev_price": 31.13
+        }
+      ]
+    },
     {
       "goods_id": 1102671568,
       "goods_name": "【4支】牙博士宝贝保健儿童（超细软毛）牙刷6-12岁适用儿童牙刷1支装*4支 DT221【儿童牙刷1支装*4支/国内发货/1件】",
@@ -937,6 +1077,31 @@
           "retail_price": 19.9,
           "status": 1,
           "prev_price": 12
+        }
+      ]
+    },
+    {
+      "goods_id": 2415859,
+      "goods_name": "超能 /雕牌 花漾香悦清洁洗护套装11380g-1组",
+      "spu_sn": "GAA28595D9D",
+      "main_img": "https://img-erp1.douhuomall.com//firm_208/sku/carousel/4e24cfe24050f900a5bc43632457e8aae2aa5800.png?eUAHQYKmAsh8sjYU1rzOhg&vstuLi5fpFtj96FOVMkg7006szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 172.01,
+      "max_price": 172.01,
+      "prev_price": 172.01,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 6813589,
+          "sku_name": "超能 /雕牌 花漾香悦清洁洗护套装11380g-1组",
+          "attr_text": "1组",
+          "price": 172.01,
+          "retail_price": 232,
+          "status": 1,
+          "prev_price": 172.01
         }
       ]
     },
@@ -3059,58 +3224,6 @@
       ]
     },
     {
-      "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-      "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 4,
-      "min_price": 25.4,
-      "max_price": 54.98,
-      "prev_price": 25.4,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 360103,
-          "sku_name": "家乐氏（Kellogg）进口谷维滋彩圈圈285g儿童麦片谷物圈营养早餐食品速食零食代餐",
-          "attr_text": "【宝宝早餐】彩圈圈285g/盒",
-          "price": 25.4,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 25.4
-        },
-        {
-          "sku_id": 431075,
-          "sku_name": "家乐氏（Kellogg）进口香甜玉米片420g儿童麦片营养早餐食品谷物低脂零食代餐即食",
-          "attr_text": "【营养早餐】香甜玉米片420g/盒",
-          "price": 26,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26
-        },
-        {
-          "sku_id": 638688,
-          "sku_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
-          "attr_text": "【0反式脂肪】可可爱莓莓450g/袋",
-          "price": 26.9,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 26.9
-        },
-        {
-          "sku_id": 3361127,
-          "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
-          "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
-          "status": 1,
-          "prev_price": 54.98
-        }
-      ]
-    },
-    {
       "goods_id": 22864,
       "goods_name": "简爱父爱配方儿童酸奶 2%蔗糖果蔬 100g*6 宝宝酸奶零食 营养早餐",
       "spu_sn": "G3B63202CFD",
@@ -3273,7 +3386,7 @@
           "price": 29.8,
           "retail_price": 39.9,
           "status": 1,
-          "prev_price": 29.9
+          "prev_price": 29.8
         },
         {
           "sku_id": 3812410,
@@ -5019,7 +5132,7 @@
           "sku_id": 1250115496,
           "sku_name": "马博士儿童牙刷3-6岁-12岁换牙期婴儿口腔清洁宝宝训练软毛牙刷 洛克黄",
           "attr_text": "【新品推荐】黄色恐龙牙刷",
-          "price": 13.51,
+          "price": 11.88,
           "retail_price": 15.8,
           "status": 1,
           "prev_price": 13.51
@@ -5308,40 +5421,6 @@
       ]
     },
     {
-      "goods_id": 2607818,
-      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-      "spu_sn": "G4DDEF0D20A",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 152.1,
-      "max_price": 179,
-      "prev_price": 152.1,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 7507984,
-          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-          "attr_text": "1.6L 【爆款升级】小饭煲N1",
-          "price": 152.1,
-          "retail_price": 179,
-          "status": 1,
-          "prev_price": 152.1
-        },
-        {
-          "sku_id": 7507983,
-          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
-          "attr_text": "1.5L 【智能互联】小饭煲",
-          "price": 179,
-          "retail_price": 212,
-          "status": 1,
-          "prev_price": 179
-        }
-      ]
-    },
-    {
       "goods_id": 2221032,
       "goods_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
       "spu_sn": "GDE1570CBB2",
@@ -5624,7 +5703,7 @@
           "sku_id": 43280,
           "sku_name": "妙可蓝多 汪汪队儿童奶酪棒500g 原味 高钙0防腐剂健康营养宝宝零食",
           "attr_text": "【25支 经典款】500g原味",
-          "price": 41.2,
+          "price": 39.9,
           "retail_price": 42,
           "status": 1,
           "prev_price": 41.2
@@ -5876,121 +5955,6 @@
       ]
     },
     {
-      "goods_id": 568376,
-      "goods_name": "妮维雅（NIVEA）氨基酸洗面奶150g*2洁面乳晶纯焕亮生日礼物送女友",
-      "spu_sn": "G9EB672626E",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/388412/16/18833/38589/69814f89Faa605646/05f732032031c180.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 11,
-      "min_price": 18.9,
-      "max_price": 138,
-      "prev_price": 18.9,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 37460,
-          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶150g*2洁面乳晶纯焕亮生日礼物送女友",
-          "attr_text": "【热卖推荐】焕亮洁面乳150g*2",
-          "price": 34.9,
-          "retail_price": 79.84,
-          "status": 1,
-          "prev_price": 34.9
-        },
-        {
-          "sku_id": 374867,
-          "sku_name": "妮维雅（NIVEA）净油控痘洁面乳100g清洁保湿控油祛痘水杨酸洗面奶生日礼物",
-          "attr_text": "【净油祛痘】清洁油污洁面乳100g",
-          "price": 18.9,
-          "retail_price": 27,
-          "status": 1,
-          "prev_price": 18.9
-        },
-        {
-          "sku_id": 374870,
-          "sku_name": "妮维雅（NIVEA）凝水活采泡沫洁面乳加量装150g保湿补水氨基酸泡沫洗面奶生日礼物",
-          "attr_text": "【干肌必选】水润保湿洁面乳150g",
-          "price": 24.9,
-          "retail_price": 27,
-          "status": 1,
-          "prev_price": 24.9
-        },
-        {
-          "sku_id": 374871,
-          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶晶纯焕亮泡沫洁面乳150g氨基酸洗面奶生日礼物送女友",
-          "attr_text": "【焕亮肌肤】可卸残妆洁面乳150g",
-          "price": 24.9,
-          "retail_price": 30,
-          "status": 1,
-          "prev_price": 24.9
-        },
-        {
-          "sku_id": 374872,
-          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶云柔植萃保湿水弹泡沫洗面奶180ml氨基酸洗面奶礼物",
-          "attr_text": "【保湿水润】舒缓洁面泡180ml",
-          "price": 33,
-          "retail_price": 48,
-          "status": 1,
-          "prev_price": 33
-        },
-        {
-          "sku_id": 2817974,
-          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶净澈控油洁面乳100g清洁收缩毛孔洗面奶生日礼物",
-          "attr_text": "【哑光控油】氨基酸洁面乳100g",
-          "price": 42.9,
-          "retail_price": 48,
-          "status": 1,
-          "prev_price": 42.9
-        },
-        {
-          "sku_id": 3014051,
-          "sku_name": "妮维雅（NIVEA）深层洁净洗颜泥150g洁面洗面奶加量装清洁养肤水润保湿洗面奶礼物",
-          "attr_text": "【油肌首选】清爽控油洁面泥150g",
-          "price": 24.9,
-          "retail_price": 40,
-          "status": 1,
-          "prev_price": 24.9
-        },
-        {
-          "sku_id": 37461,
-          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶温和云柔植萃保湿水弹洁面泡180ml双支装 26年6月",
-          "attr_text": "默认",
-          "price": 138,
-          "retail_price": 138,
-          "status": 0,
-          "prev_price": 138
-        },
-        {
-          "sku_id": 206880,
-          "sku_name": "妮维雅(NIVEA)Q10焕采透亮鲜颜精华晚霜40ML（熬夜霜 德国进口 女士晚霜 夜间修护 ）",
-          "attr_text": "Q10晚安霜",
-          "price": 115.7,
-          "retail_price": 198,
-          "status": 0,
-          "prev_price": 115.7
-        },
-        {
-          "sku_id": 374868,
-          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶泡沫云柔植萃清爽净透洁面泡泡180ml",
-          "attr_text": "【清爽净透】云柔氨基酸洁面单支",
-          "price": 85,
-          "retail_price": 94,
-          "status": 0,
-          "prev_price": 85
-        },
-        {
-          "sku_id": 374869,
-          "sku_name": "妮维雅(NIVEA)Q10紧致精华安瓶礼盒（小Q瓶精华8ml*4  赠Q10面膜5片）抗皱紧致淡纹 女士护肤",
-          "attr_text": "Q10精华礼盒装",
-          "price": 136.4,
-          "retail_price": 598,
-          "status": 0,
-          "prev_price": 136.4
-        }
-      ]
-    },
-    {
       "goods_id": 27730,
       "goods_name": "农夫山泉100%纯果汁NFC苹果香蕉混合汁300ml*24瓶整箱鲜果冷压榨礼盒",
       "spu_sn": "G0EF3D7E1F5",
@@ -6071,8 +6035,8 @@
           "sku_id": 432242,
           "sku_name": "农夫山泉100%纯果汁NFC橙汁900ml*4瓶整箱装鲜果冷压榨饮料礼盒",
           "attr_text": "橙汁900ml*4瓶",
-          "price": 69.9,
-          "retail_price": 75,
+          "price": 77,
+          "retail_price": 82,
           "status": 1,
           "prev_price": 69.9
         },
@@ -6578,9 +6542,9 @@
     },
     {
       "goods_id": 217434,
-      "goods_name": "青蛙王子儿童面霜 宝宝面霜 儿童宝宝霜 倍润补水保湿修护霜 60g",
+      "goods_name": "青蛙王子儿童面霜 3-6-12岁宝宝保湿舒缓润肤霜防皴倍润面霜60g",
       "spu_sn": "G2DABD7761C",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/351535/10/16187/26744/6936678eFa0d2bb6f/d69a77a3bd7e862a.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/346657/24/19837/324287/69030615F49ae0cd5/9fde7b336f762f78.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 11,
@@ -6612,7 +6576,7 @@
           "sku_id": 425553,
           "sku_name": "青蛙王子儿童面霜 宝宝面霜 儿童宝宝霜 倍润补水保湿修护霜 60g",
           "attr_text": "【坚果籽油精华】润肤霜60g",
-          "price": 23.9,
+          "price": 25.9,
           "retail_price": 27,
           "status": 1,
           "prev_price": 23.9
@@ -6850,7 +6814,7 @@
           "price": 39.71,
           "retail_price": 65.8,
           "status": 1,
-          "prev_price": 39.8
+          "prev_price": 39.71
         },
         {
           "sku_id": 149705,
@@ -7224,7 +7188,7 @@
     },
     {
       "goods_id": 2616529,
-      "goods_name": "雀巢（Nestle）进口脆谷乐儿童零食500g谷物圈儿童麦片早餐即食非油炸国庆佳礼",
+      "goods_name": "雀巢（Nestle）进口脆谷乐儿童零食500g谷物圈儿童麦片早餐即食非油炸冲泡燕麦片",
       "spu_sn": "G56F0846A4F",
       "main_img": "https://img13.360buyimg.com/n12/jfs/t1/512242/40/2800/537288/6a8d5533F60167eab/05f732032036cb87.png",
       "status": 1,
@@ -7238,7 +7202,7 @@
       "skus": [
         {
           "sku_id": 417220,
-          "sku_name": "雀巢（Nestle）进口儿童零食可可味滋滋330g早餐儿童麦片非油炸全谷物出游代餐",
+          "sku_name": "雀巢（Nestle）进口儿童零食可可味滋滋330g早餐儿童麦片非油炸全谷冲泡燕麦片",
           "attr_text": "【全麦+钙】可可味滋滋 330g*1盒",
           "price": 26,
           "retail_price": 28,
@@ -7247,7 +7211,7 @@
         },
         {
           "sku_id": 417221,
-          "sku_name": "雀巢（Nestle）进口脆谷乐儿童300g谷物脆儿童麦片早餐即食非油炸全谷物国庆佳礼",
+          "sku_name": "雀巢（Nestle）进口脆谷乐儿童300g谷物脆儿童麦片早餐即食非油炸全谷物燕麦片",
           "attr_text": "【高纤谷物圈】脆谷乐 300g*1盒",
           "price": 26,
           "retail_price": 31.5,
@@ -7256,7 +7220,7 @@
         },
         {
           "sku_id": 417225,
-          "sku_name": "雀巢（Nestle）进口儿童零食可可味滋滋即食谷物500g早餐麦片代餐全谷物国庆佳礼",
+          "sku_name": "雀巢（Nestle）进口儿童零食可可味滋滋即食谷物500g早餐麦片代餐全谷物冲泡",
           "attr_text": "【家庭乐享】可可味滋滋 500g*1盒",
           "price": 35,
           "retail_price": 36,
@@ -7265,7 +7229,7 @@
         },
         {
           "sku_id": 417226,
-          "sku_name": "雀巢（Nestle）进口脆谷乐儿童零食500g谷物圈儿童麦片早餐即食非油炸国庆佳礼",
+          "sku_name": "雀巢（Nestle）进口脆谷乐儿童零食500g谷物圈儿童麦片早餐即食非油炸冲泡燕麦片",
           "attr_text": "【超值囤货】脆谷乐 500g*1盒",
           "price": 39.89,
           "retail_price": 60.9,
@@ -7274,7 +7238,7 @@
         },
         {
           "sku_id": 417227,
-          "sku_name": "雀巢（Nestle）进口儿童零食蜜奇星300g蜂蜜星星儿童麦片早餐即食非油炸国庆佳礼",
+          "sku_name": "雀巢（Nestle）进口儿童零食蜜奇星300g蜂蜜星星儿童麦片早餐即食非油炸冲泡代餐",
           "attr_text": "【全麦+5倍钙】蜜奇星 300g*1盒",
           "price": 26,
           "retail_price": 30,
@@ -7283,7 +7247,7 @@
         },
         {
           "sku_id": 417228,
-          "sku_name": "雀巢（Nestle）进口蜂蜜脆谷乐儿童300g谷物脆儿童营养早餐麦片即食非油炸出游",
+          "sku_name": "雀巢（Nestle）进口蜂蜜脆谷乐儿童300g谷物脆儿童营养早餐麦片即食非油炸冲泡",
           "attr_text": "【高纤谷物】蜂蜜脆谷乐 300g*1盒",
           "price": 26,
           "retail_price": 30,
@@ -7986,49 +7950,6 @@
       ]
     },
     {
-      "goods_id": 2705527,
-      "goods_name": "狮王(lion)齿力佳儿童牙膏防蛀牙2-12岁草莓50g新老装随机 儿童礼物",
-      "spu_sn": "G1A31DBC986",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/395214/31/3791/92923/6988002eF44ffd0af/05f73203200d2b72.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 12.9,
-      "max_price": 29.26,
-      "prev_price": 12.9,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 3537565,
-          "sku_name": "狮王(lion)齿力佳儿童牙膏2-12岁葡萄50g*3新老包装随机 儿童礼物",
-          "attr_text": "【科学防蛀】2-12岁葡萄味3支",
-          "price": 29.26,
-          "retail_price": 34.9,
-          "status": 1,
-          "prev_price": 29.26
-        },
-        {
-          "sku_id": 1250073024,
-          "sku_name": "狮王(lion)齿力佳儿童牙膏防蛀牙2-12岁草莓50g新老装随机 儿童礼物",
-          "attr_text": "【科学防蛀】2-12岁草莓味50g",
-          "price": 12.9,
-          "retail_price": 15.9,
-          "status": 1,
-          "prev_price": 12.9
-        },
-        {
-          "sku_id": 1250073025,
-          "sku_name": "狮王(lion)齿力佳儿童牙膏2-12岁葡萄50g新老包装随机 儿童礼物",
-          "attr_text": "【科学防蛀】2-12岁葡萄味50g",
-          "price": 12.9,
-          "retail_price": 15.9,
-          "status": 1,
-          "prev_price": 12.9
-        }
-      ]
-    },
-    {
       "goods_id": 251170,
       "goods_name": "狮王（Lion）小狮王益生菌含氟防蛀儿童牙膏6-12岁牙膏 白桃香型50g",
       "spu_sn": "G42985D93D6",
@@ -8307,6 +8228,49 @@
       ]
     },
     {
+      "goods_id": 338046,
+      "goods_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
+      "spu_sn": "GAE2E635E97",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/333049/38/15736/73172/68d10d0aFf2a340e7/a7ac0ade6e9039b3.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 123,
+      "max_price": 127,
+      "prev_price": 123,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 697315,
+          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
+          "attr_text": "00MW天蓝色 / 均码",
+          "price": 127,
+          "retail_price": 268,
+          "status": 1,
+          "prev_price": 127
+        },
+        {
+          "sku_id": 697313,
+          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
+          "attr_text": "0018碳黑 / 均码",
+          "price": 123,
+          "retail_price": 268,
+          "status": 0,
+          "prev_price": 123
+        },
+        {
+          "sku_id": 697314,
+          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
+          "attr_text": "001V淡粉色 / 均码",
+          "price": 127,
+          "retail_price": 268,
+          "status": 0,
+          "prev_price": 127
+        }
+      ]
+    },
+    {
       "goods_id": 959757,
       "goods_name": "松达儿童面霜山茶油婴儿面霜宝宝润肤霜秋冬滋润面霜68g*2",
       "spu_sn": "GE9B533B27F",
@@ -8370,7 +8334,7 @@
           "price": 493.1,
           "retail_price": 557,
           "status": 1,
-          "prev_price": 479
+          "prev_price": 493.1
         },
         {
           "sku_id": 4919,
@@ -10608,94 +10572,6 @@
       ]
     },
     {
-      "goods_id": 218064,
-      "goods_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
-      "spu_sn": "GEA78EC2083",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/509349/26/14107/260405/6a9b8c21F565faa3d/00834e64e6dd8765.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 8,
-      "min_price": 12.9,
-      "max_price": 49,
-      "prev_price": 12.9,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 427773,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩嘴唇防干裂滋润保湿护唇膏宝宝学生秋冬",
-          "attr_text": "【保湿唇膏】蜜桃+植物",
-          "price": 18.9,
-          "retail_price": 25,
-          "status": 1,
-          "prev_price": 18.9
-        },
-        {
-          "sku_id": 3751757,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生蜜桃护唇膏",
-          "attr_text": "【倍润护唇】儿童蜜桃唇膏",
-          "price": 12.9,
-          "retail_price": 20,
-          "status": 1,
-          "prev_price": 12.9
-        },
-        {
-          "sku_id": 427772,
-          "sku_name": "植物主义 儿童护手霜身体乳宝宝秋冬专用补水保湿小花护手霜+金盏花身体乳",
-          "attr_text": "【水润保湿】身体乳250ml手霜60g",
-          "price": 49,
-          "retail_price": 49,
-          "status": 0,
-          "prev_price": 49
-        },
-        {
-          "sku_id": 427774,
-          "sku_name": "植物主义儿童护手霜非按压婴儿润肤霜花朵型保湿滋润款女童手霜60g",
-          "attr_text": "【保湿嫩肤】小花儿童手霜60g",
-          "price": 19.9,
-          "retail_price": 19.9,
-          "status": 0,
-          "prev_price": 19.9
-        },
-        {
-          "sku_id": 427775,
-          "sku_name": "植物主义 护手霜 儿童护手霜 孕妈可用 非按压婴儿润肤霜 滋润防冻防干裂 花朵型保湿护手霜2支",
-          "attr_text": "【柔润水嫩】儿童手霜60gx2支",
-          "price": 32.59,
-          "retail_price": 29.9,
-          "status": 0,
-          "prev_price": 32.59
-        },
-        {
-          "sku_id": 427776,
-          "sku_name": "植物主义儿童润唇膏3-6-12岁男女孩唇膏嘴唇防干裂滋润保湿学生植物护唇膏",
-          "attr_text": "【植萃保湿】儿童植物唇膏",
-          "price": 13.9,
-          "retail_price": 19.9,
-          "status": 0,
-          "prev_price": 13.9
-        },
-        {
-          "sku_id": 427779,
-          "sku_name": "植物主义 宝宝身体乳 儿童润肤乳 滋润补水保湿护肤霜 每日倍护全身适用",
-          "attr_text": "【保湿润肤】儿童身体乳250ml",
-          "price": 30.31,
-          "retail_price": 39,
-          "status": 0,
-          "prev_price": 30.31
-        },
-        {
-          "sku_id": 427780,
-          "sku_name": "植物主义 儿童面霜乳液宝宝保湿霜防裂滋养润肤霜秋冬季2-3-6-12岁",
-          "attr_text": "【保湿舒缓】儿童润肤面霜55g",
-          "price": 31.13,
-          "retail_price": 39,
-          "status": 0,
-          "prev_price": 31.13
-        }
-      ]
-    },
-    {
       "goods_id": 356706,
       "goods_name": "植物主义儿童洗面奶氨基酸洁面3-6-12岁学生温和洁面泡沫男女孩护肤品",
       "spu_sn": "G8428E499D8",
@@ -11411,70 +11287,160 @@
       ]
     },
     {
-      "goods_id": 2415859,
-      "goods_name": "超能 /雕牌 花漾香悦清洁洗护套装11380g-1组",
-      "spu_sn": "GAA28595D9D",
-      "main_img": "https://img-erp1.douhuomall.com//firm_208/sku/carousel/4e24cfe24050f900a5bc43632457e8aae2aa5800.png?eUAHQYKmAsh8sjYU1rzOhg&vstuLi5fpFtj96FOVMkg7006szu88r6v1uc35WJ0WXk",
+      "goods_id": 2705527,
+      "goods_name": "狮王(lion)齿力佳儿童牙膏防蛀牙2-12岁草莓50g新老装随机 儿童礼物",
+      "spu_sn": "G1A31DBC986",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/395214/31/3791/92923/6988002eF44ffd0af/05f73203200d2b72.png",
       "status": 1,
-      "supply_type": 5,
-      "sku_count": 1,
-      "min_price": 172.01,
-      "max_price": 172.01,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 12.26,
+      "max_price": 29.26,
+      "prev_price": 12.9,
+      "price_change": -0.64,
+      "price_change_pct": -4.96,
       "skus": [
         {
-          "sku_id": 6813589,
-          "sku_name": "超能 /雕牌 花漾香悦清洁洗护套装11380g-1组",
-          "attr_text": "1组",
-          "price": 172.01,
-          "retail_price": 232,
+          "sku_id": 3537565,
+          "sku_name": "狮王(lion)齿力佳儿童牙膏2-12岁葡萄50g*3新老包装随机 儿童礼物",
+          "attr_text": "【科学防蛀】2-12岁葡萄味3支",
+          "price": 29.26,
+          "retail_price": 34.9,
           "status": 1,
-          "prev_price": null
+          "prev_price": 29.26
+        },
+        {
+          "sku_id": 1250073024,
+          "sku_name": "狮王(lion)齿力佳儿童牙膏防蛀牙2-12岁草莓50g新老装随机 儿童礼物",
+          "attr_text": "【科学防蛀】2-12岁草莓味50g",
+          "price": 12.26,
+          "retail_price": 15.9,
+          "status": 1,
+          "prev_price": 12.9
+        },
+        {
+          "sku_id": 1250073025,
+          "sku_name": "狮王(lion)齿力佳儿童牙膏2-12岁葡萄50g新老包装随机 儿童礼物",
+          "attr_text": "【科学防蛀】2-12岁葡萄味50g",
+          "price": 12.26,
+          "retail_price": 15.9,
+          "status": 1,
+          "prev_price": 12.9
         }
       ]
     },
     {
-      "goods_id": 338046,
-      "goods_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
-      "spu_sn": "GAE2E635E97",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/333049/38/15736/73172/68d10d0aFf2a340e7/a7ac0ade6e9039b3.jpg",
+      "goods_id": 568376,
+      "goods_name": "妮维雅（NIVEA）氨基酸洗面奶150g*2洁面乳晶纯焕亮生日礼物送女友",
+      "spu_sn": "G9EB672626E",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/388412/16/18833/38589/69814f89Faa605646/05f732032031c180.png",
       "status": 1,
       "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 123,
-      "max_price": 127,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
+      "sku_count": 11,
+      "min_price": 17.9,
+      "max_price": 138,
+      "prev_price": 18.9,
+      "price_change": -1,
+      "price_change_pct": -5.29,
       "skus": [
         {
-          "sku_id": 697315,
-          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
-          "attr_text": "00MW天蓝色 / 均码",
-          "price": 127,
-          "retail_price": 268,
+          "sku_id": 37460,
+          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶150g*2洁面乳晶纯焕亮生日礼物送女友",
+          "attr_text": "【热卖推荐】焕亮洁面乳150g*2",
+          "price": 34.9,
+          "retail_price": 79.84,
           "status": 1,
-          "prev_price": null
+          "prev_price": 34.9
         },
         {
-          "sku_id": 697313,
-          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
-          "attr_text": "0018碳黑 / 均码",
-          "price": 123,
-          "retail_price": 268,
-          "status": 0,
-          "prev_price": null
+          "sku_id": 374867,
+          "sku_name": "妮维雅（NIVEA）净油控痘洁面乳100g清洁保湿控油祛痘水杨酸洗面奶生日礼物",
+          "attr_text": "【净油祛痘】清洁油污洁面乳100g",
+          "price": 17.9,
+          "retail_price": 20,
+          "status": 1,
+          "prev_price": 18.9
         },
         {
-          "sku_id": 697314,
-          "sku_name": "斯凯奇丨男女同款多功能手提背包马卡龙双肩包大容量初中生书包L221U136",
-          "attr_text": "001V淡粉色 / 均码",
-          "price": 127,
-          "retail_price": 268,
+          "sku_id": 374870,
+          "sku_name": "妮维雅（NIVEA）凝水活采泡沫洁面乳加量装150g保湿补水氨基酸泡沫洗面奶生日礼物",
+          "attr_text": "【干肌必选】水润保湿洁面乳150g",
+          "price": 22.9,
+          "retail_price": 26,
+          "status": 1,
+          "prev_price": 24.9
+        },
+        {
+          "sku_id": 374871,
+          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶晶纯焕亮泡沫洁面乳150g氨基酸洗面奶生日礼物送女友",
+          "attr_text": "【焕亮肌肤】可卸残妆洁面乳150g",
+          "price": 22.9,
+          "retail_price": 25,
+          "status": 1,
+          "prev_price": 24.9
+        },
+        {
+          "sku_id": 374872,
+          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶云柔植萃保湿水弹泡沫洗面奶180ml氨基酸洗面奶礼物",
+          "attr_text": "【保湿水润】舒缓洁面泡180ml",
+          "price": 33,
+          "retail_price": 48,
+          "status": 1,
+          "prev_price": 33
+        },
+        {
+          "sku_id": 2817974,
+          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶净澈控油洁面乳100g清洁收缩毛孔洗面奶生日礼物",
+          "attr_text": "【哑光控油】氨基酸洁面乳100g",
+          "price": 39.9,
+          "retail_price": 46,
+          "status": 1,
+          "prev_price": 42.9
+        },
+        {
+          "sku_id": 3014051,
+          "sku_name": "妮维雅（NIVEA）深层洁净洗颜泥150g洁面洗面奶加量装清洁养肤水润保湿洗面奶礼物",
+          "attr_text": "【油肌首选】清爽控油洁面泥150g",
+          "price": 22.9,
+          "retail_price": 25,
+          "status": 1,
+          "prev_price": 24.9
+        },
+        {
+          "sku_id": 37461,
+          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶温和云柔植萃保湿水弹洁面泡180ml双支装 26年6月",
+          "attr_text": "默认",
+          "price": 138,
+          "retail_price": 138,
           "status": 0,
-          "prev_price": null
+          "prev_price": 138
+        },
+        {
+          "sku_id": 206880,
+          "sku_name": "妮维雅(NIVEA)Q10焕采透亮鲜颜精华晚霜40ML（熬夜霜 德国进口 女士晚霜 夜间修护 ）",
+          "attr_text": "Q10晚安霜",
+          "price": 115.7,
+          "retail_price": 198,
+          "status": 0,
+          "prev_price": 115.7
+        },
+        {
+          "sku_id": 374868,
+          "sku_name": "妮维雅（NIVEA）氨基酸洗面奶泡沫云柔植萃清爽净透洁面泡泡180ml",
+          "attr_text": "【清爽净透】云柔氨基酸洁面单支",
+          "price": 85,
+          "retail_price": 94,
+          "status": 0,
+          "prev_price": 85
+        },
+        {
+          "sku_id": 374869,
+          "sku_name": "妮维雅(NIVEA)Q10紧致精华安瓶礼盒（小Q瓶精华8ml*4  赠Q10面膜5片）抗皱紧致淡纹 女士护肤",
+          "attr_text": "Q10精华礼盒装",
+          "price": 136.4,
+          "retail_price": 598,
+          "status": 0,
+          "prev_price": 136.4
         }
       ]
     }
