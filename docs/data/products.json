@@ -1,10 +1,71 @@
 {
-  "updated_at": "2026-10-10T07:07:51.684Z",
-  "date": "2026-10-10",
-  "goods_count": 245,
+  "updated_at": "2026-10-11T01:20:26.463Z",
+  "date": "2026-10-11",
+  "goods_count": 244,
   "error_count": 0,
   "errors": [],
   "goods": [
+    {
+      "goods_id": 2221032,
+      "goods_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
+      "spu_sn": "GDE1570CBB2",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/393860/40/9639/137659/698a9514Fbded81d4/0083320320ab0406.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 5,
+      "min_price": 19.9,
+      "max_price": 169,
+      "prev_price": 16.9,
+      "price_change": 3,
+      "price_change_pct": 17.75,
+      "skus": [
+        {
+          "sku_id": 110294,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
+          "attr_text": "美国巴旦木仁500gA+级",
+          "price": 58,
+          "retail_price": 123,
+          "status": 1,
+          "prev_price": 58
+        },
+        {
+          "sku_id": 1250091734,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AA+级扁桃仁坚果炒货特色休闲零食500g/罐",
+          "attr_text": "美国巴旦木仁500gAA+级",
+          "price": 129,
+          "retail_price": 157,
+          "status": 1,
+          "prev_price": 129
+        },
+        {
+          "sku_id": 1250091735,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AAA+级扁桃仁坚果特色休闲零食500g/罐",
+          "attr_text": "美国巴旦木仁500gAAA+级",
+          "price": 169,
+          "retail_price": 199,
+          "status": 1,
+          "prev_price": 169
+        },
+        {
+          "sku_id": 1250091736,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AA+级扁桃仁坚果炒货休闲零食70g袋装",
+          "attr_text": "美国巴旦木仁70gAA+级",
+          "price": 19.9,
+          "retail_price": 21,
+          "status": 1,
+          "prev_price": 16.9
+        },
+        {
+          "sku_id": 110293,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁扁桃仁特色坚果办公室休闲零食1Kg/罐",
+          "attr_text": "美国巴旦木仁1kgA+级",
+          "price": 169,
+          "retail_price": 189,
+          "status": 0,
+          "prev_price": 169
+        }
+      ]
+    },
     {
       "goods_id": 1102671568,
       "goods_name": "【4支】牙博士宝贝保健儿童（超细软毛）牙刷6-12岁适用儿童牙刷1支装*4支 DT221【儿童牙刷1支装*4支/国内发货/1件】",
@@ -619,6 +680,49 @@
       ]
     },
     {
+      "goods_id": 2223121,
+      "goods_name": "爱护（Carefor）婴儿儿童洗衣液新生儿0-3岁宝宝抑菌洗衣液补充装1斤×12袋",
+      "spu_sn": "G9BD306C2D4",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/488613/39/8723/53147/6a71440cF78c1421f/0083320320628330.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 0,
+      "max_price": 56.91,
+      "prev_price": 0,
+      "price_change": 0,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 415408,
+          "sku_name": "爱护（Carefor）婴儿儿童洗衣液新生儿0-3岁宝宝抑菌洗衣液补充装1斤×12袋",
+          "attr_text": "【超值补充装】500ml*12袋",
+          "price": 56.91,
+          "retail_price": 61,
+          "status": 1,
+          "prev_price": 56.91
+        },
+        {
+          "sku_id": 1250723684,
+          "sku_name": "爱护（Carefor）婴儿洗衣液 儿童专用洗衣液 孕妇洗衣液800g",
+          "attr_text": "默认",
+          "price": 0,
+          "retail_price": 0,
+          "status": 1,
+          "prev_price": 0
+        },
+        {
+          "sku_id": 415407,
+          "sku_name": "爱护（Carefor）婴儿童儿洗衣液0-3岁宝宝新生儿抑菌洗衣液补充装300ml",
+          "attr_text": "【试用袋装】300ml",
+          "price": 12,
+          "retail_price": 15,
+          "status": 0,
+          "prev_price": 12
+        }
+      ]
+    },
+    {
       "goods_id": 1102657030,
       "goods_name": "爱幼美IUM 儿童润唇膏 5ml*1支【5ml*1支/国内发货/1件】",
       "spu_sn": "G9B7DBAB263",
@@ -720,9 +824,9 @@
     },
     {
       "goods_id": 22392,
-      "goods_name": "百吉福（MILKANA）棒棒奶酪低温儿童奶酪棒 香草冰淇淋味 500g/25支装",
+      "goods_name": "百吉福（MILKANA）【热门商品】 低温冷藏儿童奶酪棒 奶酪含量≥51% 原味500g/25支",
       "spu_sn": "G7A65495BC6",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/168694/27/48096/59943/66d17c6eF3f695818/9f04772308a205f7.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/230983/11/36417/57068/67ce56d5F7ba7ec5d/dd61056a59285a88.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 7,
@@ -763,8 +867,8 @@
           "sku_id": 42266,
           "sku_name": "百吉福（MILKANA）棒棒奶酪低温儿童奶酪棒 香草冰淇淋味 500g/25支装",
           "attr_text": "香草冰激凌味500g",
-          "price": 37.2,
-          "retail_price": 72.9,
+          "price": 37.9,
+          "retail_price": 43,
           "status": 1,
           "prev_price": 37.2
         },
@@ -1208,7 +1312,7 @@
           "price": 37,
           "retail_price": 69,
           "status": 1,
-          "prev_price": 34
+          "prev_price": 37
         },
         {
           "sku_id": 33336,
@@ -1272,6 +1376,94 @@
           "retail_price": 59,
           "status": 0,
           "prev_price": 59
+        }
+      ]
+    },
+    {
+      "goods_id": 56768,
+      "goods_name": "得力（deli）50支2B绿杆铅笔六角杆学生考试绘图铅笔书写铅笔33413-2B学生开学文具",
+      "spu_sn": "GE1B81DB9E7",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/476951/11/15403/102264/6a5dc58fF0324120b/00833203200c275b.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 8,
+      "min_price": 0,
+      "max_price": 18.81,
+      "prev_price": 0,
+      "price_change": 0,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 121020,
+          "sku_name": "得力（deli）经典绿杆10支HB铅笔学生书写铅笔画画六角笔杆素描绘图铅笔学生开学文具",
+          "attr_text": "【经典绿杆】10支HB六角杆铅笔",
+          "price": 3.61,
+          "retail_price": 8.76,
+          "status": 1,
+          "prev_price": 3.61
+        },
+        {
+          "sku_id": 456897,
+          "sku_name": "得力（deli）经典绿杆10支2B铅笔原木六角笔杆学生考试素描绘图铅笔写字练字书写学生开学文具",
+          "attr_text": "【经典绿杆】10支2B六角杆铅笔",
+          "price": 3.42,
+          "retail_price": 8.52,
+          "status": 1,
+          "prev_price": 3.42
+        },
+        {
+          "sku_id": 456898,
+          "sku_name": "得力（deli）50支2B绿杆铅笔六角杆学生考试绘图铅笔书写铅笔33413-2B学生开学文具",
+          "attr_text": "【经典绿杆】50支2B六角杆铅笔",
+          "price": 17.9,
+          "retail_price": 20,
+          "status": 1,
+          "prev_price": 17.9
+        },
+        {
+          "sku_id": 456899,
+          "sku_name": "得力（deli）50支HB绿杆铅笔六角杆学生绘图铅笔书写铅笔33413-HB学生开学文具",
+          "attr_text": "【经典绿杆】50支HB六角杆铅笔",
+          "price": 18.71,
+          "retail_price": 20,
+          "status": 1,
+          "prev_price": 18.71
+        },
+        {
+          "sku_id": 456893,
+          "sku_name": "得力(deli)30支2B原木铅笔 学生书写铅笔 六角杆素描绘图铅笔 桶装 33409-2B",
+          "attr_text": "【原木笔杆】30支2B六角杆铅笔",
+          "price": 0,
+          "retail_price": 11.4,
+          "status": 0,
+          "prev_price": 0
+        },
+        {
+          "sku_id": 456894,
+          "sku_name": "得力(deli)30支HB原木铅笔 学生书写铅笔 六角杆素描绘图铅笔 桶装 33409-HB开学礼物",
+          "attr_text": "【原木笔杆】30支HB六角杆铅笔",
+          "price": 11.61,
+          "retail_price": 12,
+          "status": 0,
+          "prev_price": 11.61
+        },
+        {
+          "sku_id": 456895,
+          "sku_name": "得力(deli)50支2B原木铅笔 学生书写铅笔 六角杆素描绘图铅笔 桶装 33410-2B开学礼物",
+          "attr_text": "【原木笔杆】50支2B六角杆铅笔",
+          "price": 17.9,
+          "retail_price": 17.9,
+          "status": 0,
+          "prev_price": 17.9
+        },
+        {
+          "sku_id": 456896,
+          "sku_name": "得力(deli)50支HB原木铅笔 学生书写铅笔 六角杆素描绘图铅笔 桶装 33410-HB",
+          "attr_text": "【原木笔杆】50支HB六角杆铅笔",
+          "price": 18.81,
+          "retail_price": 20.9,
+          "status": 0,
+          "prev_price": 18.81
         }
       ]
     },
@@ -1704,7 +1896,7 @@
         {
           "sku_id": 1250070586,
           "sku_name": "高露洁（Colgate）儿童牙膏0-3-6岁含氟抗糖防蛀宝宝牙膏40g香橙宝可梦汪汪队随机发",
-          "attr_text": "【0-6岁】杰尼龟牙膏香橙 40g 1支",
+          "attr_text": "【0-6岁】儿童牙膏香橙 40g 1支",
           "price": 6.21,
           "retail_price": 15.9,
           "status": 1,
@@ -2028,6 +2220,31 @@
           "retail_price": 129.9,
           "status": 1,
           "prev_price": 94.9
+        }
+      ]
+    },
+    {
+      "goods_id": 2219631,
+      "goods_name": "海飞丝去屑洗发水男士女士清爽去油700g*2+200g洗头膏控油洗发水套装",
+      "spu_sn": "GEC54B10029",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/483281/23/6034/325004/6a5f41dbFbe0072bf/05f73203200ff84d.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 91.5,
+      "max_price": 91.5,
+      "prev_price": 91.5,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 72557,
+          "sku_name": "海飞丝去屑洗发水男士女士清爽去油700g*2+200g洗头膏控油洗发水套装",
+          "attr_text": "【去屑控油】柠檬清爽1600G套装",
+          "price": 91.5,
+          "retail_price": 129.9,
+          "status": 1,
+          "prev_price": 91.5
         }
       ]
     },
@@ -3248,7 +3465,7 @@
           "price": 59.41,
           "retail_price": 89.9,
           "status": 1,
-          "prev_price": 61.79
+          "prev_price": 59.41
         },
         {
           "sku_id": 3812411,
@@ -4791,7 +5008,7 @@
           "price": 13.6,
           "retail_price": 18.9,
           "status": 1,
-          "prev_price": 13.5
+          "prev_price": 13.6
         },
         {
           "sku_id": 1250101361,
@@ -4800,7 +5017,32 @@
           "price": 13.6,
           "retail_price": 15.8,
           "status": 1,
-          "prev_price": 12.6
+          "prev_price": 13.6
+        }
+      ]
+    },
+    {
+      "goods_id": 27302,
+      "goods_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
+      "spu_sn": "GFB5CBFB4DF",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/434280/3/16359/202305/6a0d5b1eF9b1c6649/00833203201ad0d6.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 82.5,
+      "max_price": 82.5,
+      "prev_price": 82.5,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 53676,
+          "sku_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
+          "attr_text": "特香菜籽油5L",
+          "price": 82.5,
+          "retail_price": 95.29,
+          "status": 1,
+          "prev_price": 82.5
         }
       ]
     },
@@ -4979,7 +5221,7 @@
           "price": 18.91,
           "retail_price": 22.9,
           "status": 1,
-          "prev_price": 19.9
+          "prev_price": 18.91
         },
         {
           "sku_id": 1250115496,
@@ -5104,6 +5346,40 @@
       ]
     },
     {
+      "goods_id": 30030,
+      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+      "spu_sn": "GA1C5A305C5",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/542048/16/4042/116047/6ac8af9dF4393eed3/00833203202e8d4f.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 2,
+      "min_price": 249,
+      "max_price": 378.77,
+      "prev_price": 249,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 60205,
+          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
+          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
+          "price": 378.77,
+          "retail_price": 435,
+          "status": 1,
+          "prev_price": 378.77
+        },
+        {
+          "sku_id": 2446120,
+          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
+          "price": 249,
+          "retail_price": 499,
+          "status": 1,
+          "prev_price": 249
+        }
+      ]
+    },
+    {
       "goods_id": 2220694,
       "goods_name": "美好时光原味海苔片48包36g 即食紫菜寿司包饭海苔 儿童休闲零食礼物",
       "spu_sn": "GEE4B0E4A0F",
@@ -5215,6 +5491,31 @@
       ]
     },
     {
+      "goods_id": 2227770,
+      "goods_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
+      "spu_sn": "G792A5745EC",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/235690/38/25744/77253/66d8853fF004cc513/6419371c55e7b128.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 220.14,
+      "max_price": 220.14,
+      "prev_price": 220.14,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 3753990,
+          "sku_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
+          "attr_text": "前置过滤器  15T/h   反冲洗",
+          "price": 220.14,
+          "retail_price": 469,
+          "status": 1,
+          "prev_price": 220.14
+        }
+      ]
+    },
+    {
       "goods_id": 2607818,
       "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
       "spu_sn": "G4DDEF0D20A",
@@ -5245,67 +5546,6 @@
           "retail_price": 212,
           "status": 1,
           "prev_price": 179
-        }
-      ]
-    },
-    {
-      "goods_id": 2221032,
-      "goods_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
-      "spu_sn": "GDE1570CBB2",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/393860/40/9639/137659/698a9514Fbded81d4/0083320320ab0406.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 5,
-      "min_price": 16.9,
-      "max_price": 169,
-      "prev_price": 16.9,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 110294,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
-          "attr_text": "美国巴旦木仁500gA+级",
-          "price": 58,
-          "retail_price": 123,
-          "status": 1,
-          "prev_price": 58
-        },
-        {
-          "sku_id": 1250091734,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AA+级扁桃仁坚果炒货特色休闲零食500g/罐",
-          "attr_text": "美国巴旦木仁500gAA+级",
-          "price": 129,
-          "retail_price": 157,
-          "status": 1,
-          "prev_price": 129
-        },
-        {
-          "sku_id": 1250091735,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AAA+级扁桃仁坚果特色休闲零食500g/罐",
-          "attr_text": "美国巴旦木仁500gAAA+级",
-          "price": 169,
-          "retail_price": 199,
-          "status": 1,
-          "prev_price": 169
-        },
-        {
-          "sku_id": 1250091736,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AA+级扁桃仁坚果炒货休闲零食70g袋装",
-          "attr_text": "美国巴旦木仁70gAA+级",
-          "price": 16.9,
-          "retail_price": 19.9,
-          "status": 1,
-          "prev_price": 16.9
-        },
-        {
-          "sku_id": 110293,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁扁桃仁特色坚果办公室休闲零食1Kg/罐",
-          "attr_text": "美国巴旦木仁1kgA+级",
-          "price": 169,
-          "retail_price": 189,
-          "status": 0,
-          "prev_price": 169
         }
       ]
     },
@@ -5534,7 +5774,7 @@
           "price": 38.2,
           "retail_price": 42,
           "status": 1,
-          "prev_price": 39.9
+          "prev_price": 38.2
         },
         {
           "sku_id": 43285,
@@ -5936,7 +6176,7 @@
           "price": 143.1,
           "retail_price": 160,
           "status": 1,
-          "prev_price": 139
+          "prev_price": 143.1
         },
         {
           "sku_id": 54431,
@@ -6757,7 +6997,7 @@
           "price": 39.8,
           "retail_price": 65.8,
           "status": 1,
-          "prev_price": 39.71
+          "prev_price": 39.8
         },
         {
           "sku_id": 149705,
@@ -7638,40 +7878,6 @@
       ]
     },
     {
-      "goods_id": 2617890,
-      "goods_name": "沙宣男士洗发水大红瓶劲爽去屑洗头膏700g去油止痒蓬松洁净清爽洗发露",
-      "spu_sn": "G3E8D5F2C0B",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/395403/33/3309/15600/69860ea3F34eedc67/05f732032093b902.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 53.28,
-      "max_price": 59.2,
-      "prev_price": 53.28,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 461343,
-          "sku_name": "沙宣男士洗发水大红瓶劲爽去屑洗头膏700g去油止痒蓬松洁净清爽洗发露",
-          "attr_text": "【经典爆款】劲爽去屑 700g*1瓶",
-          "price": 53.28,
-          "retail_price": 69.9,
-          "status": 1,
-          "prev_price": 53.28
-        },
-        {
-          "sku_id": 461341,
-          "sku_name": "沙宣大红瓶洗发水男士洁净去屑700g洗头膏洗发露去屑止痒控油持久蓬松",
-          "attr_text": "【经典爆款】洁净去屑 700g*1瓶",
-          "price": 59.2,
-          "retail_price": 69.9,
-          "status": 0,
-          "prev_price": 59.2
-        }
-      ]
-    },
-    {
       "goods_id": 2414731,
       "goods_name": "山水加湿器SJS-Q17-加湿器",
       "spu_sn": "G63F1B9EAE0",
@@ -8320,7 +8526,7 @@
           "price": 479,
           "retail_price": 532,
           "status": 1,
-          "prev_price": 493.1
+          "prev_price": 479
         },
         {
           "sku_id": 4919,
@@ -8418,6 +8624,49 @@
           "retail_price": 1099,
           "status": 0,
           "prev_price": 699
+        }
+      ]
+    },
+    {
+      "goods_id": 6850,
+      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
+      "spu_sn": "G5D235FF38F",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 242.76,
+      "max_price": 292.81,
+      "prev_price": 242.76,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 13028,
+          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
+          "attr_text": "【自行安装】-1.5升/分钟",
+          "price": 242.76,
+          "retail_price": 337.66,
+          "status": 1,
+          "prev_price": 242.76
+        },
+        {
+          "sku_id": 65236,
+          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
+          "attr_text": "【基础款】-0废水不用电",
+          "price": 292.81,
+          "retail_price": 696,
+          "status": 1,
+          "prev_price": 292.81
+        },
+        {
+          "sku_id": 2438261,
+          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
+          "attr_text": "纳米级超滤-小海绵",
+          "price": 264.6,
+          "retail_price": 299,
+          "status": 0,
+          "prev_price": 264.6
         }
       ]
     },
@@ -8767,7 +9016,7 @@
       "goods_id": 2216813,
       "goods_name": "威露士衣物消毒液薰衣草3L 杀菌99.9%除螨内衣衣物除菌液 可配洗衣液用",
       "spu_sn": "G1E3B3DDEFB",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/428618/18/19512/35310/6a018b7eF015cc1a3/05f73203209d086f.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/454035/27/11681/110305/6a630725Ff0fd0413/008332032007d317.jpg",
       "status": 1,
       "supply_type": 1,
       "sku_count": 4,
@@ -8906,7 +9155,7 @@
           "price": 16.79,
           "retail_price": 19,
           "status": 1,
-          "prev_price": 13.7
+          "prev_price": 16.79
         },
         {
           "sku_id": 32154,
@@ -9201,31 +9450,6 @@
           "retail_price": 24.9,
           "status": 1,
           "prev_price": 15.3
-        }
-      ]
-    },
-    {
-      "goods_id": 1102765986,
-      "goods_name": "沃隆坚果星球100g每日坚果*2袋【100g每日坚果*2袋/国内发货/1组】",
-      "spu_sn": "GD59960D642",
-      "main_img": "https://img.picing.com/8149430687076995333_800X800_1pW.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
-      "status": 1,
-      "supply_type": 17,
-      "sku_count": 1,
-      "min_price": 44.28,
-      "max_price": 44.28,
-      "prev_price": 44.28,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 1250619783,
-          "sku_name": "沃隆坚果星球100g每日坚果*2袋【100g每日坚果*2袋/国内发货/1组】",
-          "attr_text": "100g每日坚果*2袋 / 国内发货 / 1组",
-          "price": 44.28,
-          "retail_price": 80,
-          "status": 1,
-          "prev_price": 44.28
         }
       ]
     },
@@ -10269,6 +10493,67 @@
       ]
     },
     {
+      "goods_id": 1102758267,
+      "goods_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-2包=84抽*2",
+      "spu_sn": "GFFAC7C7294",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0339/sku/carousel/ec4e071b4b88860cfae13a4419135ef9ef989d0c.jpg?eUAHQYKmAsh8sjYU1rzOhg&dit96xR5Qykeo7VBleh8p-zVsIl111JDkyOs8101woY",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 5,
+      "min_price": 2.68,
+      "max_price": 29.13,
+      "prev_price": 2.68,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 1250603565,
+          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-1包=84抽*1",
+          "attr_text": "1包=84抽*1",
+          "price": 2.68,
+          "retail_price": 9.9,
+          "status": 1,
+          "prev_price": 2.68
+        },
+        {
+          "sku_id": 1250603566,
+          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-2包=84抽*2",
+          "attr_text": "2包=84抽*2",
+          "price": 3.7,
+          "retail_price": 19.9,
+          "status": 1,
+          "prev_price": 3.7
+        },
+        {
+          "sku_id": 1250603567,
+          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-4包=84抽*4",
+          "attr_text": "4包=84抽*4",
+          "price": 5.92,
+          "retail_price": 29.9,
+          "status": 1,
+          "prev_price": 5.92
+        },
+        {
+          "sku_id": 1250603568,
+          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-8包=84抽*8",
+          "attr_text": "8包=84抽*8",
+          "price": 10.78,
+          "retail_price": 49.9,
+          "status": 1,
+          "prev_price": 10.78
+        },
+        {
+          "sku_id": 1250603569,
+          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-24包=84抽*24",
+          "attr_text": "24包=84抽*24",
+          "price": 29.13,
+          "retail_price": 99.9,
+          "status": 1,
+          "prev_price": 29.13
+        }
+      ]
+    },
+    {
       "goods_id": 2219550,
       "goods_name": "云南白药6-12岁儿童桃子牙膏牙刷 含氟防蛀固齿清新 桃子60g+儿童牙刷*1",
       "spu_sn": "G852EE3E0F2",
@@ -11259,346 +11544,36 @@
       ]
     },
     {
-      "goods_id": 2227770,
-      "goods_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
-      "spu_sn": "G792A5745EC",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/235690/38/25744/77253/66d8853fF004cc513/6419371c55e7b128.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 220.14,
-      "max_price": 220.14,
-      "prev_price": 221.29,
-      "price_change": -1.15,
-      "price_change_pct": -0.52,
-      "skus": [
-        {
-          "sku_id": 3753990,
-          "sku_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
-          "attr_text": "前置过滤器  15T/h   反冲洗",
-          "price": 220.14,
-          "retail_price": 469,
-          "status": 1,
-          "prev_price": 221.29
-        }
-      ]
-    },
-    {
-      "goods_id": 6850,
-      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
-      "spu_sn": "G5D235FF38F",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 242.76,
-      "max_price": 292.81,
-      "prev_price": 244.32,
-      "price_change": -1.56,
-      "price_change_pct": -0.64,
-      "skus": [
-        {
-          "sku_id": 13028,
-          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
-          "attr_text": "【自行安装】-1.5升/分钟",
-          "price": 242.76,
-          "retail_price": 337.66,
-          "status": 1,
-          "prev_price": 244.32
-        },
-        {
-          "sku_id": 65236,
-          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
-          "attr_text": "【基础款】-0废水不用电",
-          "price": 292.81,
-          "retail_price": 696,
-          "status": 1,
-          "prev_price": 292.81
-        },
-        {
-          "sku_id": 2438261,
-          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
-          "attr_text": "纳米级超滤-小海绵",
-          "price": 264.6,
-          "retail_price": 299,
-          "status": 0,
-          "prev_price": 264.6
-        }
-      ]
-    },
-    {
-      "goods_id": 2219631,
-      "goods_name": "海飞丝去屑洗发水男士女士清爽去油700g*2+200g洗头膏控油洗发水套装",
-      "spu_sn": "GEC54B10029",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/483281/23/6034/325004/6a5f41dbFbe0072bf/05f73203200ff84d.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 91.5,
-      "max_price": 91.5,
-      "prev_price": 94.9,
-      "price_change": -3.4,
-      "price_change_pct": -3.58,
-      "skus": [
-        {
-          "sku_id": 72557,
-          "sku_name": "海飞丝去屑洗发水男士女士清爽去油700g*2+200g洗头膏控油洗发水套装",
-          "attr_text": "【去屑控油】柠檬清爽1600G套装",
-          "price": 91.5,
-          "retail_price": 129.9,
-          "status": 1,
-          "prev_price": 94.9
-        }
-      ]
-    },
-    {
-      "goods_id": 30030,
-      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-      "spu_sn": "GA1C5A305C5",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/542048/16/4042/116047/6ac8af9dF4393eed3/00833203202e8d4f.jpg",
+      "goods_id": 2617890,
+      "goods_name": "沙宣男士洗发水大红瓶劲爽去屑洗头膏700g去油止痒蓬松洁净清爽洗发露",
+      "spu_sn": "G3E8D5F2C0B",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/395403/33/3309/15600/69860ea3F34eedc67/05f732032093b902.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 2,
-      "min_price": 249,
-      "max_price": 378.77,
-      "prev_price": 375.2,
-      "price_change": -126.2,
-      "price_change_pct": -33.64,
+      "min_price": 49.9,
+      "max_price": 59.2,
+      "prev_price": 53.28,
+      "price_change": -3.38,
+      "price_change_pct": -6.34,
       "skus": [
         {
-          "sku_id": 60205,
-          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
-          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
-          "price": 378.77,
-          "retail_price": 435,
+          "sku_id": 461343,
+          "sku_name": "沙宣男士洗发水大红瓶劲爽去屑洗头膏700g去油止痒蓬松洁净清爽洗发露",
+          "attr_text": "【经典爆款】劲爽去屑 700g*1瓶",
+          "price": 49.9,
+          "retail_price": 69.9,
           "status": 1,
-          "prev_price": 378.77
+          "prev_price": 53.28
         },
         {
-          "sku_id": 2446120,
-          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
-          "price": 249,
-          "retail_price": 499,
-          "status": 1,
-          "prev_price": 375.2
-        }
-      ]
-    },
-    {
-      "goods_id": 2223121,
-      "goods_name": "爱护（Carefor）婴儿儿童洗衣液新生儿0-3岁宝宝抑菌洗衣液补充装1斤×12袋",
-      "spu_sn": "G9BD306C2D4",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/488613/39/8723/53147/6a71440cF78c1421f/0083320320628330.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 0,
-      "max_price": 56.91,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
-      "skus": [
-        {
-          "sku_id": 415408,
-          "sku_name": "爱护（Carefor）婴儿儿童洗衣液新生儿0-3岁宝宝抑菌洗衣液补充装1斤×12袋",
-          "attr_text": "【超值补充装】500ml*12袋",
-          "price": 56.91,
-          "retail_price": 61,
-          "status": 1,
-          "prev_price": 56.91
-        },
-        {
-          "sku_id": 1250723684,
-          "sku_name": "爱护（Carefor）婴儿洗衣液 儿童专用洗衣液 孕妇洗衣液800g",
-          "attr_text": "默认",
-          "price": 0,
-          "retail_price": 0,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 415407,
-          "sku_name": "爱护（Carefor）婴儿童儿洗衣液0-3岁宝宝新生儿抑菌洗衣液补充装300ml",
-          "attr_text": "【试用袋装】300ml",
-          "price": 12,
-          "retail_price": 15,
+          "sku_id": 461341,
+          "sku_name": "沙宣大红瓶洗发水男士洁净去屑700g洗头膏洗发露去屑止痒控油持久蓬松",
+          "attr_text": "【经典爆款】洁净去屑 700g*1瓶",
+          "price": 59.2,
+          "retail_price": 69.9,
           "status": 0,
-          "prev_price": 12
-        }
-      ]
-    },
-    {
-      "goods_id": 56768,
-      "goods_name": "得力（deli）50支2B绿杆铅笔六角杆学生考试绘图铅笔书写铅笔33413-2B学生开学文具",
-      "spu_sn": "GE1B81DB9E7",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/476951/11/15403/102264/6a5dc58fF0324120b/00833203200c275b.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 8,
-      "min_price": 0,
-      "max_price": 18.81,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
-      "skus": [
-        {
-          "sku_id": 121020,
-          "sku_name": "得力（deli）经典绿杆10支HB铅笔学生书写铅笔画画六角笔杆素描绘图铅笔学生开学文具",
-          "attr_text": "【经典绿杆】10支HB六角杆铅笔",
-          "price": 3.61,
-          "retail_price": 8.76,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 456897,
-          "sku_name": "得力（deli）经典绿杆10支2B铅笔原木六角笔杆学生考试素描绘图铅笔写字练字书写学生开学文具",
-          "attr_text": "【经典绿杆】10支2B六角杆铅笔",
-          "price": 3.42,
-          "retail_price": 8.52,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 456898,
-          "sku_name": "得力（deli）50支2B绿杆铅笔六角杆学生考试绘图铅笔书写铅笔33413-2B学生开学文具",
-          "attr_text": "【经典绿杆】50支2B六角杆铅笔",
-          "price": 17.9,
-          "retail_price": 20,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 456899,
-          "sku_name": "得力（deli）50支HB绿杆铅笔六角杆学生绘图铅笔书写铅笔33413-HB学生开学文具",
-          "attr_text": "【经典绿杆】50支HB六角杆铅笔",
-          "price": 18.71,
-          "retail_price": 20,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 456893,
-          "sku_name": "得力(deli)30支2B原木铅笔 学生书写铅笔 六角杆素描绘图铅笔 桶装 33409-2B",
-          "attr_text": "【原木笔杆】30支2B六角杆铅笔",
-          "price": 0,
-          "retail_price": 11.4,
-          "status": 0,
-          "prev_price": null
-        },
-        {
-          "sku_id": 456894,
-          "sku_name": "得力(deli)30支HB原木铅笔 学生书写铅笔 六角杆素描绘图铅笔 桶装 33409-HB开学礼物",
-          "attr_text": "【原木笔杆】30支HB六角杆铅笔",
-          "price": 11.61,
-          "retail_price": 12,
-          "status": 0,
-          "prev_price": null
-        },
-        {
-          "sku_id": 456895,
-          "sku_name": "得力(deli)50支2B原木铅笔 学生书写铅笔 六角杆素描绘图铅笔 桶装 33410-2B开学礼物",
-          "attr_text": "【原木笔杆】50支2B六角杆铅笔",
-          "price": 17.9,
-          "retail_price": 17.9,
-          "status": 0,
-          "prev_price": null
-        },
-        {
-          "sku_id": 456896,
-          "sku_name": "得力(deli)50支HB原木铅笔 学生书写铅笔 六角杆素描绘图铅笔 桶装 33410-HB",
-          "attr_text": "【原木笔杆】50支HB六角杆铅笔",
-          "price": 18.81,
-          "retail_price": 20.9,
-          "status": 0,
-          "prev_price": null
-        }
-      ]
-    },
-    {
-      "goods_id": 27302,
-      "goods_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
-      "spu_sn": "GFB5CBFB4DF",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/434280/3/16359/202305/6a0d5b1eF9b1c6649/00833203201ad0d6.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 82.5,
-      "max_price": 82.5,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
-      "skus": [
-        {
-          "sku_id": 53676,
-          "sku_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
-          "attr_text": "特香菜籽油5L",
-          "price": 82.5,
-          "retail_price": 95.29,
-          "status": 1,
-          "prev_price": null
-        }
-      ]
-    },
-    {
-      "goods_id": 1102758267,
-      "goods_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-2包=84抽*2",
-      "spu_sn": "GFFAC7C7294",
-      "main_img": "http://img-erp1.douhuomall.com/firm_0339/sku/carousel/ec4e071b4b88860cfae13a4419135ef9ef989d0c.jpg?eUAHQYKmAsh8sjYU1rzOhg&dit96xR5Qykeo7VBleh8p-zVsIl111JDkyOs8101woY",
-      "status": 1,
-      "supply_type": 5,
-      "sku_count": 5,
-      "min_price": 2.68,
-      "max_price": 29.13,
-      "prev_price": null,
-      "price_change": null,
-      "price_change_pct": null,
-      "skus": [
-        {
-          "sku_id": 1250603565,
-          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-1包=84抽*1",
-          "attr_text": "1包=84抽*1",
-          "price": 2.68,
-          "retail_price": 9.9,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 1250603566,
-          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-2包=84抽*2",
-          "attr_text": "2包=84抽*2",
-          "price": 3.7,
-          "retail_price": 19.9,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 1250603567,
-          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-4包=84抽*4",
-          "attr_text": "4包=84抽*4",
-          "price": 5.92,
-          "retail_price": 29.9,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 1250603568,
-          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-8包=84抽*8",
-          "attr_text": "8包=84抽*8",
-          "price": 10.78,
-          "retail_price": 49.9,
-          "status": 1,
-          "prev_price": null
-        },
-        {
-          "sku_id": 1250603569,
-          "sku_name": "原木420张大包纸巾抽纸家用实惠装面巾纸餐巾纸学生宿舍卫生纸纸巾-24包=84抽*24",
-          "attr_text": "24包=84抽*24",
-          "price": 29.13,
-          "retail_price": 99.9,
-          "status": 1,
-          "prev_price": null
+          "prev_price": 59.2
         }
       ]
     }
