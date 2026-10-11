@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-10-11T01:20:26.463Z",
+  "updated_at": "2026-10-11T07:14:01.454Z",
   "date": "2026-10-11",
   "goods_count": 244,
   "error_count": 0,
   "errors": [],
   "goods": [
+    {
+      "goods_id": 2607818,
+      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
+      "spu_sn": "G4DDEF0D20A",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 2,
+      "min_price": 169,
+      "max_price": 179,
+      "prev_price": 152.1,
+      "price_change": 16.9,
+      "price_change_pct": 11.11,
+      "skus": [
+        {
+          "sku_id": 7507984,
+          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
+          "attr_text": "1.6L 【爆款升级】小饭煲N1",
+          "price": 169,
+          "retail_price": 193,
+          "status": 1,
+          "prev_price": 152.1
+        },
+        {
+          "sku_id": 7507983,
+          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
+          "attr_text": "1.5L 【智能互联】小饭煲",
+          "price": 179,
+          "retail_price": 212,
+          "status": 1,
+          "prev_price": 179
+        }
+      ]
+    },
     {
       "goods_id": 2221032,
       "goods_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
@@ -63,6 +97,74 @@
           "retail_price": 189,
           "status": 0,
           "prev_price": 169
+        }
+      ]
+    },
+    {
+      "goods_id": 6850,
+      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
+      "spu_sn": "G5D235FF38F",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 244.32,
+      "max_price": 292.81,
+      "prev_price": 242.76,
+      "price_change": 1.56,
+      "price_change_pct": 0.64,
+      "skus": [
+        {
+          "sku_id": 13028,
+          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
+          "attr_text": "【自行安装】-1.5升/分钟",
+          "price": 244.32,
+          "retail_price": 337.66,
+          "status": 1,
+          "prev_price": 242.76
+        },
+        {
+          "sku_id": 65236,
+          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
+          "attr_text": "【基础款】-0废水不用电",
+          "price": 292.81,
+          "retail_price": 696,
+          "status": 1,
+          "prev_price": 292.81
+        },
+        {
+          "sku_id": 2438261,
+          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
+          "attr_text": "纳米级超滤-小海绵",
+          "price": 264.6,
+          "retail_price": 299,
+          "status": 0,
+          "prev_price": 264.6
+        }
+      ]
+    },
+    {
+      "goods_id": 2227770,
+      "goods_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
+      "spu_sn": "G792A5745EC",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/235690/38/25744/77253/66d8853fF004cc513/6419371c55e7b128.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 221.29,
+      "max_price": 221.29,
+      "prev_price": 220.14,
+      "price_change": 1.15,
+      "price_change_pct": 0.52,
+      "skus": [
+        {
+          "sku_id": 3753990,
+          "sku_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
+          "attr_text": "前置过滤器  15T/h   反冲洗",
+          "price": 221.29,
+          "retail_price": 469,
+          "status": 1,
+          "prev_price": 220.14
         }
       ]
     },
@@ -5491,65 +5593,6 @@
       ]
     },
     {
-      "goods_id": 2227770,
-      "goods_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
-      "spu_sn": "G792A5745EC",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/235690/38/25744/77253/66d8853fF004cc513/6419371c55e7b128.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 220.14,
-      "max_price": 220.14,
-      "prev_price": 220.14,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 3753990,
-          "sku_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
-          "attr_text": "前置过滤器  15T/h   反冲洗",
-          "price": 220.14,
-          "retail_price": 469,
-          "status": 1,
-          "prev_price": 220.14
-        }
-      ]
-    },
-    {
-      "goods_id": 2607818,
-      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-      "spu_sn": "G4DDEF0D20A",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 152.1,
-      "max_price": 179,
-      "prev_price": 152.1,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 7507984,
-          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-          "attr_text": "1.6L 【爆款升级】小饭煲N1",
-          "price": 152.1,
-          "retail_price": 179,
-          "status": 1,
-          "prev_price": 152.1
-        },
-        {
-          "sku_id": 7507983,
-          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
-          "attr_text": "1.5L 【智能互联】小饭煲",
-          "price": 179,
-          "retail_price": 212,
-          "status": 1,
-          "prev_price": 179
-        }
-      ]
-    },
-    {
       "goods_id": 2311973,
       "goods_name": "喵小侠益生菌冻干水果片 宝宝零食添加益生菌20g",
       "spu_sn": "G34711F965C",
@@ -8514,7 +8557,7 @@
       "supply_type": 1,
       "sku_count": 7,
       "min_price": 239.64,
-      "max_price": 479,
+      "max_price": 493.1,
       "prev_price": 239.64,
       "price_change": 0,
       "price_change_pct": 0,
@@ -8523,8 +8566,8 @@
           "sku_id": 736699,
           "sku_name": "松下（Panasonic）台灯 AAAAA级台灯学生学习阅读全光谱护眼台灯智能灯",
           "attr_text": "【旋钮式】致焰-17W-全光谱",
-          "price": 479,
-          "retail_price": 532,
+          "price": 493.1,
+          "retail_price": 528,
           "status": 1,
           "prev_price": 479
         },
@@ -8624,49 +8667,6 @@
           "retail_price": 1099,
           "status": 0,
           "prev_price": 699
-        }
-      ]
-    },
-    {
-      "goods_id": 6850,
-      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
-      "spu_sn": "G5D235FF38F",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 242.76,
-      "max_price": 292.81,
-      "prev_price": 242.76,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 13028,
-          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
-          "attr_text": "【自行安装】-1.5升/分钟",
-          "price": 242.76,
-          "retail_price": 337.66,
-          "status": 1,
-          "prev_price": 242.76
-        },
-        {
-          "sku_id": 65236,
-          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
-          "attr_text": "【基础款】-0废水不用电",
-          "price": 292.81,
-          "retail_price": 696,
-          "status": 1,
-          "prev_price": 292.81
-        },
-        {
-          "sku_id": 2438261,
-          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
-          "attr_text": "纳米级超滤-小海绵",
-          "price": 264.6,
-          "retail_price": 299,
-          "status": 0,
-          "prev_price": 264.6
         }
       ]
     },
@@ -9845,7 +9845,7 @@
           "sku_id": 462733,
           "sku_name": "爷爷的农场有机婴幼儿星星泡芙草莓味30g 宝宝儿童零食婴儿零食6-12个月 ",
           "attr_text": "【有机婴标】星星泡芙草莓味",
-          "price": 35.96,
+          "price": 33.8,
           "retail_price": 46,
           "status": 1,
           "prev_price": 35.96
