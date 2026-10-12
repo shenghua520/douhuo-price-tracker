@@ -1,10 +1,35 @@
 {
-  "updated_at": "2026-10-12T01:20:55.923Z",
+  "updated_at": "2026-10-12T07:23:31.766Z",
   "date": "2026-10-12",
   "goods_count": 244,
   "error_count": 0,
   "errors": [],
   "goods": [
+    {
+      "goods_id": 27302,
+      "goods_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
+      "spu_sn": "GFB5CBFB4DF",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/434280/3/16359/202305/6a0d5b1eF9b1c6649/00833203201ad0d6.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 85,
+      "max_price": 85,
+      "prev_price": 82.5,
+      "price_change": 2.5,
+      "price_change_pct": 3.03,
+      "skus": [
+        {
+          "sku_id": 53676,
+          "sku_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
+          "attr_text": "特香菜籽油5L",
+          "price": 85,
+          "retail_price": 95.29,
+          "status": 1,
+          "prev_price": 82.5
+        }
+      ]
+    },
     {
       "goods_id": 2217604,
       "goods_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
@@ -4397,7 +4422,7 @@
       "goods_id": 232780,
       "goods_name": "榄菊 电蚊香液2瓶100晚【不含器】清香型蚊香液电蚊香防蚊驱蚊液",
       "spu_sn": "G9086DCFF9D",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/457454/27/10786/185949/6a38aaadF3989fbd2/0083320320a4b7b2.jpg",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/195645/10/44659/441004/662f83c6F5119f320/d4c8c5758df3935c.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 11,
@@ -4907,31 +4932,6 @@
           "retail_price": 15.8,
           "status": 1,
           "prev_price": 13.6
-        }
-      ]
-    },
-    {
-      "goods_id": 27302,
-      "goods_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
-      "spu_sn": "GFB5CBFB4DF",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/434280/3/16359/202305/6a0d5b1eF9b1c6649/00833203201ad0d6.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 82.5,
-      "max_price": 82.5,
-      "prev_price": 82.5,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 53676,
-          "sku_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
-          "attr_text": "特香菜籽油5L",
-          "price": 82.5,
-          "retail_price": 95.29,
-          "status": 1,
-          "prev_price": 82.5
         }
       ]
     },
