@@ -1,170 +1,32 @@
 {
-  "updated_at": "2026-10-11T07:14:01.454Z",
-  "date": "2026-10-11",
+  "updated_at": "2026-10-12T01:20:55.923Z",
+  "date": "2026-10-12",
   "goods_count": 244,
   "error_count": 0,
   "errors": [],
   "goods": [
     {
-      "goods_id": 2607818,
-      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-      "spu_sn": "G4DDEF0D20A",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 169,
-      "max_price": 179,
-      "prev_price": 152.1,
-      "price_change": 16.9,
-      "price_change_pct": 11.11,
-      "skus": [
-        {
-          "sku_id": 7507984,
-          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-          "attr_text": "1.6L 【爆款升级】小饭煲N1",
-          "price": 169,
-          "retail_price": 193,
-          "status": 1,
-          "prev_price": 152.1
-        },
-        {
-          "sku_id": 7507983,
-          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
-          "attr_text": "1.5L 【智能互联】小饭煲",
-          "price": 179,
-          "retail_price": 212,
-          "status": 1,
-          "prev_price": 179
-        }
-      ]
-    },
-    {
-      "goods_id": 2221032,
-      "goods_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
-      "spu_sn": "GDE1570CBB2",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/393860/40/9639/137659/698a9514Fbded81d4/0083320320ab0406.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 5,
-      "min_price": 19.9,
-      "max_price": 169,
-      "prev_price": 16.9,
-      "price_change": 3,
-      "price_change_pct": 17.75,
-      "skus": [
-        {
-          "sku_id": 110294,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
-          "attr_text": "美国巴旦木仁500gA+级",
-          "price": 58,
-          "retail_price": 123,
-          "status": 1,
-          "prev_price": 58
-        },
-        {
-          "sku_id": 1250091734,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AA+级扁桃仁坚果炒货特色休闲零食500g/罐",
-          "attr_text": "美国巴旦木仁500gAA+级",
-          "price": 129,
-          "retail_price": 157,
-          "status": 1,
-          "prev_price": 129
-        },
-        {
-          "sku_id": 1250091735,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AAA+级扁桃仁坚果特色休闲零食500g/罐",
-          "attr_text": "美国巴旦木仁500gAAA+级",
-          "price": 169,
-          "retail_price": 199,
-          "status": 1,
-          "prev_price": 169
-        },
-        {
-          "sku_id": 1250091736,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AA+级扁桃仁坚果炒货休闲零食70g袋装",
-          "attr_text": "美国巴旦木仁70gAA+级",
-          "price": 19.9,
-          "retail_price": 21,
-          "status": 1,
-          "prev_price": 16.9
-        },
-        {
-          "sku_id": 110293,
-          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁扁桃仁特色坚果办公室休闲零食1Kg/罐",
-          "attr_text": "美国巴旦木仁1kgA+级",
-          "price": 169,
-          "retail_price": 189,
-          "status": 0,
-          "prev_price": 169
-        }
-      ]
-    },
-    {
-      "goods_id": 6850,
-      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
-      "spu_sn": "G5D235FF38F",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 244.32,
-      "max_price": 292.81,
-      "prev_price": 242.76,
-      "price_change": 1.56,
-      "price_change_pct": 0.64,
-      "skus": [
-        {
-          "sku_id": 13028,
-          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
-          "attr_text": "【自行安装】-1.5升/分钟",
-          "price": 244.32,
-          "retail_price": 337.66,
-          "status": 1,
-          "prev_price": 242.76
-        },
-        {
-          "sku_id": 65236,
-          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
-          "attr_text": "【基础款】-0废水不用电",
-          "price": 292.81,
-          "retail_price": 696,
-          "status": 1,
-          "prev_price": 292.81
-        },
-        {
-          "sku_id": 2438261,
-          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
-          "attr_text": "纳米级超滤-小海绵",
-          "price": 264.6,
-          "retail_price": 299,
-          "status": 0,
-          "prev_price": 264.6
-        }
-      ]
-    },
-    {
-      "goods_id": 2227770,
-      "goods_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
-      "spu_sn": "G792A5745EC",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/235690/38/25744/77253/66d8853fF004cc513/6419371c55e7b128.png",
+      "goods_id": 2217604,
+      "goods_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
+      "spu_sn": "GCA01E8E16D",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/154397/26/38427/12648/66595f25F3e028c75/fd83ca36a6cc2d30.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 1,
-      "min_price": 221.29,
-      "max_price": 221.29,
-      "prev_price": 220.14,
-      "price_change": 1.15,
-      "price_change_pct": 0.52,
+      "min_price": 16.15,
+      "max_price": 16.15,
+      "prev_price": 15.9,
+      "price_change": 0.25,
+      "price_change_pct": 1.57,
       "skus": [
         {
-          "sku_id": 3753990,
-          "sku_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
-          "attr_text": "前置过滤器  15T/h   反冲洗",
-          "price": 221.29,
-          "retail_price": 469,
+          "sku_id": 40456,
+          "sku_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
+          "attr_text": "【儿童专研】防晒霜35ml",
+          "price": 16.15,
+          "retail_price": 25,
           "status": 1,
-          "prev_price": 220.14
+          "prev_price": 15.9
         }
       ]
     },
@@ -960,7 +822,7 @@
           "sku_id": 42263,
           "sku_name": "百吉福（MILKANA）棒棒奶酪低温儿童奶酪棒 缤纷莓子味 500g/25支装",
           "attr_text": "缤纷梅子味500g",
-          "price": 37.2,
+          "price": 41.9,
           "retail_price": 41,
           "status": 1,
           "prev_price": 37.2
@@ -972,7 +834,7 @@
           "price": 37.9,
           "retail_price": 43,
           "status": 1,
-          "prev_price": 37.2
+          "prev_price": 37.9
         },
         {
           "sku_id": 42264,
@@ -2301,31 +2163,6 @@
       ]
     },
     {
-      "goods_id": 2219632,
-      "goods_name": "海飞丝去屑洗发水男士女士薄荷怡神700g*2+200g洗头膏薄荷洗发水套装",
-      "spu_sn": "GF38996A8F9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/479712/24/9751/341940/6a5f41afFde5e83c1/05f7320320b3a952.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 94.9,
-      "max_price": 94.9,
-      "prev_price": 94.9,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 72635,
-          "sku_name": "海飞丝去屑洗发水男士女士薄荷怡神700g*2+200g洗头膏薄荷洗发水套装",
-          "attr_text": "【去屑净爽】薄荷怡神1600g套装",
-          "price": 94.9,
-          "retail_price": 129.9,
-          "status": 1,
-          "prev_price": 94.9
-        }
-      ]
-    },
-    {
       "goods_id": 2219631,
       "goods_name": "海飞丝去屑洗发水男士女士清爽去油700g*2+200g洗头膏控油洗发水套装",
       "spu_sn": "GEC54B10029",
@@ -2385,35 +2222,10 @@
       ]
     },
     {
-      "goods_id": 2219630,
-      "goods_name": "海飞丝去屑洗发水男士女士止痒呵护700g*2+200g洗头膏舒缓洗发水套装",
-      "spu_sn": "G1B181278A2",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/447409/8/16068/310477/6a5f41c6F8c3b7196/05f7320320a981cc.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 94.9,
-      "max_price": 94.9,
-      "prev_price": 94.9,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 72556,
-          "sku_name": "海飞丝去屑洗发水男士女士止痒呵护700g*2+200g洗头膏舒缓洗发水套装",
-          "attr_text": "【去屑止痒】桉树舒缓1600g套装",
-          "price": 94.9,
-          "retail_price": 129.9,
-          "status": 1,
-          "prev_price": 94.9
-        }
-      ]
-    },
-    {
       "goods_id": 2616507,
       "goods_name": "海龟爸爸儿童面霜滋润保湿肤乳舒缓护肤积雪草宝宝面霜40g",
       "spu_sn": "G5B1775A757",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/513662/3/6982/82028/6a990f61Fbd889735/0083320320d0e688.jpg",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/540133/21/7540/30667/6acbba62Fe8ea7f5f/05f7320320d4d8ec.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 1,
@@ -2490,31 +2302,6 @@
           "retail_price": 53,
           "status": 0,
           "prev_price": 33.48
-        }
-      ]
-    },
-    {
-      "goods_id": 2217604,
-      "goods_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
-      "spu_sn": "GCA01E8E16D",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/154397/26/38427/12648/66595f25F3e028c75/fd83ca36a6cc2d30.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 15.9,
-      "max_price": 15.9,
-      "prev_price": 15.9,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 40456,
-          "sku_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
-          "attr_text": "【儿童专研】防晒霜35ml",
-          "price": 15.9,
-          "retail_price": 25,
-          "status": 1,
-          "prev_price": 15.9
         }
       ]
     },
@@ -3345,14 +3132,14 @@
     },
     {
       "goods_id": 219499,
-      "goods_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
+      "goods_name": "家乐氏（Kellogg）可可爱莓莓450g儿童麦片谷物脆营养早餐食品速食零食代餐巧克力",
       "spu_sn": "GEA38F355C9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/305742/34/4290/189450/682edccbFfaf7dabc/ec7ec99300905d59.jpg",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/395224/36/746/130532/69814779F2a2f9ffb/008332032086fc17.jpg",
       "status": 1,
       "supply_type": 1,
       "sku_count": 4,
       "min_price": 25.6,
-      "max_price": 54.98,
+      "max_price": 40.7,
       "prev_price": 25.6,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3388,8 +3175,8 @@
           "sku_id": 3361127,
           "sku_name": "家乐氏（Kellogg）谷物脆可可球彩圈圈礼盒645g营养早餐食品谷物减脂零食代餐即食",
           "attr_text": "【萌趣贴纸】加油包礼盒645g/盒",
-          "price": 54.98,
-          "retail_price": 99,
+          "price": 40.7,
+          "retail_price": 44,
           "status": 1,
           "prev_price": 54.98
         }
@@ -4793,7 +4580,7 @@
           "sku_id": 33280,
           "sku_name": "雷达（Raid）电热蚊香液 336晚6瓶装+2无线加热器无香型 驱蚊液驱蚊用品",
           "attr_text": "【热销推荐】336晚 6瓶 2器 无香",
-          "price": 47.46,
+          "price": 36.23,
           "retail_price": 51,
           "status": 1,
           "prev_price": 47.46
@@ -4888,14 +4675,14 @@
     },
     {
       "goods_id": 2220977,
-      "goods_name": "良品铺子每日坚果750g/30袋 锁鲜混合坚果开心果核桃坚果礼盒零食团购送礼",
+      "goods_name": "良品铺子每日坚果7种纯坚果750g/30袋 含开心果腰果核桃休闲零食团购送礼",
       "spu_sn": "G1BE6BA29D8",
       "main_img": "https://img13.360buyimg.com/n12/jfs/t1/297216/5/12130/567264/68402d88F11c706b4/61a787e42acf1fc1.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 9,
       "min_price": 12.9,
-      "max_price": 97.89,
+      "max_price": 97.92,
       "prev_price": 12.9,
       "price_change": 0,
       "price_change_pct": 0,
@@ -4904,8 +4691,8 @@
           "sku_id": 410850,
           "sku_name": "良品铺子每日坚果7种纯坚果750g/30袋 含开心果腰果核桃休闲零食团购送礼",
           "attr_text": "【7种100%纯坚果】 750g/盒",
-          "price": 97.89,
-          "retail_price": 106,
+          "price": 97.92,
+          "retail_price": 111,
           "status": 1,
           "prev_price": 97.89
         },
@@ -5448,40 +5235,6 @@
       ]
     },
     {
-      "goods_id": 30030,
-      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-      "spu_sn": "GA1C5A305C5",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/542048/16/4042/116047/6ac8af9dF4393eed3/00833203202e8d4f.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 249,
-      "max_price": 378.77,
-      "prev_price": 249,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 60205,
-          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
-          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
-          "price": 378.77,
-          "retail_price": 435,
-          "status": 1,
-          "prev_price": 378.77
-        },
-        {
-          "sku_id": 2446120,
-          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
-          "price": 249,
-          "retail_price": 499,
-          "status": 1,
-          "prev_price": 249
-        }
-      ]
-    },
-    {
       "goods_id": 2220694,
       "goods_name": "美好时光原味海苔片48包36g 即食紫菜寿司包饭海苔 儿童休闲零食礼物",
       "spu_sn": "GEE4B0E4A0F",
@@ -5589,6 +5342,126 @@
           "retail_price": 65,
           "status": 1,
           "prev_price": 51.84
+        }
+      ]
+    },
+    {
+      "goods_id": 2227770,
+      "goods_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
+      "spu_sn": "G792A5745EC",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/235690/38/25744/77253/66d8853fF004cc513/6419371c55e7b128.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 221.29,
+      "max_price": 221.29,
+      "prev_price": 221.29,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 3753990,
+          "sku_name": "米家小米（MI） 前置过滤器反冲洗前置净水器全屋净水器家用过滤器前置净水器MJQZGLQFYHDB",
+          "attr_text": "前置过滤器  15T/h   反冲洗",
+          "price": 221.29,
+          "retail_price": 469,
+          "status": 1,
+          "prev_price": 221.29
+        }
+      ]
+    },
+    {
+      "goods_id": 2607818,
+      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
+      "spu_sn": "G4DDEF0D20A",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 2,
+      "min_price": 169,
+      "max_price": 179,
+      "prev_price": 169,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 7507984,
+          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
+          "attr_text": "1.6L 【爆款升级】小饭煲N1",
+          "price": 169,
+          "retail_price": 193,
+          "status": 1,
+          "prev_price": 169
+        },
+        {
+          "sku_id": 7507983,
+          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
+          "attr_text": "1.5L 【智能互联】小饭煲",
+          "price": 179,
+          "retail_price": 212,
+          "status": 1,
+          "prev_price": 179
+        }
+      ]
+    },
+    {
+      "goods_id": 2221032,
+      "goods_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
+      "spu_sn": "GDE1570CBB2",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/393860/40/9639/137659/698a9514Fbded81d4/0083320320ab0406.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 5,
+      "min_price": 19.9,
+      "max_price": 169,
+      "prev_price": 19.9,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 110294,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁A+级扁桃仁坚果炒货健康休闲零食500g/罐",
+          "attr_text": "美国巴旦木仁500gA+级",
+          "price": 58,
+          "retail_price": 123,
+          "status": 1,
+          "prev_price": 58
+        },
+        {
+          "sku_id": 1250091734,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AA+级扁桃仁坚果炒货特色休闲零食500g/罐",
+          "attr_text": "美国巴旦木仁500gAA+级",
+          "price": 129,
+          "retail_price": 157,
+          "status": 1,
+          "prev_price": 129
+        },
+        {
+          "sku_id": 1250091735,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AAA+级扁桃仁坚果特色休闲零食500g/罐",
+          "attr_text": "美国巴旦木仁500gAAA+级",
+          "price": 169,
+          "retail_price": 199,
+          "status": 1,
+          "prev_price": 169
+        },
+        {
+          "sku_id": 1250091736,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁AA+级扁桃仁坚果炒货休闲零食70g袋装",
+          "attr_text": "美国巴旦木仁70gAA+级",
+          "price": 19.9,
+          "retail_price": 21,
+          "status": 1,
+          "prev_price": 19.9
+        },
+        {
+          "sku_id": 110293,
+          "sku_name": "觅菓（miguo）NP级大颗粒原味巴旦木仁扁桃仁特色坚果办公室休闲零食1Kg/罐",
+          "attr_text": "美国巴旦木仁1kgA+级",
+          "price": 169,
+          "retail_price": 189,
+          "status": 0,
+          "prev_price": 169
         }
       ]
     },
@@ -5789,9 +5662,9 @@
     },
     {
       "goods_id": 22681,
-      "goods_name": "妙可蓝多 汪汪队儿童奶酪棒500g 原味 高钙0防腐剂健康营养宝宝零食",
+      "goods_name": "妙可蓝多 汪汪队儿童奶酪棒500g 混合水果味 高钙0防腐剂健康营养宝宝零食",
       "spu_sn": "G99597FCB8C",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/464091/5/17743/337111/6a45c298Ff1787caf/00835a05a07791ab.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/473363/26/1542/330128/6a45c29aFbfb6eba4/00835a05a0829ad0.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 17,
@@ -5814,7 +5687,7 @@
           "sku_id": 43280,
           "sku_name": "妙可蓝多 汪汪队儿童奶酪棒500g 原味 高钙0防腐剂健康营养宝宝零食",
           "attr_text": "【25支 经典款】500g原味",
-          "price": 38.2,
+          "price": 41.2,
           "retail_price": 42,
           "status": 1,
           "prev_price": 38.2
@@ -6261,8 +6134,8 @@
           "sku_id": 432242,
           "sku_name": "农夫山泉100%纯果汁NFC橙汁900ml*4瓶整箱装鲜果冷压榨饮料礼盒",
           "attr_text": "橙汁900ml*4瓶",
-          "price": 77,
-          "retail_price": 82,
+          "price": 72,
+          "retail_price": 81,
           "status": 1,
           "prev_price": 77
         },
@@ -7921,6 +7794,40 @@
       ]
     },
     {
+      "goods_id": 2617890,
+      "goods_name": "沙宣男士洗发水大红瓶劲爽去屑洗头膏700g去油止痒蓬松洁净清爽洗发露",
+      "spu_sn": "G3E8D5F2C0B",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/395403/33/3309/15600/69860ea3F34eedc67/05f732032093b902.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 2,
+      "min_price": 49.9,
+      "max_price": 59.2,
+      "prev_price": 49.9,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 461343,
+          "sku_name": "沙宣男士洗发水大红瓶劲爽去屑洗头膏700g去油止痒蓬松洁净清爽洗发露",
+          "attr_text": "【经典爆款】劲爽去屑 700g*1瓶",
+          "price": 49.9,
+          "retail_price": 69.9,
+          "status": 1,
+          "prev_price": 49.9
+        },
+        {
+          "sku_id": 461341,
+          "sku_name": "沙宣大红瓶洗发水男士洁净去屑700g洗头膏洗发露去屑止痒控油持久蓬松",
+          "attr_text": "【经典爆款】洁净去屑 700g*1瓶",
+          "price": 59.2,
+          "retail_price": 69.9,
+          "status": 0,
+          "prev_price": 59.2
+        }
+      ]
+    },
+    {
       "goods_id": 2414731,
       "goods_name": "山水加湿器SJS-Q17-加湿器",
       "spu_sn": "G63F1B9EAE0",
@@ -8569,7 +8476,7 @@
           "price": 493.1,
           "retail_price": 528,
           "status": 1,
-          "prev_price": 479
+          "prev_price": 493.1
         },
         {
           "sku_id": 4919,
@@ -8667,6 +8574,49 @@
           "retail_price": 1099,
           "status": 0,
           "prev_price": 699
+        }
+      ]
+    },
+    {
+      "goods_id": 6850,
+      "goods_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
+      "spu_sn": "G5D235FF38F",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/155125/26/20496/182980/603c58dbE63729e57/f68e3c30bf44b6b5.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 244.32,
+      "max_price": 292.81,
+      "prev_price": 244.32,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 13028,
+          "sku_name": "苏泊尔厨下净水器超滤机家用简约款不插电0废水净水机自来水净化器便捷换滤芯台式过滤器2年超滤膜U501",
+          "attr_text": "【自行安装】-1.5升/分钟",
+          "price": 244.32,
+          "retail_price": 337.66,
+          "status": 1,
+          "prev_price": 244.32
+        },
+        {
+          "sku_id": 65236,
+          "sku_name": "苏泊尔净水器家用厨房自来水过滤器台下净水机超滤机非直饮机保留矿物质水不插电过滤器家庭用DU2U3",
+          "attr_text": "【基础款】-0废水不用电",
+          "price": 292.81,
+          "retail_price": 696,
+          "status": 1,
+          "prev_price": 292.81
+        },
+        {
+          "sku_id": 2438261,
+          "sku_name": "苏泊尔（SUPOR）净水器家用超滤软水机滤水器自来水厨下式净化器UU03厨房饮水水龙头台式台上台下过滤器净水机",
+          "attr_text": "纳米级超滤-小海绵",
+          "price": 264.6,
+          "retail_price": 299,
+          "status": 0,
+          "prev_price": 264.6
         }
       ]
     },
@@ -9848,7 +9798,7 @@
           "price": 33.8,
           "retail_price": 46,
           "status": 1,
-          "prev_price": 35.96
+          "prev_price": 33.8
         },
         {
           "sku_id": 2232165,
@@ -11544,36 +11494,86 @@
       ]
     },
     {
-      "goods_id": 2617890,
-      "goods_name": "沙宣男士洗发水大红瓶劲爽去屑洗头膏700g去油止痒蓬松洁净清爽洗发露",
-      "spu_sn": "G3E8D5F2C0B",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/395403/33/3309/15600/69860ea3F34eedc67/05f732032093b902.png",
+      "goods_id": 2219632,
+      "goods_name": "海飞丝去屑洗发水男士女士薄荷怡神700g*2+200g洗头膏薄荷洗发水套装",
+      "spu_sn": "GF38996A8F9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/479712/24/9751/341940/6a5f41afFde5e83c1/05f7320320b3a952.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 91.5,
+      "max_price": 91.5,
+      "prev_price": 94.9,
+      "price_change": -3.4,
+      "price_change_pct": -3.58,
+      "skus": [
+        {
+          "sku_id": 72635,
+          "sku_name": "海飞丝去屑洗发水男士女士薄荷怡神700g*2+200g洗头膏薄荷洗发水套装",
+          "attr_text": "【去屑净爽】薄荷怡神1600g套装",
+          "price": 91.5,
+          "retail_price": 129.9,
+          "status": 1,
+          "prev_price": 94.9
+        }
+      ]
+    },
+    {
+      "goods_id": 2219630,
+      "goods_name": "海飞丝去屑洗发水男士女士止痒呵护700g*2+200g洗头膏舒缓洗发水套装",
+      "spu_sn": "G1B181278A2",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/447409/8/16068/310477/6a5f41c6F8c3b7196/05f7320320a981cc.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 91.5,
+      "max_price": 91.5,
+      "prev_price": 94.9,
+      "price_change": -3.4,
+      "price_change_pct": -3.58,
+      "skus": [
+        {
+          "sku_id": 72556,
+          "sku_name": "海飞丝去屑洗发水男士女士止痒呵护700g*2+200g洗头膏舒缓洗发水套装",
+          "attr_text": "【去屑止痒】桉树舒缓1600g套装",
+          "price": 91.5,
+          "retail_price": 129.9,
+          "status": 1,
+          "prev_price": 94.9
+        }
+      ]
+    },
+    {
+      "goods_id": 30030,
+      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+      "spu_sn": "GA1C5A305C5",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/542048/16/4042/116047/6ac8af9dF4393eed3/00833203202e8d4f.jpg",
       "status": 1,
       "supply_type": 1,
       "sku_count": 2,
-      "min_price": 49.9,
-      "max_price": 59.2,
-      "prev_price": 53.28,
-      "price_change": -3.38,
-      "price_change_pct": -6.34,
+      "min_price": 211.65,
+      "max_price": 339.15,
+      "prev_price": 249,
+      "price_change": -37.35,
+      "price_change_pct": -15,
       "skus": [
         {
-          "sku_id": 461343,
-          "sku_name": "沙宣男士洗发水大红瓶劲爽去屑洗头膏700g去油止痒蓬松洁净清爽洗发露",
-          "attr_text": "【经典爆款】劲爽去屑 700g*1瓶",
-          "price": 49.9,
-          "retail_price": 69.9,
+          "sku_id": 60205,
+          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
+          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
+          "price": 339.15,
+          "retail_price": 435,
           "status": 1,
-          "prev_price": 53.28
+          "prev_price": 378.77
         },
         {
-          "sku_id": 461341,
-          "sku_name": "沙宣大红瓶洗发水男士洁净去屑700g洗头膏洗发露去屑止痒控油持久蓬松",
-          "attr_text": "【经典爆款】洁净去屑 700g*1瓶",
-          "price": 59.2,
-          "retail_price": 69.9,
-          "status": 0,
-          "prev_price": 59.2
+          "sku_id": 2446120,
+          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
+          "price": 211.65,
+          "retail_price": 499,
+          "status": 1,
+          "prev_price": 249
         }
       ]
     }
