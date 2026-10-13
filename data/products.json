@@ -1,60 +1,10 @@
 {
-  "updated_at": "2026-10-12T07:23:31.766Z",
-  "date": "2026-10-12",
-  "goods_count": 244,
+  "updated_at": "2026-10-13T07:44:43.568Z",
+  "date": "2026-10-13",
+  "goods_count": 242,
   "error_count": 0,
   "errors": [],
   "goods": [
-    {
-      "goods_id": 27302,
-      "goods_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
-      "spu_sn": "GFB5CBFB4DF",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/434280/3/16359/202305/6a0d5b1eF9b1c6649/00833203201ad0d6.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 85,
-      "max_price": 85,
-      "prev_price": 82.5,
-      "price_change": 2.5,
-      "price_change_pct": 3.03,
-      "skus": [
-        {
-          "sku_id": 53676,
-          "sku_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
-          "attr_text": "特香菜籽油5L",
-          "price": 85,
-          "retail_price": 95.29,
-          "status": 1,
-          "prev_price": 82.5
-        }
-      ]
-    },
-    {
-      "goods_id": 2217604,
-      "goods_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
-      "spu_sn": "GCA01E8E16D",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/154397/26/38427/12648/66595f25F3e028c75/fd83ca36a6cc2d30.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 16.15,
-      "max_price": 16.15,
-      "prev_price": 15.9,
-      "price_change": 0.25,
-      "price_change_pct": 1.57,
-      "skus": [
-        {
-          "sku_id": 40456,
-          "sku_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
-          "attr_text": "【儿童专研】防晒霜35ml",
-          "price": 16.15,
-          "retail_price": 25,
-          "status": 1,
-          "prev_price": 15.9
-        }
-      ]
-    },
     {
       "goods_id": 1102671568,
       "goods_name": "【4支】牙博士宝贝保健儿童（超细软毛）牙刷6-12岁适用儿童牙刷1支装*4支 DT221【儿童牙刷1支装*4支/国内发货/1件】",
@@ -850,13 +800,13 @@
           "price": 41.9,
           "retail_price": 41,
           "status": 1,
-          "prev_price": 37.2
+          "prev_price": 41.9
         },
         {
           "sku_id": 42266,
           "sku_name": "百吉福（MILKANA）棒棒奶酪低温儿童奶酪棒 香草冰淇淋味 500g/25支装",
           "attr_text": "香草冰激凌味500g",
-          "price": 37.9,
+          "price": 41.9,
           "retail_price": 43,
           "status": 1,
           "prev_price": 37.9
@@ -1256,31 +1206,6 @@
       ]
     },
     {
-      "goods_id": 2231838,
-      "goods_name": "大公鸡管家 羊毛柔护洗衣液 洗衣液单瓶装 900ml*1羊毛衫专用护理洗涤剂 ",
-      "spu_sn": "GEF31974F9F",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/97711/29/38041/30376/6465d703Fe6f526eb/3e4b85420ac2324f.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 45,
-      "max_price": 45,
-      "prev_price": 45,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 3816571,
-          "sku_name": "大公鸡管家 羊毛柔护洗衣液 洗衣液单瓶装 900ml*1羊毛衫专用护理洗涤剂 ",
-          "attr_text": "1瓶装 900ml*1瓶",
-          "price": 45,
-          "retail_price": 83,
-          "status": 1,
-          "prev_price": 45
-        }
-      ]
-    },
-    {
       "goods_id": 18370,
       "goods_name": "大公鸡管家（CHANTE CLAIR） 液态洗衣皂洗衣液1500ml 白苔香大公鸡洗衣液 意大利进口",
       "spu_sn": "GDFE2F4295A",
@@ -1294,15 +1219,6 @@
       "price_change": 0,
       "price_change_pct": null,
       "skus": [
-        {
-          "sku_id": 33335,
-          "sku_name": "大公鸡管家（CHANTE CLAIR） 液态洗衣皂洗衣液1500ml 白苔香大公鸡洗衣液 意大利进口",
-          "attr_text": "洗衣液 | 白苔香1.5L",
-          "price": 37,
-          "retail_price": 69,
-          "status": 1,
-          "prev_price": 37
-        },
         {
           "sku_id": 33336,
           "sku_name": "大公鸡管家（CHANTE CLAIR）液态洗衣皂洗衣液1500ml 马赛香大公鸡洗衣液 意大利进口",
@@ -1329,6 +1245,15 @@
           "retail_price": 52.9,
           "status": 1,
           "prev_price": 34
+        },
+        {
+          "sku_id": 1001160633,
+          "sku_name": "大公鸡管家（CHANTE CLAIR） 液态洗衣皂洗衣液1500ml 白苔香大公鸡洗衣液 意大利进口",
+          "attr_text": "白苔洗衣液 1.5L*1瓶",
+          "price": 37,
+          "retail_price": 62.9,
+          "status": 1,
+          "prev_price": null
         },
         {
           "sku_id": 144375,
@@ -1865,15 +1790,6 @@
           "prev_price": 14.5
         },
         {
-          "sku_id": 1250070583,
-          "sku_name": "高露洁（Colgate）0添加儿童牙膏0-3-6岁含氟防蛀抗糖酸宝宝牙膏140g草莓味包装随机",
-          "attr_text": "【0-6岁】0添加牙膏 70g 2支",
-          "price": 32.11,
-          "retail_price": 75,
-          "status": 1,
-          "prev_price": 32.11
-        },
-        {
           "sku_id": 1250070585,
           "sku_name": "高露洁（Colgate）儿童牙膏0-3-6岁含氟抗糖防蛀宝宝牙膏40g草莓宝可梦汪汪队随机发",
           "attr_text": "【0-6岁】儿童牙膏草莓 40g 1支",
@@ -1944,6 +1860,15 @@
           "retail_price": 51.8,
           "status": 1,
           "prev_price": 19.69
+        },
+        {
+          "sku_id": 1250070583,
+          "sku_name": "高露洁（Colgate）0添加儿童牙膏0-3-6岁含氟防蛀抗糖酸宝宝牙膏140g草莓味包装随机",
+          "attr_text": "【0-6岁】0添加牙膏 70g 2支",
+          "price": 32.11,
+          "retail_price": 75,
+          "status": 0,
+          "prev_price": 32.11
         },
         {
           "sku_id": 1250070584,
@@ -2188,6 +2113,31 @@
       ]
     },
     {
+      "goods_id": 2219632,
+      "goods_name": "海飞丝去屑洗发水男士女士薄荷怡神700g*2+200g洗头膏薄荷洗发水套装",
+      "spu_sn": "GF38996A8F9",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/479712/24/9751/341940/6a5f41afFde5e83c1/05f7320320b3a952.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 91.5,
+      "max_price": 91.5,
+      "prev_price": 91.5,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 72635,
+          "sku_name": "海飞丝去屑洗发水男士女士薄荷怡神700g*2+200g洗头膏薄荷洗发水套装",
+          "attr_text": "【去屑净爽】薄荷怡神1600g套装",
+          "price": 91.5,
+          "retail_price": 129.9,
+          "status": 1,
+          "prev_price": 91.5
+        }
+      ]
+    },
+    {
       "goods_id": 2219631,
       "goods_name": "海飞丝去屑洗发水男士女士清爽去油700g*2+200g洗头膏控油洗发水套装",
       "spu_sn": "GEC54B10029",
@@ -2243,6 +2193,31 @@
           "retail_price": 79.9,
           "status": 1,
           "prev_price": 72.9
+        }
+      ]
+    },
+    {
+      "goods_id": 2219630,
+      "goods_name": "海飞丝去屑洗发水男士女士止痒呵护700g*2+200g洗头膏舒缓洗发水套装",
+      "spu_sn": "G1B181278A2",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/447409/8/16068/310477/6a5f41c6F8c3b7196/05f7320320a981cc.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 91.5,
+      "max_price": 91.5,
+      "prev_price": 91.5,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 72556,
+          "sku_name": "海飞丝去屑洗发水男士女士止痒呵护700g*2+200g洗头膏舒缓洗发水套装",
+          "attr_text": "【去屑止痒】桉树舒缓1600g套装",
+          "price": 91.5,
+          "retail_price": 129.9,
+          "status": 1,
+          "prev_price": 91.5
         }
       ]
     },
@@ -2327,6 +2302,31 @@
           "retail_price": 53,
           "status": 0,
           "prev_price": 33.48
+        }
+      ]
+    },
+    {
+      "goods_id": 2217604,
+      "goods_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
+      "spu_sn": "GCA01E8E16D",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/154397/26/38427/12648/66595f25F3e028c75/fd83ca36a6cc2d30.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 16.15,
+      "max_price": 16.15,
+      "prev_price": 16.15,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 40456,
+          "sku_name": "红色小象儿童防晒霜35ml SPF14 PA+++ 宝宝户外防晒隔离紫外线开学军训",
+          "attr_text": "【儿童专研】防晒霜35ml",
+          "price": 16.15,
+          "retail_price": 25,
+          "status": 1,
+          "prev_price": 16.15
         }
       ]
     },
@@ -2701,7 +2701,7 @@
           "sku_id": 739757,
           "sku_name": "花王（KAO）抗菌消臭洗衣液2.4kg 进口洗衣精洁霸除菌内衣裤可用香味持久",
           "attr_text": "【防霉除臭】洗衣液 2.4kg*1瓶",
-          "price": 62.53,
+          "price": 61.45,
           "retail_price": 79,
           "status": 1,
           "prev_price": 62.53
@@ -3106,31 +3106,6 @@
       ]
     },
     {
-      "goods_id": 2087492,
-      "goods_name": "惠人（HUROM）破壁机原汁机二合一 韩国进口多功能破壁机料理机豆浆机榨汁机 M100-SBIA05",
-      "spu_sn": "G456D93E5CC",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/274023/15/21525/101245/67feff1eFf43241b1/29146b57bd5c92f6.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 3697.92,
-      "max_price": 3697.92,
-      "prev_price": 3697.92,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 6276356,
-          "sku_name": "惠人（HUROM）破壁机原汁机二合一 韩国进口多功能破壁机料理机豆浆机榨汁机 M100-SBIA05",
-          "attr_text": "原汁机-大口径两用",
-          "price": 3697.92,
-          "retail_price": 4366,
-          "status": 1,
-          "prev_price": 3697.92
-        }
-      ]
-    },
-    {
       "goods_id": 1102783932,
       "goods_name": "佳果源100%NFC椰子水350ml*8礼盒装【佳果源 100%NFC椰子水350ml*8礼盒装/国内发货/1件】",
       "spu_sn": "GE66F5F5AE7",
@@ -3203,7 +3178,7 @@
           "price": 40.7,
           "retail_price": 44,
           "status": 1,
-          "prev_price": 54.98
+          "prev_price": 40.7
         }
       ]
     },
@@ -3225,7 +3200,7 @@
           "sku_id": 43775,
           "sku_name": "简爱父爱配方 儿童酸奶0%蔗糖原味100g*6袋 无蔗糖宝宝酸奶早餐下午茶",
           "attr_text": "【A2奶源升级】父爱0%蔗糖*6袋",
-          "price": 34.94,
+          "price": 33.51,
           "retail_price": 37,
           "status": 1,
           "prev_price": 34.94
@@ -3322,7 +3297,7 @@
       "supply_type": 1,
       "sku_count": 8,
       "min_price": 17.9,
-      "max_price": 63.49,
+      "max_price": 62.43,
       "prev_price": 17.9,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3340,7 +3315,7 @@
           "sku_id": 33352,
           "sku_name": "洁柔抽纸 黑Face3层120抽*20包 可湿水 大规格M码面巾纸 纸巾整箱",
           "attr_text": "3层 120抽*20包 【加量大规格】",
-          "price": 63.49,
+          "price": 62.43,
           "retail_price": 85.9,
           "status": 1,
           "prev_price": 63.49
@@ -3908,7 +3883,7 @@
       "supply_type": 1,
       "sku_count": 5,
       "min_price": 17.9,
-      "max_price": 64.8,
+      "max_price": 55.08,
       "prev_price": 17.9,
       "price_change": 0,
       "price_change_pct": 0,
@@ -3935,7 +3910,7 @@
           "sku_id": 1250109284,
           "sku_name": "卡乐比（Calbee）水果麦片原味600g+50g*4 日本进口 早餐代餐",
           "attr_text": "【爆款加量】原味600g+50g*4",
-          "price": 64.8,
+          "price": 55.08,
           "retail_price": 89,
           "status": 1,
           "prev_price": 64.8
@@ -4608,7 +4583,7 @@
           "price": 36.23,
           "retail_price": 51,
           "status": 1,
-          "prev_price": 47.46
+          "prev_price": 36.23
         },
         {
           "sku_id": 32213,
@@ -4702,7 +4677,7 @@
       "goods_id": 2220977,
       "goods_name": "良品铺子每日坚果7种纯坚果750g/30袋 含开心果腰果核桃休闲零食团购送礼",
       "spu_sn": "G1BE6BA29D8",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/297216/5/12130/567264/68402d88F11c706b4/61a787e42acf1fc1.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/482488/40/18985/431407/6a7992f0Fecb321c5/05f75a05a0ee3875.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 9,
@@ -4719,7 +4694,7 @@
           "price": 97.92,
           "retail_price": 111,
           "status": 1,
-          "prev_price": 97.89
+          "prev_price": 97.92
         },
         {
           "sku_id": 1250078149,
@@ -4932,6 +4907,31 @@
           "retail_price": 15.8,
           "status": 1,
           "prev_price": 13.6
+        }
+      ]
+    },
+    {
+      "goods_id": 27302,
+      "goods_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
+      "spu_sn": "GFB5CBFB4DF",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/434280/3/16359/202305/6a0d5b1eF9b1c6649/00833203201ad0d6.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 85,
+      "max_price": 85,
+      "prev_price": 85,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 53676,
+          "sku_name": "鲁花【保真菜籽油】食用油低芥酸特香菜籽油5L  /桶非转基因",
+          "attr_text": "特香菜籽油5L",
+          "price": 85,
+          "retail_price": 95.29,
+          "status": 1,
+          "prev_price": 85
         }
       ]
     },
@@ -5235,6 +5235,40 @@
       ]
     },
     {
+      "goods_id": 30030,
+      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+      "spu_sn": "GA1C5A305C5",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/542048/16/4042/116047/6ac8af9dF4393eed3/00833203202e8d4f.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 2,
+      "min_price": 211.65,
+      "max_price": 339.15,
+      "prev_price": 211.65,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 60205,
+          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
+          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
+          "price": 339.15,
+          "retail_price": 435,
+          "status": 1,
+          "prev_price": 339.15
+        },
+        {
+          "sku_id": 2446120,
+          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
+          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
+          "price": 211.65,
+          "retail_price": 499,
+          "status": 1,
+          "prev_price": 211.65
+        }
+      ]
+    },
+    {
       "goods_id": 2220694,
       "goods_name": "美好时光原味海苔片48包36g 即食紫菜寿司包饭海苔 儿童休闲零食礼物",
       "spu_sn": "GEE4B0E4A0F",
@@ -5367,40 +5401,6 @@
           "retail_price": 469,
           "status": 1,
           "prev_price": 221.29
-        }
-      ]
-    },
-    {
-      "goods_id": 2607818,
-      "goods_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-      "spu_sn": "G4DDEF0D20A",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/60967/15/28488/119953/66bf35f3Fbdf42580/225302c689b62fe0.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 169,
-      "max_price": 179,
-      "prev_price": 169,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 7507984,
-          "sku_name": "米家小米电饭煲家用 多功能电饭锅煮饭煮粥 1-2个人小型迷你电饭煲 不粘内胆 1.6升",
-          "attr_text": "1.6L 【爆款升级】小饭煲N1",
-          "price": 169,
-          "retail_price": 193,
-          "status": 1,
-          "prev_price": 169
-        },
-        {
-          "sku_id": 7507983,
-          "sku_name": "米家小米电饭煲家用1-2人 多功能电饭锅煮饭煮粥锅 玻璃面板 APP互联 1.5L智能迷你小饭煲2",
-          "attr_text": "1.5L 【智能互联】小饭煲",
-          "price": 179,
-          "retail_price": 212,
-          "status": 1,
-          "prev_price": 179
         }
       ]
     },
@@ -5662,9 +5662,9 @@
     },
     {
       "goods_id": 22681,
-      "goods_name": "妙可蓝多 汪汪队儿童奶酪棒500g 混合水果味 高钙0防腐剂健康营养宝宝零食",
+      "goods_name": "妙可蓝多 汪汪队儿童奶酪棒500g 原味 高钙0防腐剂健康营养宝宝零食",
       "spu_sn": "G99597FCB8C",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/473363/26/1542/330128/6a45c29aFbfb6eba4/00835a05a0829ad0.png",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/464091/5/17743/337111/6a45c298Ff1787caf/00835a05a07791ab.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 17,
@@ -5687,10 +5687,10 @@
           "sku_id": 43280,
           "sku_name": "妙可蓝多 汪汪队儿童奶酪棒500g 原味 高钙0防腐剂健康营养宝宝零食",
           "attr_text": "【25支 经典款】500g原味",
-          "price": 41.2,
+          "price": 39.9,
           "retail_price": 42,
           "status": 1,
-          "prev_price": 38.2
+          "prev_price": 41.2
         },
         {
           "sku_id": 43285,
@@ -6137,7 +6137,7 @@
           "price": 72,
           "retail_price": 81,
           "status": 1,
-          "prev_price": 77
+          "prev_price": 72
         },
         {
           "sku_id": 432243,
@@ -6910,7 +6910,7 @@
           "sku_id": 34487,
           "sku_name": "清风【李昀锐同款】抽纸 厚柔4层90抽24包M码 卫生纸巾餐巾纸 整箱装",
           "attr_text": "4层 90抽*24包 【店铺销量top1】",
-          "price": 39.8,
+          "price": 38.02,
           "retail_price": 65.8,
           "status": 1,
           "prev_price": 39.8
@@ -7362,7 +7362,7 @@
       "main_img": "https://img13.360buyimg.com/n12/jfs/t1/414116/29/1745/165871/69ce3256Fb003b579/05f75dc5dca2e6bd.png",
       "status": 1,
       "supply_type": 1,
-      "sku_count": 8,
+      "sku_count": 7,
       "min_price": 0,
       "max_price": 99,
       "prev_price": 0,
@@ -7431,15 +7431,6 @@
           "retail_price": 29,
           "status": 0,
           "prev_price": 0
-        },
-        {
-          "sku_id": 1103079179,
-          "sku_name": "认养一头牛高钙纯牛奶3.6g蛋白 250ml*10盒*2箱 京东自营 家庭囤货礼盒装",
-          "attr_text": "【高钙礼盒】250ml*10盒*2提",
-          "price": 74.9,
-          "retail_price": 99.62,
-          "status": 0,
-          "prev_price": 74.9
         }
       ]
     },
@@ -7583,7 +7574,7 @@
           "sku_id": 7515416,
           "sku_name": "三只松鼠每日坚果1050g35袋独立包装腰果葡萄干坚果礼盒礼包出游团购送礼",
           "attr_text": "【性价比】1050g4坚果+3果干",
-          "price": 75.9,
+          "price": 69.9,
           "retail_price": 89,
           "status": 1,
           "prev_price": 75.9
@@ -7625,15 +7616,6 @@
           "prev_price": 67
         },
         {
-          "sku_id": 7515418,
-          "sku_name": "三只松鼠每日坚果750g30袋独立包装腰果开心果干坚果礼盒礼包团购送礼出游",
-          "attr_text": "【健康款】750g3坚果+3果干",
-          "price": 56,
-          "retail_price": 59,
-          "status": 1,
-          "prev_price": 56
-        },
-        {
           "sku_id": 1100118699,
           "sku_name": "三只松鼠高端每日坚果纯坚果750g/30袋 坚果礼盒礼包开心果中秋团购送礼",
           "attr_text": "【高端款】750g100%7种坚果",
@@ -7661,6 +7643,15 @@
           "prev_price": 22.9
         },
         {
+          "sku_id": 7515418,
+          "sku_name": "三只松鼠每日坚果750g30袋独立包装腰果开心果干坚果礼盒礼包团购送礼出游",
+          "attr_text": "【健康款】750g3坚果+3果干",
+          "price": 56,
+          "retail_price": 59,
+          "status": 0,
+          "prev_price": 56
+        },
+        {
           "sku_id": 7515419,
           "sku_name": "三只松鼠每日坚果优鲜沛联名款750g/30袋 零食大礼包腰果 团购送礼",
           "attr_text": "750g/盒30袋4+4优鲜沛款",
@@ -7668,49 +7659,6 @@
           "retail_price": 83,
           "status": 0,
           "prev_price": 78.5
-        }
-      ]
-    },
-    {
-      "goods_id": 1102615606,
-      "goods_name": "沙巴哇果蔬干休闲零食大礼包10袋/343g菠萝蜜干果蔬脆水果干礼盒装",
-      "spu_sn": "G6D7C19CE8D",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/182977/12/44335/183334/664eafe6F8ad5bee9/56aa4d88200d6dc2.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 3,
-      "min_price": 11.9,
-      "max_price": 59,
-      "prev_price": 11.9,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 1250066767,
-          "sku_name": "沙巴哇香菇脆30g 蘑菇蔬菜干 办公室休闲零食果蔬脆（DIY麻辣）",
-          "attr_text": "30g1袋香菇脆（DIY麻辣）",
-          "price": 11.9,
-          "retail_price": 15.9,
-          "status": 1,
-          "prev_price": 11.9
-        },
-        {
-          "sku_id": 1250066768,
-          "sku_name": "沙巴哇果蔬干休闲零食大礼包10袋/343g菠萝蜜干果蔬脆水果干礼盒装",
-          "attr_text": "343g1箱礼包",
-          "price": 59,
-          "retail_price": 80.9,
-          "status": 1,
-          "prev_price": 59
-        },
-        {
-          "sku_id": 1250066766,
-          "sku_name": "沙巴哇越南进口果蔬干180g 果蔬脆片蜜饯水果干混合装 休闲零食下午茶",
-          "attr_text": "180g1袋",
-          "price": 21.9,
-          "retail_price": 24,
-          "status": 0,
-          "prev_price": 21.9
         }
       ]
     },
@@ -8464,7 +8412,7 @@
       "supply_type": 1,
       "sku_count": 7,
       "min_price": 239.64,
-      "max_price": 493.1,
+      "max_price": 479,
       "prev_price": 239.64,
       "price_change": 0,
       "price_change_pct": 0,
@@ -8473,8 +8421,8 @@
           "sku_id": 736699,
           "sku_name": "松下（Panasonic）台灯 AAAAA级台灯学生学习阅读全光谱护眼台灯智能灯",
           "attr_text": "【旋钮式】致焰-17W-全光谱",
-          "price": 493.1,
-          "retail_price": 528,
+          "price": 479,
+          "retail_price": 508,
           "status": 1,
           "prev_price": 493.1
         },
@@ -8862,7 +8810,7 @@
       "goods_id": 18646,
       "goods_name": "威露士衣物消毒液松木3L 杀菌99.9%除螨内衣衣物除菌液 可配洗衣液用",
       "spu_sn": "G1F1A7E4E2F",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/448738/26/11716/103639/6a630724F29bfe289/0083320320cb8409.jpg",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/387692/35/19338/32625/697ff8e8Fabd65162/05f7320320143844.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 3,
@@ -8966,7 +8914,7 @@
       "goods_id": 2216813,
       "goods_name": "威露士衣物消毒液薰衣草3L 杀菌99.9%除螨内衣衣物除菌液 可配洗衣液用",
       "spu_sn": "G1E3B3DDEFB",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/454035/27/11681/110305/6a630725Ff0fd0413/008332032007d317.jpg",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/428618/18/19512/35310/6a018b7eF015cc1a3/05f73203209d086f.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 4,
@@ -9088,7 +9036,7 @@
       "goods_id": 71928,
       "goods_name": "威猛先生（Mr Muscle）洁厕灵 600g*2瓶 柠檬草香 洁厕剂 马桶清洁 超市同款",
       "spu_sn": "GE42ECC7B00",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/463792/14/1728/206352/6a3894f8Ff8354441/0083320320f2097c.jpg",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/353893/19/12650/188135/6916f20aF2688298d/18f40214925107f7.png",
       "status": 1,
       "supply_type": 1,
       "sku_count": 8,
@@ -9249,7 +9197,7 @@
           "sku_id": 32112,
           "sku_name": "维达（Vinda）厨房湿巾【张凌赫推荐】60片*5包 厨房用纸 加大加量去油污厨房纸",
           "attr_text": "1层 60片*5包 【店长推荐】",
-          "price": 41.9,
+          "price": 41.86,
           "retail_price": 49.9,
           "status": 1,
           "prev_price": 41.9
@@ -10504,193 +10452,6 @@
       ]
     },
     {
-      "goods_id": 2219550,
-      "goods_name": "云南白药6-12岁儿童桃子牙膏牙刷 含氟防蛀固齿清新 桃子60g+儿童牙刷*1",
-      "spu_sn": "G852EE3E0F2",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/344243/10/25399/356996/69115ee6F5aac81ae/85cfd3cde08c6fde.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 19,
-      "min_price": 22.5,
-      "max_price": 111,
-      "prev_price": 22.5,
-      "price_change": 0,
-      "price_change_pct": 0,
-      "skus": [
-        {
-          "sku_id": 71624,
-          "sku_name": "云南白药经典系列牙膏 健齿护龈改善牙龈问题 清新口气留兰香型牙膏180g",
-          "attr_text": "【爆款单支】留兰护龈180g",
-          "price": 22.5,
-          "retail_price": 29,
-          "status": 1,
-          "prev_price": 22.5
-        },
-        {
-          "sku_id": 71626,
-          "sku_name": "云南白药牙膏【采销推荐】经典护龈改善牙龈问题祛牙垢清新口气薄荷210g",
-          "attr_text": "【爆款单支】薄荷清新210g",
-          "price": 25,
-          "retail_price": 34,
-          "status": 1,
-          "prev_price": 25
-        },
-        {
-          "sku_id": 7515298,
-          "sku_name": "云南白药薄荷口味套装460g健齿护龈清新口气牙膏3支+软毛牙刷1支",
-          "attr_text": "【清新口气】共460g+牙刷+便携袋",
-          "price": 66,
-          "retail_price": 105.1,
-          "status": 1,
-          "prev_price": 66
-        },
-        {
-          "sku_id": 7515300,
-          "sku_name": "云南白药高端系列口腔护理牙膏清新口气洁齿缓解口腔问题护龈BIO共360g",
-          "attr_text": "【高端护龈BIO】4支共360g",
-          "price": 111,
-          "retail_price": 159,
-          "status": 1,
-          "prev_price": 111
-        },
-        {
-          "sku_id": 7515626,
-          "sku_name": "云南白药经典系列牙膏套装 清新口气护龈改善牙龈问题 经典留兰香型180g*2",
-          "attr_text": "【人气双支】留兰护龈180g*2",
-          "price": 45,
-          "retail_price": 62,
-          "status": 1,
-          "prev_price": 45
-        },
-        {
-          "sku_id": 7515627,
-          "sku_name": "云南白药【采销推荐】经典薄荷护龈牙膏套装 清新口气改善牙龈问题210g*2",
-          "attr_text": "【人气双支】薄荷清新210g*2",
-          "price": 50,
-          "retail_price": 77,
-          "status": 1,
-          "prev_price": 50
-        },
-        {
-          "sku_id": 7515628,
-          "sku_name": "云南白药经典系列牙膏套装 护龈祛渍洁齿 亮白清新口气冬青香型165g*3",
-          "attr_text": "【冬青亮白】165g*3",
-          "price": 73.62,
-          "retail_price": 93.1,
-          "status": 1,
-          "prev_price": 73.62
-        },
-        {
-          "sku_id": 7515631,
-          "sku_name": "云南白药益生菌热门牙膏套装清新口气去口臭护龈牙膏6支500g+环保购物袋",
-          "attr_text": "【爆款四支】加赠小样两支共500g",
-          "price": 60.9,
-          "retail_price": 87.9,
-          "status": 1,
-          "prev_price": 60.9
-        },
-        {
-          "sku_id": 7515632,
-          "sku_name": "云南白药牙膏经典系列家庭装清新口气健齿护龈改善牙龈问题留兰香型180g*3",
-          "attr_text": "【经典留兰】3支共540g",
-          "price": 67.5,
-          "retail_price": 95,
-          "status": 1,
-          "prev_price": 67.5
-        },
-        {
-          "sku_id": 1250065925,
-          "sku_name": "云南白药6-12岁儿童桃子牙膏牙刷 含氟防蛀固齿清新 桃子60g+儿童牙刷*1",
-          "attr_text": "【6-12岁儿童套装】桃子60g+牙刷",
-          "price": 37.8,
-          "retail_price": 69,
-          "status": 1,
-          "prev_price": 37.8
-        },
-        {
-          "sku_id": 1250065926,
-          "sku_name": "云南白药6-12岁儿童薄荷牙膏牙刷含氟防蛀固齿换牙期 薄荷 60g+儿童牙刷*1",
-          "attr_text": "【6-12岁儿童套装】薄荷60g+牙刷",
-          "price": 37.8,
-          "retail_price": 69,
-          "status": 1,
-          "prev_price": 37.8
-        },
-        {
-          "sku_id": 1250065927,
-          "sku_name": "云南白药6-12岁儿童防蛀牙膏牙刷套装桃子香型60g+薄荷香型60g+儿童牙刷*2",
-          "attr_text": "【防蛀】桃子60g薄荷60g+牙刷*2 ",
-          "price": 75.6,
-          "retail_price": 119,
-          "status": 1,
-          "prev_price": 75.6
-        },
-        {
-          "sku_id": 7515629,
-          "sku_name": "云南白药【采销推荐】经典薄荷护龈牙膏囤货装清新口气改善牙龈问题210g*3",
-          "attr_text": "【囤货装】薄荷香210g*3",
-          "price": 75,
-          "retail_price": 115,
-          "status": 0,
-          "prev_price": 75
-        },
-        {
-          "sku_id": 1250065919,
-          "sku_name": "云南白药3-6岁儿童牙膏牙刷呵护萌牙 葡萄香型60g+草莓香型60g+儿童牙刷*2",
-          "attr_text": "【3-6岁】葡萄60g草莓60g+牙刷*2",
-          "price": 86.4,
-          "retail_price": 119,
-          "status": 0,
-          "prev_price": 86.4
-        },
-        {
-          "sku_id": 1250065920,
-          "sku_name": "云南白药3-6岁儿童牙膏牙刷无氟护口 香橙香型60g+草莓香型60g+儿童牙刷*2",
-          "attr_text": "【3-6岁】香橙60g草莓60g+牙刷*2",
-          "price": 79,
-          "retail_price": 119,
-          "status": 0,
-          "prev_price": 79
-        },
-        {
-          "sku_id": 1250065921,
-          "sku_name": "云南白药3-6岁儿童牙膏牙刷无氟护口 香橙香型60g+葡萄香型60g+儿童牙刷*2",
-          "attr_text": "【3-6岁】香橙60g葡萄60g+牙刷*2",
-          "price": 86.4,
-          "retail_price": 119,
-          "status": 0,
-          "prev_price": 86.4
-        },
-        {
-          "sku_id": 1250065922,
-          "sku_name": "云南白药3-6岁儿童草莓牙膏牙刷 益生菌无氟温和清洁 草莓 60g+儿童牙刷*1",
-          "attr_text": "【3-6岁儿童套装】草莓60g+牙刷 ",
-          "price": 39.5,
-          "retail_price": 48,
-          "status": 0,
-          "prev_price": 39.5
-        },
-        {
-          "sku_id": 1250065923,
-          "sku_name": "云南白药3-6岁儿童葡萄牙膏牙刷 无氟洁齿温和护口 葡萄 60g+儿童牙刷*1",
-          "attr_text": "【3-6岁儿童套装】葡萄60g+牙刷",
-          "price": 43.2,
-          "retail_price": 69,
-          "status": 0,
-          "prev_price": 43.2
-        },
-        {
-          "sku_id": 1250065924,
-          "sku_name": "云南白药3-6岁儿童牙膏牙刷 益生菌 无氟清新口气 香橙香型60g+儿童牙刷*1",
-          "attr_text": "【3-6岁儿童套装】香橙60g+牙刷",
-          "price": 43.2,
-          "retail_price": 69,
-          "status": 0,
-          "prev_price": 43.2
-        }
-      ]
-    },
-    {
       "goods_id": 196943,
       "goods_name": "长寿花压榨玉米油 5L 非转基因 纯正一级 食用油 （新老包装随机发货）",
       "spu_sn": "GEA59D609C1",
@@ -11116,15 +10877,6 @@
           "prev_price": 84.36
         },
         {
-          "sku_id": 7515781,
-          "sku_name": "babycare婴儿洗衣液 无酒精宝宝专用儿童酵素去污清洁剂（8.8L组合装）",
-          "attr_text": "8.8L 1瓶 组合装 【家庭推荐】",
-          "price": 192.86,
-          "retail_price": 259,
-          "status": 1,
-          "prev_price": 192.86
-        },
-        {
           "sku_id": 416758,
           "sku_name": "babycare宝宝专用洗衣凝珠婴幼儿童洗衣球洗衣珠三合一去污渍12g*28颗",
           "attr_text": "【洗衣凝珠】12g*28颗",
@@ -11141,6 +10893,15 @@
           "retail_price": 49,
           "status": 0,
           "prev_price": 27.91
+        },
+        {
+          "sku_id": 7515781,
+          "sku_name": "babycare婴儿洗衣液 无酒精宝宝专用儿童酵素去污清洁剂（8.8L组合装）",
+          "attr_text": "8.8L 1瓶 组合装 【家庭推荐】",
+          "price": 192.86,
+          "retail_price": 259,
+          "status": 0,
+          "prev_price": 192.86
         },
         {
           "sku_id": 7515782,
@@ -11494,86 +11255,257 @@
       ]
     },
     {
-      "goods_id": 2219632,
-      "goods_name": "海飞丝去屑洗发水男士女士薄荷怡神700g*2+200g洗头膏薄荷洗发水套装",
-      "spu_sn": "GF38996A8F9",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/479712/24/9751/341940/6a5f41afFde5e83c1/05f7320320b3a952.png",
+      "goods_id": 1102615606,
+      "goods_name": "沙巴哇果蔬干休闲零食大礼包10袋/343g菠萝蜜干果蔬脆水果干礼盒装",
+      "spu_sn": "G6D7C19CE8D",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/182977/12/44335/183334/664eafe6F8ad5bee9/56aa4d88200d6dc2.jpg",
       "status": 1,
       "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 91.5,
-      "max_price": 91.5,
-      "prev_price": 94.9,
-      "price_change": -3.4,
-      "price_change_pct": -3.58,
+      "sku_count": 3,
+      "min_price": 0,
+      "max_price": 59,
+      "prev_price": 21.9,
+      "price_change": -21.9,
+      "price_change_pct": -100,
       "skus": [
         {
-          "sku_id": 72635,
-          "sku_name": "海飞丝去屑洗发水男士女士薄荷怡神700g*2+200g洗头膏薄荷洗发水套装",
-          "attr_text": "【去屑净爽】薄荷怡神1600g套装",
-          "price": 91.5,
-          "retail_price": 129.9,
+          "sku_id": 1250066767,
+          "sku_name": "沙巴哇香菇脆30g 蘑菇蔬菜干 办公室休闲零食果蔬脆（DIY麻辣）",
+          "attr_text": "30g1袋香菇脆（DIY麻辣）",
+          "price": 11.9,
+          "retail_price": 15.9,
           "status": 1,
-          "prev_price": 94.9
-        }
-      ]
-    },
-    {
-      "goods_id": 2219630,
-      "goods_name": "海飞丝去屑洗发水男士女士止痒呵护700g*2+200g洗头膏舒缓洗发水套装",
-      "spu_sn": "G1B181278A2",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/447409/8/16068/310477/6a5f41c6F8c3b7196/05f7320320a981cc.png",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 1,
-      "min_price": 91.5,
-      "max_price": 91.5,
-      "prev_price": 94.9,
-      "price_change": -3.4,
-      "price_change_pct": -3.58,
-      "skus": [
-        {
-          "sku_id": 72556,
-          "sku_name": "海飞丝去屑洗发水男士女士止痒呵护700g*2+200g洗头膏舒缓洗发水套装",
-          "attr_text": "【去屑止痒】桉树舒缓1600g套装",
-          "price": 91.5,
-          "retail_price": 129.9,
-          "status": 1,
-          "prev_price": 94.9
-        }
-      ]
-    },
-    {
-      "goods_id": 30030,
-      "goods_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-      "spu_sn": "GA1C5A305C5",
-      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/542048/16/4042/116047/6ac8af9dF4393eed3/00833203202e8d4f.jpg",
-      "status": 1,
-      "supply_type": 1,
-      "sku_count": 2,
-      "min_price": 211.65,
-      "max_price": 339.15,
-      "prev_price": 249,
-      "price_change": -37.35,
-      "price_change_pct": -15,
-      "skus": [
-        {
-          "sku_id": 60205,
-          "sku_name": "美的（Midea）净水器0阻垢剂滤芯适用禅意台面储水壶款MRO1890-100G、F1（MRO1990-100G）净水机通用一体芯系列",
-          "attr_text": "FIST一体芯-禅意-储水壶款/F1 / 购前详询客服，换芯请冲洗",
-          "price": 339.15,
-          "retail_price": 435,
-          "status": 1,
-          "prev_price": 378.77
+          "prev_price": 11.9
         },
         {
-          "sku_id": 2446120,
-          "sku_name": "美的台式净水器净饮机滤芯适用于F1/JT100/DT100台式净水器-1年FIST滤芯",
-          "attr_text": "FIST一体芯-F1/JT100/DT100台净 / 购前详询客服，换芯请冲洗",
-          "price": 211.65,
-          "retail_price": 499,
+          "sku_id": 1250066768,
+          "sku_name": "沙巴哇果蔬干休闲零食大礼包10袋/343g菠萝蜜干果蔬脆水果干礼盒装",
+          "attr_text": "343g1箱礼包",
+          "price": 59,
+          "retail_price": 80.9,
           "status": 1,
-          "prev_price": 249
+          "prev_price": 59
+        },
+        {
+          "sku_id": 1250066766,
+          "sku_name": "沙巴哇越南进口果蔬干180g 果蔬脆片蜜饯水果干混合装 休闲零食下午茶",
+          "attr_text": "180g1袋",
+          "price": 0,
+          "retail_price": 24,
+          "status": 0,
+          "prev_price": 21.9
+        }
+      ]
+    },
+    {
+      "goods_id": 2219550,
+      "goods_name": "云南白药6-12岁儿童桃子牙膏牙刷 含氟防蛀固齿清新 桃子60g+儿童牙刷*1",
+      "spu_sn": "G852EE3E0F2",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/344243/10/25399/356996/69115ee6F5aac81ae/85cfd3cde08c6fde.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 19,
+      "min_price": 0,
+      "max_price": 111,
+      "prev_price": 39.5,
+      "price_change": -39.5,
+      "price_change_pct": -100,
+      "skus": [
+        {
+          "sku_id": 71624,
+          "sku_name": "云南白药经典系列牙膏 健齿护龈改善牙龈问题 清新口气留兰香型牙膏180g",
+          "attr_text": "【爆款单支】留兰护龈180g",
+          "price": 22.5,
+          "retail_price": 29,
+          "status": 1,
+          "prev_price": 22.5
+        },
+        {
+          "sku_id": 71626,
+          "sku_name": "云南白药牙膏【采销推荐】经典护龈改善牙龈问题祛牙垢清新口气薄荷210g",
+          "attr_text": "【爆款单支】薄荷清新210g",
+          "price": 25,
+          "retail_price": 34,
+          "status": 1,
+          "prev_price": 25
+        },
+        {
+          "sku_id": 7515298,
+          "sku_name": "云南白药薄荷口味套装460g健齿护龈清新口气牙膏3支+软毛牙刷1支",
+          "attr_text": "【清新口气】共460g+牙刷+便携袋",
+          "price": 66,
+          "retail_price": 105.1,
+          "status": 1,
+          "prev_price": 66
+        },
+        {
+          "sku_id": 7515300,
+          "sku_name": "云南白药高端系列口腔护理牙膏清新口气洁齿缓解口腔问题护龈BIO共360g",
+          "attr_text": "【高端护龈BIO】4支共360g",
+          "price": 111,
+          "retail_price": 159,
+          "status": 1,
+          "prev_price": 111
+        },
+        {
+          "sku_id": 7515626,
+          "sku_name": "云南白药经典系列牙膏套装 清新口气护龈改善牙龈问题 经典留兰香型180g*2",
+          "attr_text": "【人气双支】留兰护龈180g*2",
+          "price": 45,
+          "retail_price": 62,
+          "status": 1,
+          "prev_price": 45
+        },
+        {
+          "sku_id": 7515627,
+          "sku_name": "云南白药【采销推荐】经典薄荷护龈牙膏套装 清新口气改善牙龈问题210g*2",
+          "attr_text": "【人气双支】薄荷清新210g*2",
+          "price": 50,
+          "retail_price": 77,
+          "status": 1,
+          "prev_price": 50
+        },
+        {
+          "sku_id": 7515628,
+          "sku_name": "云南白药经典系列牙膏套装 护龈祛渍洁齿 亮白清新口气冬青香型165g*3",
+          "attr_text": "【冬青亮白】165g*3",
+          "price": 73.62,
+          "retail_price": 93.1,
+          "status": 1,
+          "prev_price": 73.62
+        },
+        {
+          "sku_id": 7515631,
+          "sku_name": "云南白药益生菌热门牙膏套装清新口气去口臭护龈牙膏6支500g+环保购物袋",
+          "attr_text": "【爆款四支】加赠小样两支共500g",
+          "price": 60.9,
+          "retail_price": 87.9,
+          "status": 1,
+          "prev_price": 60.9
+        },
+        {
+          "sku_id": 7515632,
+          "sku_name": "云南白药牙膏经典系列家庭装清新口气健齿护龈改善牙龈问题留兰香型180g*3",
+          "attr_text": "【经典留兰】3支共540g",
+          "price": 67.5,
+          "retail_price": 95,
+          "status": 1,
+          "prev_price": 67.5
+        },
+        {
+          "sku_id": 1250065925,
+          "sku_name": "云南白药6-12岁儿童桃子牙膏牙刷 含氟防蛀固齿清新 桃子60g+儿童牙刷*1",
+          "attr_text": "【6-12岁儿童套装】桃子60g+牙刷",
+          "price": 37.8,
+          "retail_price": 69,
+          "status": 1,
+          "prev_price": 37.8
+        },
+        {
+          "sku_id": 1250065926,
+          "sku_name": "云南白药6-12岁儿童薄荷牙膏牙刷含氟防蛀固齿换牙期 薄荷 60g+儿童牙刷*1",
+          "attr_text": "【6-12岁儿童套装】薄荷60g+牙刷",
+          "price": 37.8,
+          "retail_price": 69,
+          "status": 1,
+          "prev_price": 37.8
+        },
+        {
+          "sku_id": 1250065927,
+          "sku_name": "云南白药6-12岁儿童防蛀牙膏牙刷套装桃子香型60g+薄荷香型60g+儿童牙刷*2",
+          "attr_text": "【防蛀】桃子60g薄荷60g+牙刷*2 ",
+          "price": 75.6,
+          "retail_price": 119,
+          "status": 1,
+          "prev_price": 75.6
+        },
+        {
+          "sku_id": 7515629,
+          "sku_name": "云南白药【采销推荐】经典薄荷护龈牙膏囤货装清新口气改善牙龈问题210g*3",
+          "attr_text": "【囤货装】薄荷香210g*3",
+          "price": 75,
+          "retail_price": 115,
+          "status": 0,
+          "prev_price": 75
+        },
+        {
+          "sku_id": 1250065919,
+          "sku_name": "云南白药3-6岁儿童牙膏牙刷呵护萌牙 葡萄香型60g+草莓香型60g+儿童牙刷*2",
+          "attr_text": "【3-6岁】葡萄60g草莓60g+牙刷*2",
+          "price": 86.4,
+          "retail_price": 119,
+          "status": 0,
+          "prev_price": 86.4
+        },
+        {
+          "sku_id": 1250065920,
+          "sku_name": "云南白药3-6岁儿童牙膏牙刷无氟护口 香橙香型60g+草莓香型60g+儿童牙刷*2",
+          "attr_text": "【3-6岁】香橙60g草莓60g+牙刷*2",
+          "price": 79,
+          "retail_price": 119,
+          "status": 0,
+          "prev_price": 79
+        },
+        {
+          "sku_id": 1250065921,
+          "sku_name": "云南白药3-6岁儿童牙膏牙刷无氟护口 香橙香型60g+葡萄香型60g+儿童牙刷*2",
+          "attr_text": "【3-6岁】香橙60g葡萄60g+牙刷*2",
+          "price": 86.4,
+          "retail_price": 119,
+          "status": 0,
+          "prev_price": 86.4
+        },
+        {
+          "sku_id": 1250065922,
+          "sku_name": "云南白药3-6岁儿童草莓牙膏牙刷 益生菌无氟温和清洁 草莓 60g+儿童牙刷*1",
+          "attr_text": "【3-6岁儿童套装】草莓60g+牙刷 ",
+          "price": 0,
+          "retail_price": 48,
+          "status": 0,
+          "prev_price": 39.5
+        },
+        {
+          "sku_id": 1250065923,
+          "sku_name": "云南白药3-6岁儿童葡萄牙膏牙刷 无氟洁齿温和护口 葡萄 60g+儿童牙刷*1",
+          "attr_text": "【3-6岁儿童套装】葡萄60g+牙刷",
+          "price": 43.2,
+          "retail_price": 69,
+          "status": 0,
+          "prev_price": 43.2
+        },
+        {
+          "sku_id": 1250065924,
+          "sku_name": "云南白药3-6岁儿童牙膏牙刷 益生菌 无氟清新口气 香橙香型60g+儿童牙刷*1",
+          "attr_text": "【3-6岁儿童套装】香橙60g+牙刷",
+          "price": 43.2,
+          "retail_price": 69,
+          "status": 0,
+          "prev_price": 43.2
+        }
+      ]
+    },
+    {
+      "goods_id": 2087492,
+      "goods_name": "惠人（HUROM）破壁机原汁机二合一 韩国进口多功能破壁机料理机豆浆机榨汁机 M100-SBIA05",
+      "spu_sn": "G456D93E5CC",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/274023/15/21525/101245/67feff1eFf43241b1/29146b57bd5c92f6.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 3328.13,
+      "max_price": 3328.13,
+      "prev_price": 3697.92,
+      "price_change": -369.79,
+      "price_change_pct": -10,
+      "skus": [
+        {
+          "sku_id": 6276356,
+          "sku_name": "惠人（HUROM）破壁机原汁机二合一 韩国进口多功能破壁机料理机豆浆机榨汁机 M100-SBIA05",
+          "attr_text": "原汁机-大口径两用",
+          "price": 3328.13,
+          "retail_price": 4366,
+          "status": 1,
+          "prev_price": 3697.92
         }
       ]
     }
