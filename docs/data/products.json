@@ -1,8 +1,34 @@
 {
-  "updated_at": "2026-10-21T06:01:07.045Z",
-  "date": "2026-10-21",
-  "goods_count": 0,
+  "updated_at": "2026-10-22T06:06:24.942Z",
+  "date": "2026-10-22",
+  "goods_count": 1,
   "error_count": 0,
   "errors": [],
-  "goods": []
+  "goods": [
+    {
+      "goods_id": 1102750345,
+      "goods_name": "鲁花厨中香浓香菜籽油1.8L-1.8L",
+      "spu_sn": "GF95963984A",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0003/goods/cover/144b7d62dfa08d3c71738b8cf0af37e74f18071b.jpg?eUAHQYKmAsh8sjYU1rzOhg&6ECusOypqTAufxLYSUWsnFZJNvFO7iBLM7E8Ufu50xE",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 38.11,
+      "max_price": 38.11,
+      "prev_price": 38.11,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 1250578230,
+          "sku_name": "鲁花厨中香浓香菜籽油1.8L-1.8L",
+          "attr_text": "1.8L",
+          "price": 38.11,
+          "retail_price": 68.8,
+          "status": 1,
+          "prev_price": 38.11
+        }
+      ]
+    }
+  ]
 }
