@@ -1,32 +1,890 @@
 {
-  "updated_at": "2026-10-22T06:06:24.942Z",
-  "date": "2026-10-22",
-  "goods_count": 1,
+  "updated_at": "2026-10-23T06:02:00.162Z",
+  "date": "2026-10-23",
+  "goods_count": 31,
   "error_count": 0,
   "errors": [],
   "goods": [
     {
-      "goods_id": 1102750345,
-      "goods_name": "鲁花厨中香浓香菜籽油1.8L-1.8L",
-      "spu_sn": "GF95963984A",
-      "main_img": "http://img-erp1.douhuomall.com/firm_0003/goods/cover/144b7d62dfa08d3c71738b8cf0af37e74f18071b.jpg?eUAHQYKmAsh8sjYU1rzOhg&6ECusOypqTAufxLYSUWsnFZJNvFO7iBLM7E8Ufu50xE",
+      "goods_id": 2689389,
+      "goods_name": "立白莓果酵素洗洁精小瓶宿舍用3秒化油去腥洁净除菌可洗果蔬家用 莓果酵素洗洁精500g-1瓶",
+      "spu_sn": "G2F5B853437",
+      "main_img": "https://img-erp1.douhuomall.com//firm_303/goods/cover/648e166879a639b3562b4ca78afd2fbd5012f96c.jpg?eUAHQYKmAsh8sjYU1rzOhg&RNyq1zArXsT1Hwnn2x9QUE06szu88r6v1uc35WJ0WXk",
       "status": 1,
       "supply_type": 5,
       "sku_count": 1,
-      "min_price": 38.11,
-      "max_price": 38.11,
-      "prev_price": 38.11,
+      "min_price": 8.26,
+      "max_price": 8.26,
+      "prev_price": 8.26,
       "price_change": 0,
       "price_change_pct": 0,
       "skus": [
         {
-          "sku_id": 1250578230,
-          "sku_name": "鲁花厨中香浓香菜籽油1.8L-1.8L",
-          "attr_text": "1.8L",
-          "price": 38.11,
-          "retail_price": 68.8,
+          "sku_id": 7662970,
+          "sku_name": "立白莓果酵素洗洁精小瓶宿舍用3秒化油去腥洁净除菌可洗果蔬家用 莓果酵素洗洁精500g-1瓶",
+          "attr_text": "1瓶",
+          "price": 8.26,
+          "retail_price": 9.9,
           "status": 1,
-          "prev_price": 38.11
+          "prev_price": 8.26
+        }
+      ]
+    },
+    {
+      "goods_id": 196943,
+      "goods_name": "长寿花压榨玉米油 5L 非转基因 纯正一级 食用油 （新老包装随机发货）",
+      "spu_sn": "G6CD5A89C14",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/401866/25/6396/130092/69ae6fc7F51261c4e/00833203209b69e7.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 76.9,
+      "max_price": 76.9,
+      "prev_price": 76.9,
+      "price_change": 0,
+      "price_change_pct": 0,
+      "skus": [
+        {
+          "sku_id": 374020,
+          "sku_name": "长寿花压榨玉米油 5L 非转基因 纯正一级 食用油 （新老包装随机发货）",
+          "attr_text": "玉米油 / 5L",
+          "price": 76.9,
+          "retail_price": 96,
+          "status": 1,
+          "prev_price": 76.9
+        }
+      ]
+    },
+    {
+      "goods_id": 2621641,
+      "goods_name": "【到手共10斤！！】维妙瓶装多效倍柔洗衣液5kg大瓶装实惠装-5kg",
+      "spu_sn": "G9ED83001F4",
+      "main_img": "https://img-erp1.douhuomall.com//firm_168/sku/carousel/0a95ed5f6f40aff7a17d664d8b0ef6bef5960ac0.png?eUAHQYKmAsh8sjYU1rzOhg&ZBnRAuvTu233xKVGcs-lDk06szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 13.3,
+      "max_price": 13.3,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 7523776,
+          "sku_name": "【到手共10斤！！】维妙瓶装多效倍柔洗衣液5kg大瓶装实惠装-5kg",
+          "attr_text": "5kg",
+          "price": 13.3,
+          "retail_price": 43.7,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2735029,
+      "goods_name": "百适柔抽纸小包餐巾纸家用实惠装卫生面巾纸-145*175MM*18包",
+      "spu_sn": "G382946310F",
+      "main_img": "http://douhuomall-erp.oss-cn-hangzhou.aliyuncs.com/firm_168/goods/cover/60b772ea3bac8af1a54277936f474cbd6e976e79.jpg?eUAHQYKmAsh8sjYU1rzOhg&qtmtk8bOtKuvBZUGPahhrU06szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 2,
+      "min_price": 5.77,
+      "max_price": 13.39,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 7759274,
+          "sku_name": "百适柔抽纸小包餐巾纸家用实惠装卫生面巾纸-145*175MM *6包",
+          "attr_text": "145*175MM *6包",
+          "price": 5.77,
+          "retail_price": 6.5,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 7759275,
+          "sku_name": "百适柔抽纸小包餐巾纸家用实惠装卫生面巾纸-145*175MM*18包",
+          "attr_text": "145*175MM*18包",
+          "price": 13.39,
+          "retail_price": 16.9,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2707534,
+      "goods_name": "刀唛（Knife）食用油 植物调和油 玉米亚麻仔4.68L 物理压榨一级油礼品送礼",
+      "spu_sn": "G9179A164F5",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/543258/15/14046/371884/6ad9de68F626a0fbf/00835a05a0e2206b.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 66.3,
+      "max_price": 66.3,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 108363,
+          "sku_name": "刀唛（Knife）食用油 植物调和油 玉米亚麻仔4.68L 物理压榨一级油礼品送礼",
+          "attr_text": "【家庭装】玉米亚麻籽油 4.68L",
+          "price": 66.3,
+          "retail_price": 87,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2226334,
+      "goods_name": "刀唛（Knife）食用油 植物调和油 玉米亚麻籽2.2L 物理压榨 一级油礼品送礼",
+      "spu_sn": "G3A3E06A429",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/542164/29/12649/370708/6ad9de77F78a47454/00835a05a01294ca.jpg",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 34.68,
+      "max_price": 34.68,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 580965,
+          "sku_name": "刀唛（Knife）食用油 植物调和油 玉米亚麻籽2.2L 物理压榨 一级油礼品送礼",
+          "attr_text": "【一人食】玉米亚麻籽油 2.2L",
+          "price": 34.68,
+          "retail_price": 43,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2730756,
+      "goods_name": "多力黄金3益葵花籽油5L 一级压榨食用油 高品质营养升级款",
+      "spu_sn": "G824F4495D4",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/309491/19/7398/336806/68427376F6171cb10/69ed5bef75fa13b3.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 1,
+      "min_price": 89,
+      "max_price": 89,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6461694,
+          "sku_name": "多力黄金3益葵花籽油5L 一级压榨食用油 高品质营养升级款",
+          "attr_text": "黄金3益葵花籽油5L",
+          "price": 89,
+          "retail_price": 100,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2601170,
+      "goods_name": "菲小主  经典清盈控油洗发水+养发防断洗发水 500ml*2瓶【控油蓬松 养发防断】-500ml*2",
+      "spu_sn": "G6F167769DD",
+      "main_img": "https://img-erp1.douhuomall.com//firm_294/goods/cover/f0e9c623046c4aad600cf918d09a31d390cf2df5.jpg?eUAHQYKmAsh8sjYU1rzOhg&unj3TCJCd24gAwWwYmoON006szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 46.35,
+      "max_price": 46.35,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 7503290,
+          "sku_name": "菲小主  经典清盈控油洗发水+养发防断洗发水 500ml*2瓶【控油蓬松 养发防断】-500ml*2",
+          "attr_text": "500ml*2",
+          "price": 46.35,
+          "retail_price": 118,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1000309545,
+      "goods_name": "福临门爱福家玉米油4L-4L",
+      "spu_sn": "G966AACCDF4",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0317/sku/carousel/c1f76970dac68833bdb106b8da0602d39afd21f7.png?eUAHQYKmAsh8sjYU1rzOhg&I0DgnOa4nWVFgmeVleBYpzpcX0rBf0gv7enL4ms2iB4",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 59.95,
+      "max_price": 59.95,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1002441798,
+          "sku_name": "福临门爱福家玉米油4L-4L",
+          "attr_text": "4L",
+          "price": 59.95,
+          "retail_price": 89,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 27268,
+      "goods_name": "福临门金阙谣精选一级大豆油5L食用油中粮出品少油烟",
+      "spu_sn": "G48FC9A46DA",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/364804/13/7462/225474/692da8c0F6f9d8472/010b11f60ba5f85b.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 3,
+      "min_price": 24.38,
+      "max_price": 49.5,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 53604,
+          "sku_name": "福临门食用油 一级大豆油 1.8升 小桶装植物油 中粮出品",
+          "attr_text": "精炼一级大豆油1.8L",
+          "price": 24.38,
+          "retail_price": 26,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 53605,
+          "sku_name": "福临门食用油一级大豆油5升植物油中粮出品家庭烹饪少油烟浸出",
+          "attr_text": "精炼一级大豆油5L",
+          "price": 49.5,
+          "retail_price": 59,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 333299,
+          "sku_name": "福临门金阙谣精选一级大豆油5L食用油中粮出品少油烟",
+          "attr_text": "精选一级大豆油5L",
+          "price": 47.9,
+          "retail_price": 54,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2810527,
+      "goods_name": "富昌临门山茶橄榄调和油-500ml*2",
+      "spu_sn": "G1038CF70A6",
+      "main_img": "http://douhuomall-erp.oss-cn-hangzhou.aliyuncs.com/firm_168/sku/carousel/93d987b316d29f45b5331a4a008b3995f7ee8b90.jpg?eUAHQYKmAsh8sjYU1rzOhg&f1Bhkdi7gxkam8U9dtQM3E06szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 46.35,
+      "max_price": 46.35,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250062439,
+          "sku_name": "富昌临门山茶橄榄调和油-500ml*2",
+          "attr_text": "500ml*2",
+          "price": 46.35,
+          "retail_price": 68,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102698269,
+      "goods_name": "高档牙刷软毛家用男女成人情侣学生桶装细毛高密度护龈去牙渍【富多】-桶装牙刷10只",
+      "spu_sn": "G27054CE8D8",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0168/sku/carousel/1b8e099107eff35108a6ea9710d1fe0fcf0c3a26.jpg?eUAHQYKmAsh8sjYU1rzOhg&1q7G6D2SkHzKT6XITI_frSEqB4HRa5DWyKBIMMrkYhU",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 2,
+      "min_price": 4.53,
+      "max_price": 6.18,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250321318,
+          "sku_name": "高档牙刷软毛家用男女成人情侣学生桶装细毛高密度护龈去牙渍【富多】-桶装牙刷10只",
+          "attr_text": "桶装牙刷10只",
+          "price": 4.53,
+          "retail_price": 5.5,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 1250321319,
+          "sku_name": "高档牙刷软毛家用男女成人情侣学生桶装细毛高密度护龈去牙渍【富多】-桶装牙刷20只",
+          "attr_text": "桶装牙刷20只",
+          "price": 6.18,
+          "retail_price": 6.9,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102886632,
+      "goods_name": "韩戈 1000g花香强力洁厕灵洁厕液（2瓶*500g/瓶）HG-003(jz-c226)【国内发货/1件】",
+      "spu_sn": "G59A2E77806",
+      "main_img": "https://img.picing.com/4629100469006691334_800X800_26W.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 9.72,
+      "max_price": 9.72,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1251141181,
+          "sku_name": "韩戈 1000g花香强力洁厕灵洁厕液（2瓶*500g/瓶）HG-003(jz-c226)【国内发货/1件】",
+          "attr_text": "国内发货 / 1件",
+          "price": 9.72,
+          "retail_price": 12,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2624214,
+      "goods_name": "洁成密封袋食品级保鲜袋家用自封袋塑封大中小组合装-大中小组合65只",
+      "spu_sn": "G5329CB20E0",
+      "main_img": "https://img-erp1.douhuomall.com//firm_168/sku/carousel/e2aee63cc96cc4f2f00c9f51086057a3f8719fbd.jpg?eUAHQYKmAsh8sjYU1rzOhg&TS5NbLtah4rwjFkLQd74MU06szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 16.48,
+      "max_price": 16.48,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 7525909,
+          "sku_name": "洁成密封袋食品级保鲜袋家用自封袋塑封大中小组合装-大中小组合65只",
+          "attr_text": "大中小组合65只",
+          "price": 16.48,
+          "retail_price": 19.9,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1000668696,
+      "goods_name": "金龙鱼至臻礼遇葵花籽油5L-5L",
+      "spu_sn": "G5987C1F958",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0317/sku/carousel/c338599b20d98b922291a5990ff2229c83769480.jpeg?eUAHQYKmAsh8sjYU1rzOhg&29p0BFgCOhbg2arZMQCg2QDnVwh_wGFJwuAzObwBTEo",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 84.67,
+      "max_price": 84.67,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1000866144,
+          "sku_name": "金龙鱼至臻礼遇葵花籽油5L-5L",
+          "attr_text": "5L",
+          "price": 84.67,
+          "retail_price": 99,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 528726,
+      "goods_name": "蓝漂我爱我家点断式平口垃圾袋50只家用办公室厨房厨余收纳垃",
+      "spu_sn": "G690518A11D",
+      "main_img": "http://images11.douhuomall.com/94b5df0ceb744535779de16acb7a0c83f0386f08.jpg?eUAHQYKmAsh8sjYU1rzOhg&LTMSIy-a43rOb15nk7pTfg",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 2,
+      "min_price": 5.36,
+      "max_price": 7.25,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 2383421,
+          "sku_name": "蓝漂我爱我家点断式平口垃圾袋50只家用办公室厨房厨余收纳垃",
+          "attr_text": "LP-28865垃圾袋50只1卷",
+          "price": 5.36,
+          "retail_price": 7.28,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 2383422,
+          "sku_name": "蓝漂我爱我家点断式平口垃圾袋50只家用办公室厨房厨余收纳垃",
+          "attr_text": "LP-28872垃圾袋50只2卷",
+          "price": 7.25,
+          "retail_price": 9.8,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102873629,
+      "goods_name": "蓝漂LP-27165厨房湿巾2包-200mm*180mm*40片*2",
+      "spu_sn": "G5B5161BB0E",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0168/goods/cover/975cd5c00dd1bc2a7dab928f9dc5172803d39cbf.jpg?eUAHQYKmAsh8sjYU1rzOhg&8wMCDmrN4imRo_va5zQBDknsD-lentzUnLmqlAYfiT4",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 8.45,
+      "max_price": 8.45,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1251052982,
+          "sku_name": "蓝漂LP-27165厨房湿巾2包-200mm*180mm*40片*2",
+          "attr_text": "200mm*180mm*40片*2",
+          "price": 8.45,
+          "retail_price": 11.8,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102796292,
+      "goods_name": "蓝月亮深层洁净洗衣液亮白增艳薰衣草香持久留香去污渍低泡易洗-蓝月亮洗衣液3kg*1",
+      "spu_sn": "G1190CDB179",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0319/goods/cover/d86e46af2751f20450961c570eace57857927e23.jpg?eUAHQYKmAsh8sjYU1rzOhg&wYKjDdpzR2tk_4akfkrZhUgbrDTsv6fDpt2Fvwrs1Jo",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 2,
+      "min_price": 23.69,
+      "max_price": 92.7,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250706998,
+          "sku_name": "蓝月亮深层洁净洗衣液亮白增艳薰衣草香持久留香去污渍低泡易洗-蓝月亮洗衣液3kg*1",
+          "attr_text": "蓝月亮洗衣液3kg*1",
+          "price": 23.69,
+          "retail_price": 60,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 1250706999,
+          "sku_name": "蓝月亮深层洁净洗衣液亮白增艳薰衣草香持久留香去污渍低泡易洗-蓝月亮洗衣液3kg*4",
+          "attr_text": "蓝月亮洗衣液3kg*4",
+          "price": 92.7,
+          "retail_price": 200,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102799203,
+      "goods_name": "立白大师香氛洗衣液家用玫瑰香水持久留香柔顺洁净专用-2.88千克",
+      "spu_sn": "G718F9B2606",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0319/goods/cover/fc81b04248402a3a3d1074162667744b3e6d5881.jpg?eUAHQYKmAsh8sjYU1rzOhg&veT5HWLh2ASfsX0XktSzc7H52G3mgUyIXUYkLdxw1Cs",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 2,
+      "min_price": 16.48,
+      "max_price": 21.63,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250712020,
+          "sku_name": "立白大师香氛洗衣液家用玫瑰香水持久留香柔顺洁净专用-2千克",
+          "attr_text": "2千克",
+          "price": 16.48,
+          "retail_price": 30,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 1250712021,
+          "sku_name": "立白大师香氛洗衣液家用玫瑰香水持久留香柔顺洁净专用-2.88千克",
+          "attr_text": "2.88千克",
+          "price": 21.63,
+          "retail_price": 58,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102798138,
+      "goods_name": "美穗吉家速干除菌地板清洁剂500g【默认/国内发货/1件】",
+      "spu_sn": "G6D71E78106",
+      "main_img": "https://d5ma.img.apiunion.com/i/04a58e24109f2fc0d9cc4e0c72610440_300X300_hW.jpg?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 9.72,
+      "max_price": 9.72,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250709524,
+          "sku_name": "美穗吉家速干除菌地板清洁剂500g【默认/国内发货/1件】",
+          "attr_text": "默认 / 国内发货 / 1件",
+          "price": 9.72,
+          "retail_price": 24,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1006226,
+      "goods_name": "欧贝斯 (obeis) 洗发水草本茶籽去屑柔顺洗发露1kg (清爽净屑 养护头皮)-1KG",
+      "spu_sn": "G6234BF316E",
+      "main_img": "http://img-erp1.douhuomall.com/upload/foaIUvoVAaacJ0RGSQkXfQ/goods/detail/44df611c5fd13ef7dfd1d1fa72048b61afde6d87.jpg?eUAHQYKmAsh8sjYU1rzOhg&uMHy-OcAG9Ad3H2PiPwd-006szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 26.27,
+      "max_price": 26.27,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 3857913,
+          "sku_name": "欧贝斯 (obeis) 洗发水草本茶籽去屑柔顺洗发露1kg (清爽净屑 养护头皮)-1KG",
+          "attr_text": "1KG",
+          "price": 26.27,
+          "retail_price": 29.9,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 204154,
+      "goods_name": "欧丽薇兰 Olivoila 保真橄榄油 食用油 特级初榨橄榄油750ml",
+      "spu_sn": "G2835DC08F4",
+      "main_img": "https://img13.360buyimg.com/n12/jfs/t1/354342/17/14162/89906/692003a1F5f4d8b0f/0b79faa5db906ddd.png",
+      "status": 1,
+      "supply_type": 1,
+      "sku_count": 6,
+      "min_price": 17.9,
+      "max_price": 158,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 53484,
+          "sku_name": "欧丽薇兰 Olivoila 保真橄榄油 食用油 特级初榨橄榄油750ml",
+          "attr_text": "特级初榨橄榄油750ml",
+          "price": 89.9,
+          "retail_price": 109,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 102229,
+          "sku_name": "欧丽薇兰 Olivoila【保真橄榄油】食用油 特级初榨 压榨 橄榄油500ml",
+          "attr_text": "特级初榨橄榄油500ml",
+          "price": 72.9,
+          "retail_price": 142,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 393439,
+          "sku_name": "欧丽薇兰 Olivoila【保真橄榄油】食用油 特级初榨 压榨 橄榄油250ml",
+          "attr_text": "特级初榨橄榄油250ml",
+          "price": 37.9,
+          "retail_price": 88,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 393440,
+          "sku_name": "欧丽薇兰  Olivoila【保真橄榄油】食用油 橄榄油 特级初榨橄榄油 100ml",
+          "attr_text": "特级初榨橄榄油100ml",
+          "price": 17.9,
+          "retail_price": 21,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 393441,
+          "sku_name": "欧丽薇兰 Olivoila【保真橄榄油】食用油 特级初榨橄榄油1.6L",
+          "attr_text": "特级初榨橄榄油1.6L",
+          "price": 158,
+          "retail_price": 186,
+          "status": 1,
+          "prev_price": null
+        },
+        {
+          "sku_id": 438082,
+          "sku_name": "欧丽薇兰 Olivoila【保真橄榄油】食用油 特级初榨橄榄油喷雾装200ml",
+          "attr_text": "特级初榨橄榄油喷雾装200ml",
+          "price": 37.9,
+          "retail_price": 59,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2322088,
+      "goods_name": "润本 7%驱蚊酯驱蚊液(无酒精无香型）110ml*3  天蓝色  ",
+      "spu_sn": "G1F733A6AB7",
+      "main_img": "https://img.yunzhonghe.com/image/1641527021673KefZMIZzqs.jpg",
+      "status": 1,
+      "supply_type": 7,
+      "sku_count": 1,
+      "min_price": 47.03,
+      "max_price": 47.03,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 629673,
+          "sku_name": "润本 7%驱蚊酯驱蚊液(无酒精无香型）110ml*3  天蓝色  ",
+          "attr_text": "天蓝色",
+          "price": 47.03,
+          "retail_price": 69,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2425201,
+      "goods_name": "舒蕾樱花浪漫香氛洗手液500g/瓶-500g*1瓶",
+      "spu_sn": "GAD70DD289B",
+      "main_img": "https://img-erp1.douhuomall.com//firm_168/goods/cover/b973bbf8c2dc81bb32a0bd9c4ac3a9d2e0f9aacb.jpg?eUAHQYKmAsh8sjYU1rzOhg&JS09maZwuPBr-y5s6xDF1006szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 9.17,
+      "max_price": 9.17,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6828532,
+          "sku_name": "舒蕾樱花浪漫香氛洗手液500g/瓶-500g*1瓶",
+          "attr_text": "500g*1瓶",
+          "price": 9.17,
+          "retail_price": 19.9,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102797479,
+      "goods_name": "水卫士消毒液1L/瓶【消毒液1L/瓶/国内发货/1件】",
+      "spu_sn": "G7B4AF6437A",
+      "main_img": "https://d5ma.img.apiunion.com/i/8b604c9074c05e4b5e8dda966f052454_300X300_lW.JPG?imageView2/2/w/800/interlace/1/q/93/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 15.12,
+      "max_price": 15.12,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250708694,
+          "sku_name": "水卫士消毒液1L/瓶【消毒液1L/瓶/国内发货/1件】",
+          "attr_text": "消毒液1L/瓶 / 国内发货 / 1件",
+          "price": 15.12,
+          "retail_price": 30,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102662477,
+      "goods_name": "沃品（WOPOW）ET02白色电动牙刷智能声波牙刷航充电两小时 续航60天【白色/国内发货/1件】",
+      "spu_sn": "GBE28F24FC9",
+      "main_img": "https://img.picing.com/3144850308067994963_800X800_17W.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 45.36,
+      "max_price": 45.36,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6780798,
+          "sku_name": "沃品（WOPOW）ET02白色电动牙刷智能声波牙刷航充电两小时 续航60天【白色/国内发货/1件】",
+          "attr_text": "白色 / 国内发货 / 1件",
+          "price": 45.36,
+          "retail_price": 199,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2425968,
+      "goods_name": "伊莎贝拉ISABELLA 特级初榨橄榄油5L-1桶",
+      "spu_sn": "GF480152F68",
+      "main_img": "https://img-erp1.douhuomall.com//firm_85/sku/carousel/91faab55071e8813538707d2ef4b18c2b7f79b67.jpg?eUAHQYKmAsh8sjYU1rzOhg&lKowiX7T1BMna2fcaXdE7k06szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 360.5,
+      "max_price": 360.5,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6829469,
+          "sku_name": "伊莎贝拉ISABELLA 特级初榨橄榄油5L-1桶",
+          "attr_text": "1桶",
+          "price": 360.5,
+          "retail_price": 450,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102681052,
+      "goods_name": "优可熊 电热蚊香液2器＋7液【2器＋7液/国内发货/1套】",
+      "spu_sn": "GDA7496C718",
+      "main_img": "https://img.picing.com/7936780562067393371_800X800_zW.jpg?imageMogr2/quality/93/thumbnail/800x%3E/format/jpeg",
+      "status": 1,
+      "supply_type": 17,
+      "sku_count": 1,
+      "min_price": 23.76,
+      "max_price": 23.76,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 6946696,
+          "sku_name": "优可熊 电热蚊香液2器＋7液【2器＋7液/国内发货/1套】",
+          "attr_text": "2器＋7液 / 国内发货 / 1套",
+          "price": 23.76,
+          "retail_price": 70,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 2616784,
+      "goods_name": "FAN BEAUTY DIARY嘭嘭柔澈洁面奶泡范冰冰同款洁面乳洗面奶泡沫温和清洁-1瓶",
+      "spu_sn": "GFC3DA02159",
+      "main_img": "https://img-erp1.douhuomall.com//firm_246/goods/cover/b3f1a41c476a536e879da2d9b9314c0889e8f6db.jpg?eUAHQYKmAsh8sjYU1rzOhg&l2cIPCbF_APM-cTf9dm6uE06szu88r6v1uc35WJ0WXk",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 77.25,
+      "max_price": 77.25,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 7514314,
+          "sku_name": "FAN BEAUTY DIARY嘭嘭柔澈洁面奶泡范冰冰同款洁面乳洗面奶泡沫温和清洁-1瓶",
+          "attr_text": "1瓶",
+          "price": 77.25,
+          "retail_price": 118,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102728258,
+      "goods_name": "GreenKosy绿色溪谷沐浴露组合系列700g*2瓶-茶树舒爽沐浴露700g+橙花亮肤沐浴露700g",
+      "spu_sn": "G2DD7794908",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0154/goods/detail/e2c7e0de50adfa5bb071abcc7deb2887dfe336ff.png?eUAHQYKmAsh8sjYU1rzOhg&drbbKb-MnvW8uyCxAeyqZyGoV8THCMfDoYq_kIucNKs",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 32.55,
+      "max_price": 32.55,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1250480394,
+          "sku_name": "GreenKosy绿色溪谷沐浴露组合系列700g*2瓶-茶树舒爽沐浴露700g+橙花亮肤沐浴露700g",
+          "attr_text": "茶树舒爽沐浴露700g+橙花亮肤沐浴露700g",
+          "price": 32.55,
+          "retail_price": 59,
+          "status": 1,
+          "prev_price": null
+        }
+      ]
+    },
+    {
+      "goods_id": 1102873616,
+      "goods_name": "LP-56998-3蓝漂厨房湿巾3包装（柠檬味）-180*200mm*80抽*3包",
+      "spu_sn": "GCCBC8CD9A7",
+      "main_img": "http://img-erp1.douhuomall.com/firm_0168/goods/cover/ad4c3d481cdcfdc452650a70076973b9f2d94b73.jpg?eUAHQYKmAsh8sjYU1rzOhg&8wMCDmrN4imRo_va5zQBDjfxYQE_nKeb-5TymFNA4cs",
+      "status": 1,
+      "supply_type": 5,
+      "sku_count": 1,
+      "min_price": 12.88,
+      "max_price": 12.88,
+      "prev_price": null,
+      "price_change": null,
+      "price_change_pct": null,
+      "skus": [
+        {
+          "sku_id": 1251052969,
+          "sku_name": "LP-56998-3蓝漂厨房湿巾3包装（柠檬味）-180*200mm*80抽*3包",
+          "attr_text": "180*200mm*80抽*3包",
+          "price": 12.88,
+          "retail_price": 19.9,
+          "status": 1,
+          "prev_price": null
         }
       ]
     }
